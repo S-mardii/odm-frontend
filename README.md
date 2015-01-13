@@ -8,9 +8,13 @@ Repository containing Wordpress-based front-end composed by Wordpress 4.1, plugi
 * wp-content/plugins/wpckan cloned from https://github.com/OpenDevelopmentMekong/wpckan
 * wp-content/themes/heo cloned from https://github.com/OpenDevelopmentMekong/jeo
 
-## Installation
+## Development
 
-1. Clone repostory <code>git clone https://github.com/OpenDevelopmentMekong/odm-frontend.git --recursive</code>(Mind recursivity) into folder where WP instance will be hosted.
+* Clone repostory <code>git clone https://github.com/OpenDevelopmentMekong/odm-frontend.git</code>.
+
+## Deployment
+
+* Clone repostory <code>git clone https://github.com/OpenDevelopmentMekong/odm-frontend.git --recursive</code>(Mind recursivity) into folder where WP instance will be hosted.
 
 ## Copyright and License
 
