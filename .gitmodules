@@ -1,0 +1,9 @@
+[submodule "wp-content/plugins/wpckan"]
+	path = wp-content/plugins/wpckan
+	url = https://github.com/OpenDevelopmentMekong/wpckan.git
+[submodule "wp-content/plugins/mqtranslate"]
+	path = wp-content/plugins/mqtranslate
+	url = https://github.com/OpenDevelopmentMekong/mqtranslate.git
+[submodule "wp-content/themes/jeo"]
+	path = wp-content/themes/jeo
+	url = https://github.com/OpenDevelopmentMekong/jeo.git
