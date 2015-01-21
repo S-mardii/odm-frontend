@@ -7,3 +7,6 @@
 [submodule "wp-content/themes/jeo"]
 	path = wp-content/themes/jeo
 	url = https://github.com/OpenDevelopmentMekong/jeo.git
+[submodule "wp-content/themes/jeo-odm"]
+	path = wp-content/themes/jeo-odm
+	url = https://github.com/OpenDevelopmentMekong/opendev-wptheme
