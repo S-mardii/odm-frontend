@@ -6,7 +6,8 @@ Repository containing Wordpress-based front-end composed by Wordpress 4.1, plugi
 * Wordpress 4.1 source downloaded from https://wordpress.org/download/
 * wp-content/plugins/mqtranslate cloned from https://github.com/OpenDevelopmentMekong/mqtranslate
 * wp-content/plugins/wpckan cloned from https://github.com/OpenDevelopmentMekong/wpckan
-* wp-content/themes/heo cloned from https://github.com/OpenDevelopmentMekong/jeo
+* wp-content/themes/jeo cloned from https://github.com/OpenDevelopmentMekong/jeo
+* wp-content/themes/jeo-odm cloned from https://github.com/OpenDevelopmentMekong/opendev-wptheme
 
 ## Development
 
