@@ -10,3 +10,6 @@
 [submodule "wp-content/themes/jeo-odm"]
 	path = wp-content/themes/jeo-odm
 	url = https://github.com/OpenDevelopmentMekong/opendev-wptheme
+[submodule "wp-content/plugins/wp-feature-box"]
+	path = wp-content/plugins/wp-feature-box
+	url = https://github.com/OpenDevelopmentMekong/wp-feature-box.git
