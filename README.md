@@ -4,10 +4,11 @@ Repository containing Wordpress-based front-end composed by Wordpress 4.1, plugi
 ## Contents
 
 * Wordpress 4.1 source downloaded from https://wordpress.org/download/
-* wp-content/plugins/mqtranslate cloned from https://github.com/OpenDevelopmentMekong/mqtranslate
-* wp-content/plugins/wpckan cloned from https://github.com/OpenDevelopmentMekong/wpckan
-* wp-content/themes/jeo cloned from https://github.com/OpenDevelopmentMekong/jeo
-* wp-content/themes/jeo-odm cloned from https://github.com/OpenDevelopmentMekong/opendev-wptheme
+* wp-content/plugins/mqtranslate cloned from https://github.com/OpenDevelopmentMekong/mqtranslate (as submodule)
+* wp-content/plugins/wpckan cloned from https://github.com/OpenDevelopmentMekong/wpckan (as submodule)
+* wp-content/plugins/wp-feature-box cloned from https://github.com/OpenDevelopmentMekong/wp-feature-box (as submodule)
+* wp-content/themes/jeo cloned from https://github.com/OpenDevelopmentMekong/jeo (as submodule)
+* wp-content/themes/jeo-odm cloned from https://github.com/OpenDevelopmentMekong/opendev-wptheme (as submodule)
 
 ## Development
 
