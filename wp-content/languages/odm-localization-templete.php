@@ -16,5 +16,7 @@ echo _('News');
 echo _('Issues');
 echo _('Maps');
 echo _('Data');
+echo _('Share a map');
+echo _('Search for posts, maps and briefings...');
 ?> 
 

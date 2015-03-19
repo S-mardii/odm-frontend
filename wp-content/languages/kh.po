@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2015-03-17 16:32+0700\n"
-"PO-Revision-Date: 2015-03-17 17:07+0700\n"
+"POT-Creation-Date: 2015-03-19 17:24+0700\n"
+"PO-Revision-Date: 2015-03-19 17:24+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -13,76 +13,83 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _;_e;__\n"
-"X-Poedit-SearchPath-0: D:\\www\\ODM\\wp-content\\odm-localization\\opendev-"
-"en.php\n"
+"X-Poedit-SearchPath-0: .\\odm-localization-templete.php\n"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:2
+#: .\odm-localization-templete.php:2
 msgid "Mekong"
 msgstr "មេគង្គ"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:3
+#: .\odm-localization-templete.php:3
 msgid "Cambodia"
 msgstr "កម្ពុជា"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:4
+#: .\odm-localization-templete.php:4
 msgid "Laos"
 msgstr "ឡាវ"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:5
+#: .\odm-localization-templete.php:5
 msgid "Myanmar"
 msgstr "មីយ៉ាន់ម៉ា"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:6
+#: .\odm-localization-templete.php:6
 msgid "Thailand"
 msgstr "ថៃ"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:7
+#: .\odm-localization-templete.php:7
 msgid "Vietnam"
 msgstr "វៀតណាម"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:8
+#: .\odm-localization-templete.php:8
 msgid "Khmer"
 msgstr "ខ្មែរ"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:9
+#: .\odm-localization-templete.php:9
 msgid "English"
 msgstr "អង់គ្លេស"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:10
+#: .\odm-localization-templete.php:10
 msgid "Latest news"
 msgstr "ព័ត៌មានថ្មីបំផុត"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:11
+#: .\odm-localization-templete.php:11
 msgid "Latest maps"
 msgstr "ផែនទីថ្មីបំផុត"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:12
+#: .\odm-localization-templete.php:12
 msgid "Latest issues"
 msgstr "ប្រធានបទថ្មីបំផុត"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:13
+#: .\odm-localization-templete.php:13
 msgid "Latest data"
 msgstr "ទិន្នន័យថ្មីបំផុត"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:14
+#: .\odm-localization-templete.php:14
 msgid "Briefings"
 msgstr "ប្រធានបទ"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:15
+#: .\odm-localization-templete.php:15
 msgid "News"
 msgstr "ព័ត៌មាន​"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:16
+#: .\odm-localization-templete.php:16
 msgid "Issues"
 msgstr "ប្រធានបទ"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:17
+#: .\odm-localization-templete.php:17
 msgid "Maps"
 msgstr "ផែនទី"
 
-#: D:\www\ODM\wp-content\odm-localization\opendev-en.php:18
+#: .\odm-localization-templete.php:18
 msgid "Data"
 msgstr "ទិន្នន័យ"
+
+#: .\odm-localization-templete.php:19
+msgid "Share a map"
+msgstr "ចែករំលែកផែនទី"
+
+#: .\odm-localization-templete.php:20
+msgid "Search for posts, maps and briefings..."
+msgstr "ស្វែងរកអត្ថបទ ផែនទី និងអត្ថបទសង្ខេប..."
 
 #~ msgid "Latest Data"
 #~ msgstr "ទិន្នន័យថ្មីបំផុត"
