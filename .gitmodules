@@ -13,3 +13,6 @@
 [submodule "wp-content/plugins/wp-feature-box"]
 	path = wp-content/plugins/wp-feature-box
 	url = https://github.com/OpenDevelopmentMekong/wp-feature-box.git
+[submodule "wp-content/plugins/Google-Analytics-Dashboard-for-WP"]
+	path = wp-content/plugins/Google-Analytics-Dashboard-for-WP
+	url = https://github.com/OpenDevelopmentMekong/Google-Analytics-Dashboard-for-WP.git
