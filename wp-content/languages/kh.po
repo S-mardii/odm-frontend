@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2015-03-23 10:15+0700\n"
-"PO-Revision-Date: 2015-03-23 10:55+0700\n"
+"POT-Creation-Date: 2015-04-30 11:04+0700\n"
+"PO-Revision-Date: 2015-04-30 11:10+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -52,7 +52,7 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
-#: ..\themes\jeo-odm/category.php:61 ..\themes\jeo-odm/functions.php:246
+#: ..\themes\jeo-odm/category.php:61 ..\themes\jeo-odm/functions.php:250
 #: .\odm-localization-templete.php:15
 msgid "News"
 msgstr "ព័ត៌មាន​"
@@ -81,81 +81,81 @@ msgid ""
 "\">JEO Beta</a> theme"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:47
+#: ..\themes\jeo-odm/functions.php:51
 msgid "Briefing sidebar"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:95
+#: ..\themes\jeo-odm/functions.php:99
 msgid "stories"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:97
+#: ..\themes\jeo-odm/functions.php:101
 msgid "Copy the embed code"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:98 ..\themes\jeo-odm/loop-latest.php:21
+#: ..\themes\jeo-odm/functions.php:102 ..\themes\jeo-odm/loop-latest.php:21
 msgid "Share"
 msgstr "ចែករំលែក"
 
-#: ..\themes\jeo-odm/functions.php:99
+#: ..\themes\jeo-odm/functions.php:103
 msgid "Print"
 msgstr "បោះពុម្ព"
 
-#: ..\themes\jeo-odm/functions.php:110 ..\themes\jeo-odm/loop-latest.php:19
-#: ..\themes\jeo-odm/loop.php:54 .\odm-localization-templete.php:22
+#: ..\themes\jeo-odm/functions.php:114 ..\themes\jeo-odm/loop-latest.php:19
+#: ..\themes\jeo-odm/loop.php:54
 msgid "Read more"
 msgstr "អានបន្ថែម"
 
-#: ..\themes\jeo-odm/functions.php:112
+#: ..\themes\jeo-odm/functions.php:116
 msgid "Open slideshow"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:113
+#: ..\themes\jeo-odm/functions.php:117
 msgid "Watch video gallery"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:114
+#: ..\themes\jeo-odm/functions.php:118
 msgid "Watch video"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:115
+#: ..\themes\jeo-odm/functions.php:119
 msgid "View image gallery"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:116
+#: ..\themes\jeo-odm/functions.php:120
 msgid "View fullscreen image"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:117
+#: ..\themes\jeo-odm/functions.php:121
 msgid "View infographic"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:118
+#: ..\themes\jeo-odm/functions.php:122
 msgid "View infographics"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:249 .\odm-localization-templete.php:16
+#: ..\themes\jeo-odm/functions.php:253 .\odm-localization-templete.php:16
 msgid "Issues"
 msgstr "ប្រធានបទ"
 
-#: ..\themes\jeo-odm/functions.php:252 .\odm-localization-templete.php:17
+#: ..\themes\jeo-odm/functions.php:256 .\odm-localization-templete.php:17
 msgid "Maps"
 msgstr "ផែនទី"
 
-#: ..\themes\jeo-odm/functions.php:259 .\odm-localization-templete.php:18
+#: ..\themes\jeo-odm/functions.php:263 .\odm-localization-templete.php:18
 msgid "Data"
 msgstr "ទិន្នន័យ"
 
-#: ..\themes\jeo-odm/functions.php:270 ..\themes\jeo-odm/index.php:89
+#: ..\themes\jeo-odm/functions.php:274 ..\themes\jeo-odm/index.php:89
 #: .\odm-localization-templete.php:10
 msgid "Latest news"
 msgstr "ព័ត៌មានថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:286 .\odm-localization-templete.php:12
+#: ..\themes\jeo-odm/functions.php:290 .\odm-localization-templete.php:12
 msgid "Latest issues"
 msgstr "ប្រធានបទថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:302 .\odm-localization-templete.php:11
+#: ..\themes\jeo-odm/functions.php:306 .\odm-localization-templete.php:11
 msgid "Latest maps"
 msgstr "ផែនទីថ្មីបំផុត"
 
@@ -417,6 +417,31 @@ msgstr ""
 msgid "Map"
 msgstr ""
 
+#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:10
+msgid "OD Content Taxonomy Widget"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:11
+msgid "Display OD taxonomy for content"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:152
+msgid "Topic areas"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:157
+#: ..\themes\jeo-odm/inc/related-resources-widget.php:46
+msgid "Title:"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:161
+msgid "Include Category by IDs (separated by commas):"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:165
+msgid "Exclude Category by IDs (separated by commas):"
+msgstr ""
+
 #: ..\themes\jeo-odm/inc/related-resources-widget.php:12
 msgid "OD Related Resources"
 msgstr ""
@@ -427,10 +452,6 @@ msgstr ""
 
 #: ..\themes\jeo-odm/inc/related-resources-widget.php:43
 msgid "Related Resources"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:46
-msgid "Title:"
 msgstr ""
 
 #: ..\themes\jeo-odm/inc/site-updates.php:19
@@ -494,9 +515,9 @@ msgstr ""
 msgid "No site updates found in trash."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/summary.php:75
-msgid "Table of Contents"
-msgstr ""
+#: ..\themes\jeo-odm/inc/summary.php:71
+msgid "On this page"
+msgstr "នៅលើទំព័រនេះ"
 
 #: ..\themes\jeo-odm/inc/theme-options.php:38
 msgid "Open Development Style"
@@ -712,7 +733,7 @@ msgstr ""
 msgid "(preview mode doesn't apply zoom range nor pan limits setup)"
 msgstr ""
 
-#: ..\themes\jeo-odm/index.php:9 .\odm-localization-templete.php:21
+#: ..\themes\jeo-odm/index.php:9 .\odm-localization-templete.php:20
 msgid "Search for posts, maps and briefings..."
 msgstr "ស្វែងរកអត្ថបទ ផែនទី និងអត្ថបទសង្ខេប..."
 
@@ -729,24 +750,24 @@ msgstr ""
 msgid "View all data results"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:14
+#: ..\themes\jeo-odm/page-data.php:14 ..\themes\jeo-odm/page-laws.php:14
 msgid "Access the complete database"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:25
+#: ..\themes\jeo-odm/page-data.php:25 ..\themes\jeo-odm/page-laws.php:25
 msgid "Type your search and hit enter"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:37
+#: ..\themes\jeo-odm/page-data.php:37 ..\themes\jeo-odm/page-laws.php:37
 msgid "Previous page"
 msgstr "ទំព័រមុខ"
 
-#: ..\themes\jeo-odm/page-data.php:39
+#: ..\themes\jeo-odm/page-data.php:39 ..\themes\jeo-odm/page-laws.php:39
 msgid "Next page"
 msgstr "ទំព័របន្ទាប់"
 
-#: ..\themes\jeo-odm/page.php:17 ..\themes\jeo-odm/single-briefing.php:39
-#: ..\themes\jeo-odm/single.php:33
+#: ..\themes\jeo-odm/page.php:17 ..\themes\jeo-odm/single-briefing.php:48
+#: ..\themes\jeo-odm/single.php:34
 msgid "Pages:"
 msgstr "ទំព័រ"
 
@@ -851,9 +872,8 @@ msgstr "ប្រធានបទ"
 msgid "Share a map"
 msgstr "ចែករំលែកផែនទី"
 
-#: .\odm-localization-templete.php:20
-msgid "Share the map"
-msgstr "ចែករំលែកផែនទី"
+#~ msgid "Share the map"
+#~ msgstr "ចែករំលែកផែនទី"
 
 #~ msgid "Latest Data"
 #~ msgstr "ទិន្នន័យថ្មីបំផុត"
