@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2015-04-30 11:14+0700\n"
-"PO-Revision-Date: 2015-04-30 15:10+0700\n"
+"POT-Creation-Date: 2015-04-30 18:39+0700\n"
+"PO-Revision-Date: 2015-04-30 18:47+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 
 #: ..\themes\jeo-odm/functions.php:51
-msgid "Briefing sidebar"
+msgid "Topic sidebar"
 msgstr ""
 
 #: ..\themes\jeo-odm/functions.php:99
@@ -134,8 +134,8 @@ msgstr ""
 msgid "View infographics"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:253 .\odm-localization-templete.php:16
-msgid "Issues"
+#: ..\themes\jeo-odm/functions.php:253
+msgid "Topics"
 msgstr "ប្រធានបទ"
 
 #: ..\themes\jeo-odm/functions.php:256 .\odm-localization-templete.php:17
@@ -151,8 +151,8 @@ msgstr "ទិន្នន័យ"
 msgid "Latest news"
 msgstr "ព័ត៌មានថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:290 .\odm-localization-templete.php:12
-msgid "Latest issues"
+#: ..\themes\jeo-odm/functions.php:290
+msgid "Latest topics"
 msgstr "ប្រធានបទថ្មីបំផុត"
 
 #: ..\themes\jeo-odm/functions.php:306 .\odm-localization-templete.php:11
@@ -273,67 +273,6 @@ msgstr ""
 msgid "No announcements found in trash."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/briefings.php:19
-msgctxt "post type general name"
-msgid "Briefings"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:20
-msgctxt "post type singular name"
-msgid "Briefing"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:21
-msgctxt "admin menu"
-msgid "Briefings"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:22
-msgctxt "add new on admin bar"
-msgid "Briefing"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:23
-msgctxt "briefing"
-msgid "Add new"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:24
-msgid "Add new briefing"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:25
-msgid "New briefing"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:26
-msgid "Edit briefing"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:27
-msgid "View briefing"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:28
-msgid "All briefings"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:29
-msgid "Search briefings"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:30
-msgid "Parent briefings:"
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:31
-msgid "No briefings found."
-msgstr ""
-
-#: ..\themes\jeo-odm/inc/briefings.php:32
-msgid "No briefings found in trash."
-msgstr ""
-
 #: ..\themes\jeo-odm/inc/category-widget.php:12
 msgid "OD Post Taxonomy"
 msgstr ""
@@ -410,7 +349,7 @@ msgid "Post"
 msgstr ""
 
 #: ..\themes\jeo-odm/inc/live-search/live-search.php:23
-msgid "Briefing"
+msgid "Topic"
 msgstr ""
 
 #: ..\themes\jeo-odm/inc/live-search/live-search.php:24
@@ -733,6 +672,67 @@ msgstr ""
 msgid "(preview mode doesn't apply zoom range nor pan limits setup)"
 msgstr ""
 
+#: ..\themes\jeo-odm/inc/topics.php:19
+msgctxt "post type general name"
+msgid "Topics"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:20
+msgctxt "post type singular name"
+msgid "Topic"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:21
+msgctxt "admin menu"
+msgid "Topics"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:22
+msgctxt "add new on admin bar"
+msgid "Topic"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:23
+msgctxt "topic"
+msgid "Add new"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:24
+msgid "Add new topic"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:25
+msgid "New topic"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:26
+msgid "Edit topic"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:27
+msgid "View topic"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:28
+msgid "All topics"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:29
+msgid "Search topics"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:30
+msgid "Parent topics:"
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:31
+msgid "No topics found."
+msgstr ""
+
+#: ..\themes\jeo-odm/inc/topics.php:32
+msgid "No topics found in trash."
+msgstr ""
+
 #: ..\themes\jeo-odm/index.php:9
 msgid "Search &#128270;"
 msgstr ""
@@ -766,7 +766,7 @@ msgstr "ទំព័រមុខ"
 msgid "Next page"
 msgstr "ទំព័របន្ទាប់"
 
-#: ..\themes\jeo-odm/page.php:17 ..\themes\jeo-odm/single-briefing.php:47
+#: ..\themes\jeo-odm/page.php:17 ..\themes\jeo-odm/single-topic.php:47
 #: ..\themes\jeo-odm/single.php:34
 msgid "Pages:"
 msgstr "ទំព័រ"
@@ -780,7 +780,7 @@ msgid "Issue briefs"
 msgstr ""
 
 #: ..\themes\jeo-odm/section-content-summary.php:35
-msgid "Access the briefings archive"
+msgid "Access the topics archive"
 msgstr ""
 
 #: ..\themes\jeo-odm/section-content-summary.php:46
@@ -860,12 +860,20 @@ msgstr "ខ្មែរ"
 msgid "English"
 msgstr "អង់គ្លេស"
 
+#: .\odm-localization-templete.php:12
+msgid "Latest issues"
+msgstr "ប្រធានបទថ្មីបំផុត"
+
 #: .\odm-localization-templete.php:13
 msgid "Latest data"
 msgstr "ទិន្នន័យថ្មីបំផុត"
 
 #: .\odm-localization-templete.php:14
 msgid "Briefings"
+msgstr "ប្រធានបទ"
+
+#: .\odm-localization-templete.php:16
+msgid "Issues"
 msgstr "ប្រធានបទ"
 
 #: .\odm-localization-templete.php:19
