@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2015-04-30 11:04+0700\n"
-"PO-Revision-Date: 2015-04-30 11:10+0700\n"
+"POT-Creation-Date: 2015-04-30 11:14+0700\n"
+"PO-Revision-Date: 2015-04-30 15:10+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -515,9 +515,9 @@ msgstr ""
 msgid "No site updates found in trash."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/summary.php:71
+#: ..\themes\jeo-odm/inc/summary.php:75
 msgid "On this page"
-msgstr "នៅលើទំព័រនេះ"
+msgstr "មាតិកា"
 
 #: ..\themes\jeo-odm/inc/theme-options.php:38
 msgid "Open Development Style"
@@ -733,9 +733,9 @@ msgstr ""
 msgid "(preview mode doesn't apply zoom range nor pan limits setup)"
 msgstr ""
 
-#: ..\themes\jeo-odm/index.php:9 .\odm-localization-templete.php:20
-msgid "Search for posts, maps and briefings..."
-msgstr "ស្វែងរកអត្ថបទ ផែនទី និងអត្ថបទសង្ខេប..."
+#: ..\themes\jeo-odm/index.php:9
+msgid "Search &#128270;"
+msgstr ""
 
 #: ..\themes\jeo-odm/loop-latest.php:10
 msgctxt "reduced date format"
@@ -750,23 +750,23 @@ msgstr ""
 msgid "View all data results"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:14 ..\themes\jeo-odm/page-laws.php:14
+#: ..\themes\jeo-odm/page-data.php:14
 msgid "Access the complete database"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:25 ..\themes\jeo-odm/page-laws.php:25
+#: ..\themes\jeo-odm/page-data.php:25
 msgid "Type your search and hit enter"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:37 ..\themes\jeo-odm/page-laws.php:37
+#: ..\themes\jeo-odm/page-data.php:37
 msgid "Previous page"
 msgstr "ទំព័រមុខ"
 
-#: ..\themes\jeo-odm/page-data.php:39 ..\themes\jeo-odm/page-laws.php:39
+#: ..\themes\jeo-odm/page-data.php:39
 msgid "Next page"
 msgstr "ទំព័របន្ទាប់"
 
-#: ..\themes\jeo-odm/page.php:17 ..\themes\jeo-odm/single-briefing.php:48
+#: ..\themes\jeo-odm/page.php:17 ..\themes\jeo-odm/single-briefing.php:47
 #: ..\themes\jeo-odm/single.php:34
 msgid "Pages:"
 msgstr "ទំព័រ"
@@ -871,6 +871,10 @@ msgstr "ប្រធានបទ"
 #: .\odm-localization-templete.php:19
 msgid "Share a map"
 msgstr "ចែករំលែកផែនទី"
+
+#: .\odm-localization-templete.php:20
+msgid "Search for posts, maps and briefings..."
+msgstr "ស្វែងរកអត្ថបទ ផែនទី និងអត្ថបទសង្ខេប..."
 
 #~ msgid "Share the map"
 #~ msgstr "ចែករំលែកផែនទី"
