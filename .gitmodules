@@ -16,3 +16,6 @@
 [submodule "wp-content/plugins/Google-Analytics-Dashboard-for-WP"]
 	path = wp-content/plugins/Google-Analytics-Dashboard-for-WP
 	url = https://github.com/OpenDevelopmentMekong/Google-Analytics-Dashboard-for-WP.git
+[submodule "wp-content/plugins/wp-rss-multi-importer"]
+	path = wp-content/plugins/wp-rss-multi-importer
+	url = https://github.com/OpenDevelopmentMekong/wp-rss-multi-importer
