@@ -106,7 +106,7 @@ function FeedSubmission(){
 	$mail = false;
 	if($email !=""){                	       
             $admin_email = get_settings('admin_email');  
-			mail = wp_mail( $admin_email , $subject, $message,  $headers);
+			$mail = mail( $admin_email , $subject, $message,  $headers);
 		}
 	else{
 			$mail = true;
