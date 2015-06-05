@@ -100,12 +100,13 @@ function FeedSubmission(){
 	                                          
 	$headers = 'Content-type: text/html; charset=utf-8' . "\r\n";
 	$headers .= 'From: '. $email . "\r\n";
-	$subject = 'ODC Contact Form';
+	$subject = 'Open Development Contact Form';
 	$message = "There is a feedback from user:".$email.": "."<br/>".
 	 "<strong>Message:</strong> "."<br/>".$desc; 
 	$mail = false;
-	if($email !=""){
-			$mail = mail( 'info@opendevcam.net' , $subject, $message,  $headers);
+	if($email !=""){                	       
+            $admin_email = get_settings('admin_email');  
+			$mail = mail( $admin_email , $subject, $message,  $headers);
 		}
 	else{
 			$mail = true;
