@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-06-03 11:07+0700\n"
+"PO-Revision-Date: 2015-06-03 11:07+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../layout/form.php:41 ../layout/form.php:48
+msgid "Do you have a question that ODC can help answer? We will gladly help you."
+msgstr "តើលោកអ្នកមានសំនួរណាមួយ ដែលអូឌីស៊ី អាចជួយឆ្លើយបាន? ពួកយើងនឹងជួយលោកអ្នកដោយរីករាយ។"
+
+#: ../layout/form.php:42 ../layout/form.php:49 ../layout/form.php:296
+msgid "Ask us anything about the ODC website or  open data."
+msgstr "សួរសំនួរណាមួយមកកាន់ពួកយើងអំពីគេហទំព័រអូឌីស៊ី ឬទិន្នន័យបើកទូលាយ?"
+
+#: ../layout/form.php:43 ../layout/form.php:50 ../layout/form.php:56 ../layout/form.php:62
+#: ../layout/form.php:68 ../layout/form.php:74
+msgid "Your email (will not be published)"
+msgstr "អាស័យដ្ឋានអ៊ី មែលរបស់លោកអ្នក(នឹងមិនត្រូវបានផ្សព្វផ្សាយជាសាធារណៈឡើយ)"
+
+#: ../layout/form.php:54
+msgid "Have you found a technical problem or issue on the ODC website?"
+msgstr "តើអ្នកបានរកឃើញបញ្ហាបច្ចេកទេសណាមួយនៅលើគេហទំព័រអូឌីស៊ីដែរឬទេ?"
+
+#: ../layout/form.php:55
+msgid "Tell us about what you have found."
+msgstr "ប្រាប់យើងអំពីអ្វីដែលអ្នកបានស្វែងរកឃើញ"
+
+#: ../layout/form.php:60
+msgid ""
+"Do you have a new idea that could help transform the ODC website? We will be glad to hear it."
+msgstr "តើលោកអ្នកមានគំនិតថ្មីដែលអាចកែប្រែគេហទំព័រ ODC ដែរឬទេ? ពួកយើងរីករាយនឹងទទួលយក"
+
+#: ../layout/form.php:61
+msgid "Describe your idea here."
+msgstr "ពណ៌នាគំនិតរបស់លោកអ្នកនៅទីនេះ"
+
+#: ../layout/form.php:66
+msgid "Tell us how we\\'re doing."
+msgstr "ប្រាប់យើងអំពីការងារដែលអូឌីស៊ីកំពុងធ្វើ"
+
+#: ../layout/form.php:67
+msgid "Do you have suggestions on how ODC can be improved?"
+msgstr "តើលោកអ្នកមានសំណើរអ្វីដើម្បីកែលម្អគេហទំព័រអូឌីស៊ីដែរឬទែ?"
+
+#: ../layout/form.php:72
+msgid ""
+"Do you have resources that could help expand the ODC website? We will review any map data, laws, "
+"articles, and documents that we do not yet have and see if we can implement them into our site. "
+"Please make sure the resources are in the public domain or fall under a <a class=\\'a-normal\\' "
+"href=\\'http://creativecommons.org/\\'>Creative Commons</a> license."
+msgstr ""
+"តើលោកអ្នកមានឯកសារដែលអាចជួយពង្រីកគេហទំព័រអូឌីស៊ីដែរឬទេ? ពួកយើងនឹងធ្វើការត្រួតពិនិត្យរាល់ទិន្នន័យអំពីផែនទី ច្បាប់ អត្ថបទ និង "
+"ឯកសារដែលពុំមាននៅលើគេហទំព័រនេះ ហើយពិចារណាបោះផ្សាយទិន្នន័យទាំងនោះ។ សូមមេត្តាផ្ញើតែឯកសារណាដែលមានជាសាធារណៈ "
+"ឬស្ថិតនៅក្រោមអាជ្ញាប័ណ្ណ  <a class=\\'a-normal\\' href=\\'http://creativecommons.org/\\'>Creative "
+"Commons</a> license"
+
+#: ../layout/form.php:73
+msgid "Tell us about the resources you\\'re sharing with us."
+msgstr "ប្រាប់យើងអំពីឯកសារដែលលោកអ្នកចង់ចែករំលែក"
+
+#: ../layout/form.php:75
+msgid ""
+"Disclaimer: ODC will thoroughly review all submitted resources for integrity and relevancy before "
+"the resources are hosted. All hosted resources will be in the public domain, or licensed under "
+"Creative Commons. We thank you for your support."
+msgstr ""
+"កំណត់សម្គាល់: អង្គការអូឌីស៊ីនឹងធ្វើការត្រួតពិនិត្យរាល់ឯកសារដែលបានបញ្ជូនមកយ៉ាងហ្មត់ចត់ ដើម្បីកំណត់ភាពត្រឹមត្រូវ និងពាក់ព័ន្ធ "
+"មុនពេលធ្វើការបង្ហោះផ្សាយ។ រាល់ឯកសារដែលបានបង្ហោះផ្សាយនឹងជាឯកសារដែលមានជាសាធារណៈ ឬស្ថិតនៅក្រោមអាជ្ញាប័ណ្ណ Creative "
+"Commons។ យើងខ្ញុំអគុណសំរាប់ការគាំទ្ររបស់លោកអ្នក។"
+
+#: ../layout/form.php:288
+msgid "Ask Question"
+msgstr "សួរសំនួរ"
+
+#: ../layout/form.php:289
+msgid "Report Problem"
+msgstr "រាយការណ៍បញ្ហា"
+
+#: ../layout/form.php:290
+msgid "Share Idea"
+msgstr "ចូលរួមផ្តល់មតិ"
+
+#: ../layout/form.php:291
+msgid "Send Feedback"
+msgstr "ផ្តល់ពត៌មានមកវិញ"
+
+#: ../layout/form.php:292
+msgid "Submit Resources"
+msgstr "ផ្ញើឯកសារ"
+
+#: ../layout/form.php:295
+msgid "Do you have a question that ODC can help answer? We'll gladly help you"
+msgstr "តើលោកអ្នកមានសំនួរណាមួយ ដែលអូឌីស៊ី អាចជួយឆ្លើយបាន? ពួកយើងនឹងជួយលោកអ្នកដោយរីករាយ។"
+
+#: ../layout/form.php:298
+msgid "Attach file (supported type: jpg, png, pdf, doc(x), xls(x), zip)."
+msgstr "ភ្ជាប់ឯកសារ(ប្រភេទឯកសារ៖ jpg, png, pdf, doc(x), xls(x), zip)"
+
+#: ../layout/form.php:299
+msgid "Browse"
+msgstr "ស្វែងរក"
+
+#: ../layout/form.php:302
+msgid "View"
+msgstr "មើល"
+
+#: ../layout/form.php:302
+msgid "Delete"
+msgstr "លុបចោល"
+
+#: ../layout/form.php:303
+msgid "Your Email (Will not be published)"
+msgstr "អាស័យដ្ឋានអ៊ី មែលរបស់លោកអ្នក(នឹងមិនត្រូវបានផ្សព្វផ្សាយជាសាធារណៈឡើយ)"
+
+#: ../layout/form.php:309
+msgid "* The idea box couldn't be blank!"
+msgstr "* ប្រអប់មតិមិនអាចទទេ!"
+
+#: ../layout/form.php:311
+msgid "ERROR!"
+msgstr "មានបញ្ហា!"
+
+#: ../layout/form.php:320
+msgid "Thank you for taking the time to get in contact!"
+msgstr "អរគុណសំរាប់ការចំនាយពេលក្នុងការចែករំលែកមកកាន់ពួកយើង!"
+
+#: ../layout/form.php:322
+msgid "Close"
+msgstr "បិទ"
+
+#: ../user_feedback_form.php:40
+msgid "Contact Form"
+msgstr "ទំនាក់ទំនង"
+
+#~ msgid "Do you have a question that ODC can help answer? We'll gladly help you."
+#~ msgstr "តើលោកអ្នកមានសំនួរណាមួយ ដែលអូឌីស៊ី អាចជួយឆ្លើយបាន? ពួកយើងនឹងជួយលោកអ្នកដោយរីករាយ។"
+
+#~ msgid ""
+#~ "Do you have a new idea that could help transform the ODC website? We'll be glad to hear it."
+#~ msgstr "តើលោកអ្នកមានគំនិតថ្មីដែលអាចកែប្រែគេហទំព័រ ODC ដែរឬទេ? ពួកយើងរីករាយនឹងទទួលយក"
+
+#~ msgid "Tell us how we're doing."
+#~ msgstr "ប្រាប់យើងអំពីការងារដែលអូឌីស៊ីកំពុងធ្វើ"
+
+#~ msgid ""
+#~ "Do you have resources that could help expand the ODC website? We will review any map data, "
+#~ "laws, articles, and documents that we do not yet have and see if we can implement them into "
+#~ "our site. Please make sure the resources are in the public domain or fall under a <a class=\"a-"
+#~ "normal\" href=\"http://creativecommons.org/\">Creative Commons</a> license."
+#~ msgstr ""
+#~ "តើលោកអ្នកមានឯកសារដែលអាចជួយពង្រីកគេហទំព័រអូឌីស៊ីដែរឬទេ? ពួកយើងនឹងធ្វើការត្រួតពិនិត្យរាល់ទិន្នន័យអំពីផែនទី ច្បាប់ អត្ថបទ និង "
+#~ "ឯកសារដែលពុំមាននៅលើគេហទំព័រនេះ ហើយពិចារណាបោះផ្សាយទិន្នន័យទាំងនោះ។ សូមមេត្តាផ្ញើតែឯកសារណាដែលមានជាសាធារណៈ "
+#~ "ឬស្ថិតនៅក្រោមអាជ្ញាប័ណ្ណ  <a class=\"a-normal\" href=\"http://creativecommons.org/\">Creative "
+#~ "Commons</a license."
+
+#~ msgid "Tell us about the resources you're sharing with us."
+#~ msgstr "ប្រាប់ពួកយើងអំពីឯកសារដែលលោកអ្នកចង់ចែករំលែក"
