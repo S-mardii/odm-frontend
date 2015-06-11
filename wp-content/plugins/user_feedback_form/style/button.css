@@ -4,10 +4,10 @@ div#wrap-feedback{
 	float:left;
 	padding-right:0px;
 	position:fixed;
-	left:-40px; 
+	left:-40px;
 	top:35%;
 	height: 45px;
-	z-index: 10005; 
+	z-index: 100005;
 	border:1px solid #fff;
 	border-bottom-left-radius:2px;
 	border-bottom-right-radius:2px;
@@ -24,14 +24,14 @@ a#user_feedback_form{
 	font-family: DroidSans, 'Droid Sans';
 	display:block;
 	 width:120px;
-	 height:45px;               
+	 height:45px;
      border-bottom: 1px solid #fff;
 	 background:#ffa800;
 	 line-height:50px;
 	 text-align:center;
 	 color:#fff;
 	 font-weight:normal;
-	 padding-top:0;         
+	 padding-top:0;
 	 text-decoration:none;
 	 cursor:pointer;
 	 -webkit-transition: right 150ms;
@@ -45,7 +45,7 @@ a#user_feedback_form:hover{
 	border-bottom: 1px solid #fff;
 
 	}
- 
+
 div#overlay-div{
 	position:fixed;
 	width:100%;
@@ -65,3 +65,20 @@ div#loading-form{
 	z-index:10008;
 	background:url(images/window-loader.gif) center no-repeat;
 	}
+@media screen and (max-width: 1023px) {
+    div#wrap-feedback{
+	left:-60px;
+	}
+a#user_feedback_form{
+	 line-height:65px;
+	 }
+}
+@media screen and (max-width: 800px) {
+
+    div#wrap-feedback{
+	left:-68px;
+	}
+    a#user_feedback_form{
+	 line-height:74px;
+	 }
+}
