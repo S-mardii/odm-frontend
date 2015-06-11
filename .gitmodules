@@ -19,3 +19,9 @@
 [submodule "wp-content/plugins/wp-rss-multi-importer"]
 	path = wp-content/plugins/wp-rss-multi-importer
 	url = https://github.com/OpenDevelopmentMekong/wp-rss-multi-importer
+[submodule "wp-content/plugins/featured-articles-lite"]
+	path = wp-content/plugins/featured-articles-lite
+	url = https://github.com/OpenDevelopmentMekong/featured-articles-lite.git
+[submodule "wp-content/plugins/flexible-posts-widget"]
+	path = wp-content/plugins/flexible-posts-widget
+	url = https://github.com/OpenDevelopmentMekong/flexible-posts-widget.git
