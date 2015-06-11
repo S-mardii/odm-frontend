@@ -22,7 +22,7 @@ if ( !function_exists( 'add_action' ) ) {
  
  
  add_action("wp_enqueue_scripts","add_script");
- add_action("wp_footer","div_user_feedback_form");   
+ //add_action("wp_footer","button_user_feedback_form");   
  add_action("wp_footer","FeedbackForm");      
  //these two lines let everyone see in front page(user page)!
  add_action( 'wp_ajax_nopriv_FeedbackForm', 'FeedbackForm' );  
@@ -48,7 +48,7 @@ function user_feedback_form_init() {
   load_plugin_textdomain( 'user_feedback_form', false,  dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }                                               
 
-function div_user_feedback_form(){ 
+function button_user_feedback_form(){ 
 ?>
     <div id="wrap-feedback"><a id="user_feedback_form"><?php _e('Contact Form', 'user_feedback_form'); ?></a></div>
 <?php
