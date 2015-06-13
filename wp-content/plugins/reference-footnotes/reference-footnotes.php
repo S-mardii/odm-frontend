@@ -86,7 +86,7 @@ if(!class_exists('reference_footnotes_TinyMCE')) {
 
                 if ( empty( $this->reference_footnotes[$id] ) )
                         return $content; 
-                $content .= '<div class="reference-footnote"><h4 id="reference-notes">'. _x( 'References', 'reference-footnotes' ).'</h4><ul id="reference-list">';
+                $content .= '<div class="reference-footnote"><h4 id="reference-notes">'. __( 'References', 'reference-footnotes' ).'</h4><ul id="reference-list">';
                 foreach ( array_filter( $this->reference_footnotes[$id] ) as $num => $note ) {
                     $content .= '<li id="note-' . $id . '-' . $num . '">
                                 <a href="#return-note-' . $id . '-' . $num . '">' .sprintf( _n( '%s', '%s', $num, 'tereference-footnotesst' ), $num ).'</a>. '. do_shortcode( $note ) . '</li>';  
@@ -105,7 +105,7 @@ if(!class_exists('reference_footnotes_TinyMCE')) {
                         $this->reference_footnotes[$id] = array( 0 => false );
                 $this->reference_footnotes[$id][] = $content;
                 $note = count( $this->reference_footnotes[$id] ) - 1;
-                return ' <a class="reference_footnote" title="' . esc_attr( wp_strip_all_tags( $content ) ) . '" id="return-note-' . $id . '-' . $note . '" href="#ref-' . $id . '-' . $note . '"><sup>' . $note . '</sup></a>';
+                return '<sup><a class="reference_footnote" title="' . esc_attr( wp_strip_all_tags( $content ) ) . '" id="return-note-' . $id . '-' . $note . '" href="#ref-' . $id . '-' . $note . '">' . $note . '</a></sup>';
         }
         
         public function the_content( $content ) {
