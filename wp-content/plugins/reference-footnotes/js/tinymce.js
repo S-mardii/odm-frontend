@@ -9,7 +9,7 @@
          * @param {tinymce.Editor} ed Editor instance that the plugin is initialized in.
          * @param {string} url Absolute URL to where the plugin is located.
          */
-		init : function(ed, url) {    
+		init : function(ed, url) {
 			ed.addCommand('referencefootnote', function() {
 				ed.windowManager.open({
 					id : 'reference-footnotes',
@@ -68,14 +68,17 @@
         var plugin_name = '#reference-footnotes';
 		$(plugin_name).on('submit', function(evt) {
 			var $content = $(plugin_name + '-content'),
-			    reference_footnote = $.trim($content.val()); 
+			    reference_footnote = $.trim($content.val());
 			// Now that we have the footnote content, clear the textarea
 			$content.val('');
 			if (reference_footnote.length)
-				tinymce.execCommand('mceInsertContent', false, '[ref]' + reference_footnote + '[/ref]');                      
-
-			tinymce.activeEditor.windowManager.close();
-			evt.preventDefault();
+                // Set the regex string
+                var regex = /(https?:\/\/([-\w\.]+)+(:\d+)?(\/([-\w\/_\.]*(\?\S+)?)?)?)/ig
+                // Replace plain text links by hyperlinks
+                var reference_footnote_update = reference_footnote.replace(regex, "<a href='$1' target='_blank'>$1</a>");
+            	tinymce.execCommand('mceInsertContent', false, '[ref]' + reference_footnote_update + '[/ref]');
+			    tinymce.activeEditor.windowManager.close();
+			    evt.preventDefault();
 		});
 		$(plugin_name + '-cancel').on('click', function(evt) {
 			evt.preventDefault();
