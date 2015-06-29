@@ -9,3 +9,6 @@
     line-height: 22px;
     margin-bottom: 1em;
 }
+#reference-list a{
+    word-wrap: break-word;
+}
