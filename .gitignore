@@ -1,5 +1,4 @@
 *.log
-.htaccess
 .remote-sync.json
 sitemap.xml
 sitemap.xml.gz
