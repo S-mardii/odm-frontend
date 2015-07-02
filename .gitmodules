@@ -25,3 +25,6 @@
 [submodule "wp-content/plugins/flexible-posts-widget"]
 	path = wp-content/plugins/flexible-posts-widget
 	url = https://github.com/OpenDevelopmentMekong/flexible-posts-widget.git
+[submodule "wp-content/plugins/tinymce-advanced"]
+	path = wp-content/plugins/tinymce-advanced
+	url = https://github.com/OpenDevelopmentMekong/tinymce-advanced
