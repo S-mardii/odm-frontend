@@ -15,14 +15,16 @@
 }
 /* Slide title */
 .fa_slider_opendev.default .fa_slide_content h2{
-	font-size:12px;/*slide_title*/
-	color:transparent;/*slide_title*/
+	font-size: 24px;/*slide_title*/
+	/* color:transparent; *//*slide_title*/
+	color: #fff;/*slide_title*/
 	font-weight:normal;/*slide_title*/
 	-moz-text-shadow:0px 0px 0px ;/*slide_title*/
 	-webkit-text-shadow:0px 0px 0px ;/*slide_title*/
 	-o-text-shadow:0px 0px 0px ;/*slide_title*/
 	-ms-text-shadow:0px 0px 0px ;/*slide_title*/
 	text-shadow:0px 0px 0px ;/*slide_title*/
+    margin-bottom: 16px;
 }
 /* Slide title anchor */
 .fa_slider_opendev.default .fa_slide_content h2 a{
