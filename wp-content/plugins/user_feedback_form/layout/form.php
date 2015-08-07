@@ -240,11 +240,11 @@ $('#user_feedback_form-form<?php echo $f_index; ?>').submit(function(e) {
 	else{
 			$("span#question-needed<?php echo $f_index; ?>").css({'display':'none'});
 	}
-	var email_add = $("#email<?php echo $form_index ?>").val().trim();                                        
+	var email_add = $("#email<?php echo $f_index ?>").val().trim();                                        
 	if(email_add.length != 0){
          if(!isValidEmailAddress(email_add)){
-    		$("span#email-invalid<?php echo $form_index ?>").css({'display':'inherit'});
-    		$("#email<?php echo $form_index ?>").css({'border':'1px solid #F00'});
+    		$("span#email-invalid<?php echo $f_index ?>").css({'display':'inherit'});
+    		$("#email<?php echo $f_index ?>").css({'border':'1px solid #F00'});
     		return false;
     	}
     }
@@ -294,24 +294,24 @@ centerTheForm();
 <?php } ?>
 <?php function user_feedback_form_creation( $atts = array()){ 
         if ($atts['no_popup'] == 1) {
-            $form_index = 1;
+            $f_index = 1;
         }else {
-            $form_index = ""; 
+            $f_index = ""; 
         }                      
 ?>                                                    
         <?php user_feedback_form_script( $atts['no_popup']); ?>
         
-<div id="user_feedback_form_container<?php echo $form_index ?>"> 
+<div id="user_feedback_form_container<?php echo $f_index ?>"> 
 	<?php if ($atts['no_popup'] == 0){ ?>
     	<div id="close-button"></div>
     	<h2><?php _e("Contact Form", "user_feedback_form");?></h2>
 	<?php } ?>
         <div id="wrapper">
-        	<div id="long-all<?php echo $form_index ?>">
+        	<div id="long-all<?php echo $f_index ?>">
                 <div id="involve1">
-                <form id="user_feedback_form-form<?php echo $form_index ?>" action="admin-ajax.php?action=UploadFeedbackFile" method="post" enctype="multipart/form-data">
-                <div id="tabs<?php echo $form_index ?>">
-                <?php if ($atts['no_tab'] == 0){ ?>
+                <form id="user_feedback_form-form<?php echo $f_index ?>" action="admin-ajax.php?action=UploadFeedbackFile" method="post" enctype="multipart/form-data">
+                <div id="tabs<?php echo $f_index ?>">
+                <?php if (isset($atts['no_tab']) && $atts['no_tab'] == 0){ ?>
                   <ul id="choice">
                     <li id="ask-question"><a href="#involve"><span><?php _e("Ask Question", "user_feedback_form");?></span></a></li>
                     <li id="report-problem"><a href="#involve"><span><?php _e("Report Problem", "user_feedback_form");?></span></a></li>
@@ -320,31 +320,31 @@ centerTheForm();
                     <li id="submit-resource"><a href="#involve"><span><?php _e("Submit Resources", "user_feedback_form");?></span></a></li>
                   </ul>
                    <?php } //no_tab?>
-                  <div id="involve" <?php if ($atts['no_tab'] == 1){ echo "style='border:1px solid #97A9B4;'" ;}?>>
+                  <div id="involve" <?php if (isset($atts['no_tab']) && $atts['no_tab'] == 1){ echo "style='border:1px solid #97A9B4;'" ;}?>>
                     <div style="float:left"><p id="involve-desc"><?php _e("Do you have a question that ODC can help answer? We'll gladly help you", "user_feedback_form");?></p>
-                    <textarea id="question-textarea<?php echo $form_index ?>" rows="10" placeholder="<?php _e('Ask us anything about the ODC website or  open data.', "user_feedback_form");?>"></textarea>
-                    <input id="file-upload<?php echo $form_index ?>" type="file" name="fileupload"/>
-                    <input id="fake-text<?php echo $form_index ?>" type="text" placeholder="<?php _e('Attach file (supported type: jpg, png, pdf, doc(x), xls(x), zip).', "user_feedback_form"); ?>" />
-                    <input id="fake-browse<?php echo $form_index ?>" type="button" value="<?php _e('Browse', "user_feedback_form");?>" />
-                    <div id="process-state<?php echo $form_index ?>" class="process-state"></div>
+                    <textarea id="question-textarea<?php echo $f_index ?>" rows="10" placeholder="<?php _e('Ask us anything about the ODC website or  open data.', "user_feedback_form");?>"></textarea>
+                    <input id="file-upload<?php echo $f_index ?>" type="file" name="fileupload"/>
+                    <input id="fake-text<?php echo $f_index ?>" type="text" placeholder="<?php _e('Attach file (supported type: jpg, png, pdf, doc(x), xls(x), zip).', "user_feedback_form"); ?>" />
+                    <input id="fake-browse<?php echo $f_index ?>" type="button" value="<?php _e('Browse', "user_feedback_form");?>" />
+                    <div id="process-state<?php echo $f_index ?>" class="process-state"></div>
 
-                    <div id="view-delete-upload<?php echo $form_index ?>"><a href="<?php echo site_url(); ?>/#view" target="_blank" id="view_uploaded"><?php _e("View", "user_feedback_form");?></a> | <a id="delete_upload" href="<?php echo site_url(); ?>/#delete"><?php _e("Delete", "user_feedback_form");?></a></div>
-                    <input id="email<?php echo $form_index ?>" type="text" placeholder="<?php _e("Your Email (Will not be published)", "user_feedback_form");?>" /></div>
-                    <div id="disclaimer<?php echo $form_index ?>">
-                    	<p id="disclaimer-p<?php echo $form_index ?>"></p>
+                    <div id="view-delete-upload<?php echo $f_index ?>"><a href="<?php echo site_url(); ?>/#view" target="_blank" id="view_uploaded"><?php _e("View", "user_feedback_form");?></a> | <a id="delete_upload" href="<?php echo site_url(); ?>/#delete"><?php _e("Delete", "user_feedback_form");?></a></div>
+                    <input id="email<?php echo $f_index ?>" type="text" placeholder="<?php _e("Your Email (Will not be published)", "user_feedback_form");?>" /></div>
+                    <div id="disclaimer<?php echo $f_index ?>">
+                    	<p id="disclaimer-p<?php echo $f_index ?>"></p>
                     </div>
                   </div>
-                  <div id="submit-div<?php echo $form_index ?>">                                     
-                    <input id="submit-button<?php echo $form_index ?>" type="submit" value="Submit" />
-                    <div id="process-state-submit<?php echo $form_index ?>" class="process-state-submit"></div>
-                    <span class='needed' id='question-needed<?php echo $form_index; ?>'><?php _e("* The idea box couldn't be blank!", "user_feedback_form");?></span>
-                    <span class='needed' id='email-invalid<?php echo $form_index; ?>'><?php _e("* The email address is not valid!", "user_feedback_form");?></span>
+                  <div id="submit-div<?php echo $f_index ?>">                                     
+                    <input id="submit-button<?php echo $f_index ?>" type="submit" value="Submit" />
+                    <div id="process-state-submit<?php echo $f_index ?>" class="process-state-submit"></div>
+                    <span class='needed' id='question-needed<?php echo $f_index; ?>'><?php _e("* The idea box couldn't be blank!", "user_feedback_form");?></span>
+                    <span class='needed' id='email-invalid<?php echo $f_index; ?>'><?php _e("* The email address is not valid!", "user_feedback_form");?></span>
                   </div>
-                  <div id="error-upload<?php echo $form_index ?>"><?php _e("ERROR!", "user_feedback_form");?></div>
+                  <div id="error-upload<?php echo $f_index ?>"><?php _e("ERROR!", "user_feedback_form");?></div>
                 </div>
                  </form>
                 <script type="text/javascript">
-                jQuery( "#tabs<?php echo $form_index ?>" ).tabs();
+                jQuery( "#tabs<?php echo $f_index ?>" ).tabs();
                 </script>
                 </div>
                 <div id="inner">
