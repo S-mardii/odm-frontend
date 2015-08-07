@@ -311,7 +311,7 @@ centerTheForm();
                 <div id="involve1">
                 <form id="user_feedback_form-form<?php echo $f_index ?>" action="admin-ajax.php?action=UploadFeedbackFile" method="post" enctype="multipart/form-data">
                 <div id="tabs<?php echo $f_index ?>">
-                <?php if ($atts['no_tab'] == 0){ ?>
+                <?php if (isset($atts['no_tab']) && $atts['no_tab'] == 0){ ?>
                   <ul id="choice">
                     <li id="ask-question"><a href="#involve"><span><?php _e("Ask Question", "user_feedback_form");?></span></a></li>
                     <li id="report-problem"><a href="#involve"><span><?php _e("Report Problem", "user_feedback_form");?></span></a></li>
@@ -320,7 +320,7 @@ centerTheForm();
                     <li id="submit-resource"><a href="#involve"><span><?php _e("Submit Resources", "user_feedback_form");?></span></a></li>
                   </ul>
                    <?php } //no_tab?>
-                  <div id="involve" <?php if ($atts['no_tab'] == 1){ echo "style='border:1px solid #97A9B4;'" ;}?>>
+                  <div id="involve" <?php if (isset($atts['no_tab']) && $atts['no_tab'] == 1){ echo "style='border:1px solid #97A9B4;'" ;}?>>
                     <div style="float:left"><p id="involve-desc"><?php _e("Do you have a question that ODC can help answer? We'll gladly help you", "user_feedback_form");?></p>
                     <textarea id="question-textarea<?php echo $f_index ?>" rows="10" placeholder="<?php _e('Ask us anything about the ODC website or  open data.', "user_feedback_form");?>"></textarea>
                     <input id="file-upload<?php echo $f_index ?>" type="file" name="fileupload"/>
