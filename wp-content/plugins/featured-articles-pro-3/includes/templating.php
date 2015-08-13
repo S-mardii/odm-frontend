@@ -665,7 +665,7 @@ function get_the_fa_title(){
 	$options = fa_get_slide_options( $post->ID );
 	$slider_options = fa_get_slider_options( $fa_slider->ID, 'content_title' );
 	if( $slider_options['use_custom'] && !empty( $options['title'] ) ){
-		$title = esc_attr( $options['title'] );
+		$title = $options['title']; //esc_attr( $options['title'] );
 	}else{
 		$title = $post->post_title;
 	}

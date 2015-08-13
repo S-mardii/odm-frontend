@@ -7,10 +7,11 @@
  <div class="fa_slide <?php the_fa_class();?>" style="<?php the_slide_styles();?>">
 
   <div class="fa_slide_content">
-   <?php the_fa_title('<h2>', '</h2>');?>
-   <?php the_fa_content('<div class="description">', '</div>');?>
-   <?php the_fa_read_more('fa_read_more');?>
-   <?php the_fa_play_video('fa_play_video', 'modal');?>
+   <?php //the_fa_title('<h2>', '</h2>');?>
+   <?php echo qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(the_fa_title('<h2>', '</h2>', false));?>
+   <?php echo qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(the_fa_content('<div class="description">', '</div>', false));?>
+   <?php echo qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(the_fa_read_more('fa_read_more', false));?>
+   <?php echo qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(the_fa_play_video('fa_play_video', 'modal',true, false));?>
   </div>
   <?php the_fa_image( '<div class="fa_image">', '</div>', false );?>
 
