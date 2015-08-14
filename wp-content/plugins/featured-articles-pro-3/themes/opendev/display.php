@@ -8,10 +8,29 @@
 
   <div class="fa_slide_content">
    <?php //the_fa_title('<h2>', '</h2>');?>
+   <?php if (function_exists(qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage)){ ?>
    <?php echo qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(the_fa_title('<h2>', '</h2>', false));?>
    <?php echo qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(the_fa_content('<div class="description">', '</div>', false));?>
    <?php echo qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(the_fa_read_more('fa_read_more', false));?>
    <?php echo qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(the_fa_play_video('fa_play_video', 'modal',true, false));?>
+   <?php }else{ ?>
+            <?php
+				// display the slide title wrapped in h2 tag
+				the_fa_title('<h2>', '</h2>');
+			?>
+			<?php
+				// display the slide content wrapped in div
+				the_fa_content('<div class="description">', '</div>');
+			?>
+			<?php
+				// display read more link
+				the_fa_read_more('fa_read_more');
+			?>
+			<?php
+				// display play video link
+				the_fa_play_video('fa_play_video', 'modal');
+			?>
+   <?php } ?>
   </div>
   <?php the_fa_image( '<div class="fa_image">', '</div>', false );?>
 
