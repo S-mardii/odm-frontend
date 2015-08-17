@@ -7,8 +7,9 @@
 }
 #content #reference-list li {
     line-height: 22px;
-    margin-bottom: 1em;
+    margin-bottom: 1em;       
+    word-wrap: break-word;
 }
 #reference-list a{
-    word-wrap: break-word;
+    word-wrap: break-word;   
 }
