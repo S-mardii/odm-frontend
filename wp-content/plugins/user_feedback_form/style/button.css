@@ -9,6 +9,7 @@ div#wrap-feedback{
 	height: 45px;
 	z-index: 10005; 
 	border:1px solid #fff;
+	background: #FFA800 none repeat scroll 0% 0%;
 	border-bottom-left-radius:2px;
 	border-bottom-right-radius:2px;
 	/* padding:1px; */
