@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2016-01-19 12:32+0700\n"
-"PO-Revision-Date: 2016-01-19 12:35+0700\n"
+"POT-Creation-Date: 2016-01-19 16:01+0700\n"
+"PO-Revision-Date: 2016-01-19 16:02+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: km_KH\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: Poedit 1.7.5\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _;_e;__;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-KeywordsList: _e;__;_;_n:1,2;_x:1,2c;_ex:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\\themes\\jeo-odm\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
-#: ..\themes\jeo-odm/category.php:61 ..\themes\jeo-odm/functions.php:477
+#: ..\themes\jeo-odm/category.php:61 ..\themes\jeo-odm/functions.php:479
 #: ..\themes\jeo-odm/inc/live-search/live-search.php:22
 #: .\odm-localization-templete.php:15 odm-localization-templete.php:15
 msgid "News"
@@ -129,144 +129,144 @@ msgstr ""
 msgid "Upcoming footer right"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:153
+#: ..\themes\jeo-odm/functions.php:155
 msgid "stories"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:155
+#: ..\themes\jeo-odm/functions.php:157
 msgid "Copy the embed code"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:156 ..\themes\jeo-odm/loop-latest.php:21
+#: ..\themes\jeo-odm/functions.php:158 ..\themes\jeo-odm/loop-latest.php:21
 #: ..\themes\jeo/content-share.php:9 ..\themes\jeo/content-share.php:237
 #: ..\themes\jeo/inc/share-widget.php:34
 msgid "Share"
 msgstr "ចែករំលែក"
 
-#: ..\themes\jeo-odm/functions.php:157
+#: ..\themes\jeo-odm/functions.php:159
 msgid "Print"
 msgstr "បោះពុម្ព"
 
-#: ..\themes\jeo-odm/functions.php:168 ..\themes\jeo-odm/loop-latest.php:19
+#: ..\themes\jeo-odm/functions.php:170 ..\themes\jeo-odm/loop-latest.php:19
 #: ..\themes\jeo-odm/loop.php:62 ..\themes\jeo/content-featured.php:32
 #: ..\themes\jeo/loop.php:22
 msgid "Read more"
 msgstr "អានបន្ថែម"
 
-#: ..\themes\jeo-odm/functions.php:170
+#: ..\themes\jeo-odm/functions.php:172
 msgid "Open slideshow"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:171
+#: ..\themes\jeo-odm/functions.php:173
 msgid "Watch video gallery"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:172
+#: ..\themes\jeo-odm/functions.php:174
 msgid "Watch video"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:173
+#: ..\themes\jeo-odm/functions.php:175
 msgid "View image gallery"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:174
+#: ..\themes\jeo-odm/functions.php:176
 msgid "View fullscreen image"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:175
+#: ..\themes\jeo-odm/functions.php:177
 msgid "View infographic"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:176
+#: ..\themes\jeo-odm/functions.php:178
 msgid "View infographics"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:213
+#: ..\themes\jeo-odm/functions.php:215
 msgctxt "taxonomy general name"
 msgid "News Sources"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:214
+#: ..\themes\jeo-odm/functions.php:216
 msgctxt "taxonomy singular name"
 msgid "News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:215
+#: ..\themes\jeo-odm/functions.php:217
 msgid "Search News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:216
+#: ..\themes\jeo-odm/functions.php:218
 msgid "All News Sources"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:217
+#: ..\themes\jeo-odm/functions.php:219
 msgid "Parent News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:218
+#: ..\themes\jeo-odm/functions.php:220
 msgid "Parent News Source:"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:219
+#: ..\themes\jeo-odm/functions.php:221
 msgid "Edit News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:220
+#: ..\themes\jeo-odm/functions.php:222
 msgid "Update News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:221
+#: ..\themes\jeo-odm/functions.php:223
 msgid "Add New News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:222
+#: ..\themes\jeo-odm/functions.php:224
 msgid "New News Source Name"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:223
+#: ..\themes\jeo-odm/functions.php:225
 msgid "News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:456
+#: ..\themes\jeo-odm/functions.php:458
 #: ..\themes\jeo-odm/inc/theme-options.php:288
 msgid "Site coming soon."
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:482
+#: ..\themes\jeo-odm/functions.php:484
 msgid "Topics"
 msgstr "ប្រធានបទ"
 
-#: ..\themes\jeo-odm/functions.php:487 ..\themes\jeo-odm/header.php:173
+#: ..\themes\jeo-odm/functions.php:489 ..\themes\jeo-odm/header.php:173
 #: ..\themes\jeo/inc/admin/settings.php:23 ..\themes\jeo/inc/core.php:177
 #: ..\themes\jeo/inc/core.php:187 .\odm-localization-templete.php:17
 #: odm-localization-templete.php:17
 msgid "Maps"
 msgstr "ផែនទី"
 
-#: ..\themes\jeo-odm/functions.php:496 .\odm-localization-templete.php:18
+#: ..\themes\jeo-odm/functions.php:498 .\odm-localization-templete.php:18
 #: odm-localization-templete.php:18
 msgid "Data"
 msgstr "ទិន្នន័យ"
 
-#: ..\themes\jeo-odm/functions.php:509 .\odm-localization-templete.php:10
+#: ..\themes\jeo-odm/functions.php:511 .\odm-localization-templete.php:10
 #: odm-localization-templete.php:10
 msgid "Latest news"
 msgstr "ព័ត៌មានថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:534
+#: ..\themes\jeo-odm/functions.php:536
 msgid "Latest topics"
 msgstr "ប្រធានបទថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:559 .\odm-localization-templete.php:11
+#: ..\themes\jeo-odm/functions.php:561 .\odm-localization-templete.php:11
 #: odm-localization-templete.php:11
 msgid "Latest maps"
 msgstr "ផែនទីថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:908
+#: ..\themes\jeo-odm/functions.php:910
 msgid "Home"
 msgstr "ទំព័រដើម"
 
-#: ..\themes\jeo-odm/functions.php:1018 ..\themes\jeo-odm/header.php:54
+#: ..\themes\jeo-odm/functions.php:1020 ..\themes\jeo-odm/header.php:54
 #: ..\themes\jeo/content-embed.php:16 ..\themes\jeo/header.php:17
 msgid "Page"
 msgstr "ទំព័រ"
@@ -281,11 +281,11 @@ msgstr "ស្វែងរក &#128270;"
 
 #: ..\themes\jeo-odm/header.php:131
 msgid "Laws and agreements"
-msgstr ""
+msgstr "ច្បាប់និងកិច្ចព្រមព្រៀង"
 
 #: ..\themes\jeo-odm/header.php:136
 msgid "Publications Library"
-msgstr ""
+msgstr "បណ្ណាល័យឯកសារ"
 
 #: ..\themes\jeo-odm/header.php:144
 msgid "All records"
@@ -293,7 +293,7 @@ msgstr ""
 
 #: ..\themes\jeo-odm/header.php:146
 msgid "Records by country"
-msgstr ""
+msgstr "កំណត់ត្រាបែងចែកតាមប្រទេស"
 
 #: ..\themes\jeo-odm/header.php:148 ..\themes\jeo-odm/header.php:246
 #: ..\themes\jeo-odm/header.php:253 .\odm-localization-templete.php:3
@@ -327,7 +327,7 @@ msgstr "វៀតណាម"
 
 #: ..\themes\jeo-odm/header.php:157
 msgid "Records by language"
-msgstr ""
+msgstr "កំណត់ត្រាបែងចែកតាមភាសា"
 
 #: ..\themes\jeo-odm/header.php:159 .\odm-localization-templete.php:9
 #: odm-localization-templete.php:9
@@ -2848,6 +2848,10 @@ msgstr "ស្វែងរកទិន្នន័យប្រទេសថៃ"
 #: .\odm-localization-templete.php:26 odm-localization-templete.php:26
 msgid "Search Datasets for Vietnam"
 msgstr "ស្វែងរកទិន្នន័យប្រទេសវៀតណាម"
+
+#: .\odm-localization-templete.php:27 odm-localization-templete.php:27
+msgid "More information"
+msgstr "ព័ត៌មាន​បន្ថែម"
 
 #~ msgid "July"
 #~ msgstr "ខែកក្កដា"
