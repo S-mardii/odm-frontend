@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2016-01-19 16:01+0700\n"
-"PO-Revision-Date: 2016-01-19 16:02+0700\n"
+"POT-Creation-Date: 2016-01-19 16:50+0700\n"
+"PO-Revision-Date: 2016-01-19 16:50+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: km_KH\n"
@@ -243,8 +243,8 @@ msgstr "ប្រធានបទ"
 msgid "Maps"
 msgstr "ផែនទី"
 
-#: ..\themes\jeo-odm/functions.php:498 .\odm-localization-templete.php:18
-#: odm-localization-templete.php:18
+#: ..\themes\jeo-odm/functions.php:498 ..\themes\jeo-odm/header.php:142
+#: .\odm-localization-templete.php:18 odm-localization-templete.php:18
 msgid "Data"
 msgstr "ទិន្នន័យ"
 
@@ -289,7 +289,7 @@ msgstr "បណ្ណាល័យឯកសារ"
 
 #: ..\themes\jeo-odm/header.php:144
 msgid "All records"
-msgstr ""
+msgstr "បណ្តុំទិន្នន័យទាំងអស់"
 
 #: ..\themes\jeo-odm/header.php:146
 msgid "Records by country"
@@ -2852,6 +2852,10 @@ msgstr "ស្វែងរកទិន្នន័យប្រទេសវៀត
 #: .\odm-localization-templete.php:27 odm-localization-templete.php:27
 msgid "More information"
 msgstr "ព័ត៌មាន​បន្ថែម"
+
+#: .\odm-localization-templete.php:28 odm-localization-templete.php:28
+msgid "Announcements and Press releases"
+msgstr "សេចក្តីប្រកាសនិងសេចក្តីថ្លែងការណ៍"
 
 #~ msgid "July"
 #~ msgstr "ខែកក្កដា"
