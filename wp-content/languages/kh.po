@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2016-01-19 12:09+0700\n"
-"PO-Revision-Date: 2016-01-19 12:09+0700\n"
+"POT-Creation-Date: 2016-01-19 12:32+0700\n"
+"PO-Revision-Date: 2016-01-19 12:35+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: km_KH\n"
@@ -1708,11 +1708,7 @@ msgstr ""
 msgid "Hide resources details"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-sticky-posts.php:125
-msgid "j F Y"
-msgstr ""
-
-#: ..\themes\jeo-odm/section-sticky-posts.php:157
+#: ..\themes\jeo-odm/section-sticky-posts.php:163
 msgid "Keep reading"
 msgstr "អានបន្ត"
 
@@ -2831,31 +2827,30 @@ msgstr "ស្វែងរកអត្ថបទ ផែនទី និងអត�
 
 #: .\odm-localization-templete.php:21 odm-localization-templete.php:21
 msgid "Search Datasets for Mekong"
-msgstr ""
+msgstr "ស្វែងរកទិន្នន័យតំបន់មេគង្គ"
 
 #: .\odm-localization-templete.php:22 odm-localization-templete.php:22
 msgid "Search Datasets for Cambodia"
-msgstr ""
+msgstr "ស្វែងរកទិន្នន័យប្រទេសកម្ពុជា"
 
 #: .\odm-localization-templete.php:23 odm-localization-templete.php:23
 msgid "Search Datasets for Laos"
-msgstr ""
+msgstr "ស្វែងរកទិន្នន័យប្រទេសឡាវ"
 
 #: .\odm-localization-templete.php:24 odm-localization-templete.php:24
 msgid "Search Datasets for Myanmar"
-msgstr ""
+msgstr "ស្វែងរកទិន្នន័យប្រទេសមីយ៉ាន់ម៉ា"
 
 #: .\odm-localization-templete.php:25 odm-localization-templete.php:25
 msgid "Search Datasets for Thailand"
-msgstr ""
+msgstr "ស្វែងរកទិន្នន័យប្រទេសថៃ"
 
 #: .\odm-localization-templete.php:26 odm-localization-templete.php:26
 msgid "Search Datasets for Vietnam"
-msgstr ""
+msgstr "ស្វែងរកទិន្នន័យប្រទេសវៀតណាម"
 
-#: .\odm-localization-templete.php:27 odm-localization-templete.php:27
-msgid "July"
-msgstr "ខែកក្កដា"
+#~ msgid "July"
+#~ msgstr "ខែកក្កដា"
 
 #~ msgid "from"
 #~ msgstr "ពី"
