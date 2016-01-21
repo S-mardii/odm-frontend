@@ -2,22 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
 "POT-Creation-Date: 2016-01-19 16:50+0700\n"
-"PO-Revision-Date: 2016-01-19 22:20+0700\n"
+"PO-Revision-Date: 2016-01-19 22:34+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: km_KH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;_;_n:1,2;_x:1,2c;_ex:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: ..\\themes\\jeo-odm\n"
-"X-Poedit-SearchPath-2: ..\\themes\\jeo\n"
-"X-Poedit-SearchPath-3: .\\odm-localization-templete.php\n"
+"X-Poedit-SearchPath-1: ../themes/jeo-odm\n"
+"X-Poedit-SearchPath-2: ../themes/jeo\n"
+"X-Poedit-SearchPath-3: ./odm-localization-templete.php\n"
 
 #: ..\themes\jeo/lib/cartodb.mod.torque.js:2
 msgid "<%=filename%>:<%=line%>:<%=column%> <%=message%>"
@@ -271,9 +271,9 @@ msgstr "ទំព័រដើម"
 msgid "Page"
 msgstr "ទំព័រ"
 
-#: ..\themes\jeo-odm/header.php:113
+#: php_template.php:5
 msgid "Search"
-msgstr ""
+msgstr "ស្វែងរក"
 
 #: ..\themes\jeo-odm/header.php:113
 msgid "Search &#128270;"
@@ -1209,10 +1209,9 @@ msgstr ""
 msgid "Icon"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:446
-#: ..\themes\jeo-odm/page-laws.php:45
+#: php_template.php:9
 msgid "Title"
-msgstr ""
+msgstr "ចំណងជើង"
 
 #: ..\themes\jeo-odm/inc/theme-options.php:447
 msgid "Content"
@@ -1463,191 +1462,225 @@ msgstr "ទំព័រមុខ"
 msgid "Next page"
 msgstr "ទំព័របន្ទាប់"
 
-#: ..\themes\jeo-odm/page-laws.php:46
-msgid "Document type"
-msgstr ""
+#: php_template.php:4
+msgid "Law compendium"
+msgstr "កម្រងឯកសារច្បាប់"
 
-#: ..\themes\jeo-odm/page-laws.php:47
+#: php_template.php:6 php_template.php:13
+msgid "Show"
+msgstr "បង្ហាញ"
+
+#: php_template.php:7
+msgid "entries"
+msgstr "កំណត់ត្រា"
+
+#: php_template.php:8
+msgid "Type of laws"
+msgstr "ប្រភេទច្បាប់"
+
+#: php_template.php:10
 msgid "Document number"
-msgstr ""
+msgstr "លេខសម្គាល់ឯកសារ"
 
-#: ..\themes\jeo-odm/page-laws.php:48
+#: php_template.php:11
 msgid "Promulgation date"
-msgstr ""
+msgstr "កាលបរិច្ឆេទប្រកាសឱ្យប្រើ"
 
-#: ..\themes\jeo-odm/page-laws.php:49 ..\themes\jeo-odm/page-pdf-view.php:23
-#: ..\themes\jeo-odm/page-pdf-view.php:26
-#: ..\themes\jeo-odm/section-query-actions.php:24
+#: php_template.php:12
 msgid "Download"
-msgstr "ទាញ​យក"
+msgstr "ទាញយក"
 
-#: ..\themes\jeo-odm/page-laws.php:97 ..\themes\jeo-odm/page-profiles.php:225
-msgid "SEARCH"
-msgstr ""
+#: php_template.php:14
+msgid "Search all laws"
+msgstr "ស្វែងរកច្បាប់ទាំងអស់"
 
-#: ..\themes\jeo-odm/page-laws.php:97 ..\themes\jeo-odm/page-profiles.php:225
-msgid "in"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-laws.php:97
-msgid "Laws"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-laws.php:102
-msgid "Clear filter"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-laws.php:109
-msgid "LAW COMPENDIUM"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-laws.php:118
-msgid "TYPE OF LAWS"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-laws.php:122
+#: php_template.php:17
 msgid "Anukret/Sub-Decree"
-msgstr ""
+msgstr "អនុក្រឹត្យ"
 
-#: ..\themes\jeo-odm/page-laws.php:123
+#: php_template.php:18
 msgid "Chbab/Law/Kram"
-msgstr ""
+msgstr "ច្បាប់/ក្រម"
 
-#: ..\themes\jeo-odm/page-laws.php:124
+#: php_template.php:19
 msgid "Constitution of Cambodia"
-msgstr ""
+msgstr "រដ្ឋធម្មនុញ្ញ នៃព្រះរាជាណាចក្រកម្ពុជា"
 
-#: ..\themes\jeo-odm/page-laws.php:125
-msgid "International Treaties/Agreements"
-msgstr ""
+#: php_template.php:20
+msgid "International Treaties/Agreement"
+msgstr "សន្ធិសញ្ញា/កិច្ចព្រមព្រៀងអន្តរជាតិ"
 
-#: ..\themes\jeo-odm/page-laws.php:126
+#: php_template.php:21
 msgid "Kech Sonya/Contract/Agreement"
-msgstr ""
+msgstr "កិច្ចសន្យា/កិច្ចព្រមព្រៀង"
 
-#: ..\themes\jeo-odm/page-laws.php:127
+#: php_template.php:22 php_template.php:23
 msgid "Kolkar Nenom/Guidelines"
-msgstr ""
+msgstr "គោលការណ៍ណែនាំ"
 
-#: ..\themes\jeo-odm/page-laws.php:128
+#: php_template.php:24
 msgid "Kolnyobay/Policy"
-msgstr ""
+msgstr "គោលនយោបាយ"
 
-#: ..\themes\jeo-odm/page-laws.php:129
+#: php_template.php:25
 msgid "Likhet/Letter"
-msgstr ""
+msgstr "លិខិត"
 
-#: ..\themes\jeo-odm/page-laws.php:130
+#: php_template.php:26
 msgid "Prakas/Joint-Prakas/Proclamation"
-msgstr ""
+msgstr "ប្រកាស/ប្រកាសរួួម/សេចក្តីប្រកាស"
 
-#: ..\themes\jeo-odm/page-laws.php:131
+#: php_template.php:27
 msgid "Preah Reach Kram/Royal Kram"
-msgstr ""
+msgstr "ព្រះរាជក្រម"
 
-#: ..\themes\jeo-odm/page-laws.php:132
+#: php_template.php:28
 msgid "Sarachor/Circular"
-msgstr ""
+msgstr "សារាចរ"
 
-#: ..\themes\jeo-odm/page-laws.php:133
-msgid "Sechkdei Chhun  Damneoung/Notice/Announcement"
-msgstr ""
+#: php_template.php:29
+msgid "Sechkdei Chhun Damneoung/Notice/Announcement"
+msgstr "សេចក្តីជូនដំណឹង"
 
-#: ..\themes\jeo-odm/page-laws.php:134
+#: php_template.php:30
 msgid "Sechkdei Nenum/Instruction"
-msgstr ""
+msgstr "សេចក្តីណែនាំ"
 
-#: ..\themes\jeo-odm/page-laws.php:135
+#: php_template.php:31
 msgid "Sechkdei Preang Chbab/Draft Laws & Regulations"
-msgstr ""
+msgstr "សេចក្តីព្រាងច្បាប់/បទប្បញ្ញត្តិ"
 
-#: ..\themes\jeo-odm/page-laws.php:136
+#: php_template.php:32
 msgid "Sechkdei Samrech/Decision"
-msgstr ""
+msgstr "សេចក្តីសម្រេច"
 
-#: ..\themes\jeo-odm/page-laws.php:137
+#: php_template.php:33
 msgid "Others"
-msgstr ""
+msgstr "ផ្សេងទៀត"
 
-#: ..\themes\jeo-odm/page-profiles.php:135
-msgid "Developer"
-msgstr ""
+#: added manually
+msgid "Laws, policies and agreements"
+msgstr "ច្បាប់ គោលនយោបាយ និងកិច្ចព្រមព្រៀង"
 
-#: ..\themes\jeo-odm/page-profiles.php:136
-msgid "Developer country"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:137
-msgid "Contract date"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:138
-msgid "Contract term (year)"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:139
-msgid "Granted land area (hectare)"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:140
-msgid "Source of land size"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:141
-msgid "Intended investment "
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:142
-msgid "Intended crop or project"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:143
-msgid "Province/Capital city"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:144
-msgid "Contract authority"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:145
-msgid "Previous land use"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:146
-msgid "Sub-decree reclassifying land use"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:147
-msgid "Legal documents"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:148
-msgid "Developer land use plan"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:149
-msgid "EIA status"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:150
-msgid "Adjustment classification "
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:151
-msgid "Data classification"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:152
-msgid "Map id"
-msgstr ""
-
-#: ..\themes\jeo-odm/page-profiles.php:225
+#: php_template.php:4
 msgid "Profiles"
-msgstr ""
+msgstr "ព័ត៌មានសង្ខេប"
 
-#: ..\themes\jeo-odm/page-profiles.php:235
-msgid "DOWNLOAD"
-msgstr ""
+#: php_template.php:5
+msgid "Data classification"
+msgstr "ចំណាត់ថ្នាក់ទិន្នន័យ"
+
+#: php_template.php:6
+msgid "Developer"
+msgstr "ក្រុមហ៊ុន"
+
+#: php_template.php:7 php_template.php:24
+msgid "District/Khan"
+msgstr "ស្រុក/ខណ្ឌ"
+
+#: php_template.php:8 php_template.php:21
+msgid "Contract date"
+msgstr "កាលបរិច្ឆេទចុះកិច្ចសន្យា"
+
+#: php_template.php:9
+msgid "Size"
+msgstr "ទំហំ"
+
+#: php_template.php:10
+msgid "Adjustment classification"
+msgstr "ចំណាត់ថ្នាក់លៃសម្រួល"
+
+#: php_template.php:11
+msgid "Developer country"
+msgstr "ប្រទេសក្រុមហ៊ុន"
+
+#: php_template.php:12
+msgid "Developer address"
+msgstr "អាសយដ្ឋានក្រុមហ៊ុន"
+
+#: php_template.php:13
+msgid "Intended investment"
+msgstr "គោលបំណងវិនិយោគ"
+
+#: php_template.php:14
+msgid "Intended crop or project"
+msgstr "ដំណាំ ឬគម្រោងគ្រោងទុក"
+
+#: php_template.php:15
+msgid "Contract term (year)"
+msgstr "ថិរវេលាកិច្ចសន្យា (ឆ្នាំ)"
+
+#: php_template.php:16
+msgid "Granted land area (hectare)"
+msgstr " ផ្ទៃដី (ហិកតា)"
+
+#: php_template.php:17
+msgid "Source of land size"
+msgstr "ប្រភពព័ត៌មានទំហំដី"
+
+#: php_template.php:18
+msgid "Contract authority"
+msgstr "អាជ្ញាធរចុះកិច្ចសន្យា"
+
+#: php_template.php:19
+msgid "Director"
+msgstr "នាយក"
+
+#: php_template.php:20
+msgid "Director nationality"
+msgstr "សញ្ជាតិនាយក"
+
+#: php_template.php:22
+msgid "Sub-decree reclassifying land use"
+msgstr "អនុក្រឹត្យធ្វើ​​​អនុបយោគ​​​ប្ដូរការប្រើប្រាស់ដី"
+
+#: php_template.php:23
+msgid "Province/Capital city"
+msgstr "ខេត្ត/រាជធានី"
+
+#: php_template.php:25
+msgid "Commune/Sangkat"
+msgstr "ឃុំ/សង្កាត់"
+
+#: php_template.php:26
+msgid "Town/Municipality"
+msgstr "ក្រុង"
+
+#: php_template.php:27
+msgid "Amendments"
+msgstr "វិសោធនកម្ម"
+
+#: php_template.php:28
+msgid "Previous land use"
+msgstr "ការប្រើប្រាស់ដីពី​មុន"
+
+#: php_template.php:29
+msgid "Developer land use plan"
+msgstr "ផែនការប្រើប្រាស់ដីរបស់ក្រុមហ៊ុន"
+
+#: php_template.php:30
+msgid "Amendment text"
+msgstr "អត្ថបទវិសោធនកម្ម"
+
+#: php_template.php:31
+msgid "Change type"
+msgstr "ប្រភេទនៃការផ្លាស់ប្តូរ"
+
+#: php_template.php:32
+msgid "Amendment object"
+msgstr "កម្មវត្ថុវិសោធនកម្ម"
+
+#: php_template.php:33
+msgid "Amendment date"
+msgstr "កាលបរិច្ឆេទវិសោធនកម្ម"
+
+#: php_template.php:34
+msgid "Description"
+msgstr "សេចក្តីបរិយាយ"
+
+#: php_template.php:35
+msgid "Reference documents"
+msgstr "ឯកសារយោង"
 
 #: ..\themes\jeo-odm/page.php:24 ..\themes\jeo-odm/single-announcement.php:146
 #: ..\themes\jeo-odm/single-topic.php:37 ..\themes\jeo-odm/single.php:107
