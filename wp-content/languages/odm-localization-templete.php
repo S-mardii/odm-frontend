@@ -18,5 +18,13 @@ echo _('Maps');
 echo _('Data');
 echo _('Share a map');
 echo _('Search for posts, maps and briefings...');
+echo _('Search Datasets for Mekong'); 
+echo _('Search Datasets for Cambodia'); 
+echo _('Search Datasets for Laos'); 
+echo _('Search Datasets for Myanmar'); 
+echo _('Search Datasets for Thailand'); 
+echo _('Search Datasets for Vietnam');
+echo _('More information');
+echo _('Announcements and Press releases');
 ?> 
 
