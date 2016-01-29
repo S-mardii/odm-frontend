@@ -1,99 +1,128 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2016-01-19 16:50+0700\n"
-"PO-Revision-Date: 2016-01-19 22:34+0100\n"
+"POT-Creation-Date: 2016-01-29 17:41+0700\n"
+"PO-Revision-Date: 2016-01-29 17:48+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: km_KH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;_;_n:1,2;_x:1,2c;_ex:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: ../themes/jeo-odm\n"
+"X-Poedit-SearchPath-0: ../themes/jeo-odm\n"
+"X-Poedit-SearchPath-1: ../plugins/reference-footnotes\n"
 "X-Poedit-SearchPath-2: ../themes/jeo\n"
 "X-Poedit-SearchPath-3: ./odm-localization-templete.php\n"
 
-#: ..\themes\jeo/lib/cartodb.mod.torque.js:2
+#: ../themes/jeo/lib/cartodb.mod.torque.js:2
 msgid "<%=filename%>:<%=line%>:<%=column%> <%=message%>"
 msgstr ""
 
-#: ..\themes\jeo-odm/archive.php:14 ..\themes\jeo/archive.php:10
-#, php-format
-msgid "%s"
+#: ../plugins/reference-footnotes/reference-footnotes.php:67
+msgid "Enter the content of the reference footnote"
 msgstr ""
 
-#: ..\themes\jeo-odm/archive.php:16 ..\themes\jeo/archive.php:12
+#: ../plugins/reference-footnotes/reference-footnotes.php:74
+#: ../themes/jeo/inc/marker-icons.php:368
+msgid "Cancel"
+msgstr ""
+
+#: ../plugins/reference-footnotes/reference-footnotes.php:89
+msgid "References"
+msgstr "ឯកសារយោង​"
+
+#: ../plugins/reference-footnotes/reference-footnotes.php:92
+#: ../themes/jeo-odm/archive.php:14 ../themes/jeo/archive.php:10
+#, php-format
+msgid "%s"
+msgid_plural "%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../themes/jeo-odm/Cambodia/page-forest-cover.php:19
+#: ../themes/jeo-odm/single-announcement.php:23
+#: ../themes/jeo-odm/single-topic.php:13 ../themes/jeo-odm/single.php:47
+msgid "Filed under:"
+msgstr "ចំណាត់ថ្នាក់:"
+
+#: ../themes/jeo-odm/Cambodia/page-forest-cover.php:59
+#: ../themes/jeo-odm/page.php:24 ../themes/jeo-odm/single-announcement.php:146
+#: ../themes/jeo-odm/single-topic.php:37 ../themes/jeo-odm/single.php:107
+#: ../themes/jeo/page.php:17 ../themes/jeo/single.php:29
+msgid "Pages:"
+msgstr "ទំព័រ"
+
+#: ../themes/jeo-odm/archive.php:16 ../themes/jeo/archive.php:12
 #, php-format
 msgid "Daily Archives: %s"
 msgstr ""
 
-#: ..\themes\jeo-odm/archive.php:18 ..\themes\jeo/archive.php:14
+#: ../themes/jeo-odm/archive.php:18 ../themes/jeo/archive.php:14
 #, php-format
 msgid "Monthly Archives: %s"
 msgstr ""
 
-#: ..\themes\jeo-odm/archive.php:18 ..\themes\jeo/archive.php:14
+#: ../themes/jeo-odm/archive.php:18 ../themes/jeo/archive.php:14
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr ""
 
-#: ..\themes\jeo-odm/archive.php:20 ..\themes\jeo/archive.php:16
+#: ../themes/jeo-odm/archive.php:20 ../themes/jeo/archive.php:16
 #, php-format
 msgid "Yearly Archives: %s"
 msgstr ""
 
-#: ..\themes\jeo-odm/archive.php:20 ..\themes\jeo/archive.php:16
+#: ../themes/jeo-odm/archive.php:20 ../themes/jeo/archive.php:16
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: ..\themes\jeo-odm/archive.php:24 ..\themes\jeo/archive.php:18
+#: ../themes/jeo-odm/archive.php:24 ../themes/jeo/archive.php:18
 msgid "Archives"
 msgstr ""
 
-#: ..\themes\jeo-odm/category.php:61 ..\themes\jeo-odm/functions.php:479
-#: ..\themes\jeo-odm/inc/live-search/live-search.php:22
-#: .\odm-localization-templete.php:15 odm-localization-templete.php:15
+#: ../themes/jeo-odm/category.php:61 ../themes/jeo-odm/functions.php:481
+#: ../themes/jeo-odm/inc/live-search/live-search.php:22
+#: odm-localization-templete.php:15
 msgid "News"
 msgstr "ព័ត៌មាន​"
 
-#: ..\themes\jeo-odm/category.php:78 ..\themes\jeo/content-featured.php:23
-#: ..\themes\jeo/loop.php:12 ..\themes\jeo/single.php:16
+#: ../themes/jeo-odm/category.php:78 ../themes/jeo/content-featured.php:23
+#: ../themes/jeo/loop.php:12 ../themes/jeo/single.php:16
 msgid "by"
 msgstr "ដោយ"
 
-#: ..\themes\jeo-odm/category.php:95
+#: ../themes/jeo-odm/category.php:95
 msgid "No results found."
 msgstr "ពុំមានលទ្ធផលដូចដែលបានស្វែងរកទេ"
 
-#: ..\themes\jeo-odm/content-map-group.php:27
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:56
-#: ..\themes\jeo/content-map-group.php:27
+#: ../themes/jeo-odm/content-map-group.php:27
+#: ../themes/jeo-odm/inc/related-resources-widget.php:56
+#: ../themes/jeo/content-map-group.php:27
 msgid "More..."
 msgstr "បន្ថែម..."
 
-#: ..\themes\jeo-odm/content-map-group.php:37
-#: ..\themes\jeo/content-map-group.php:37 ..\themes\jeo/content-share.php:120
-#: ..\themes\jeo/content-share.php:126
+#: ../themes/jeo-odm/content-map-group.php:37
+#: ../themes/jeo/content-map-group.php:37 ../themes/jeo/content-share.php:120
+#: ../themes/jeo/content-share.php:126
 msgid "View all maps"
 msgstr ""
 
-#: ..\themes\jeo-odm/flexible-posts-widget/opendev-announcements.php:89
+#: ../themes/jeo-odm/flexible-posts-widget/opendev-announcements.php:89
 msgid "See all"
 msgstr "មើលទាំងអស់"
 
-#: ..\themes\jeo-odm/flexible-posts-widget/opendev-announcements.php:95
-#: ..\themes\jeo-odm/flexible-posts-widget/opendev-site-updates.php:36
+#: ../themes/jeo-odm/flexible-posts-widget/opendev-announcements.php:95
+#: ../themes/jeo-odm/flexible-posts-widget/opendev-site-updates.php:36
 msgid "No post found"
 msgstr ""
 
-#: ..\themes\jeo-odm/footer.php:18 ..\themes\jeo/footer.php:10
+#: ../themes/jeo-odm/footer.php:18 ../themes/jeo/footer.php:10
 #, php-format
 msgid ""
 "This website is built on <a href=\"%s\" target=\"_blank\" rel=\"external"
@@ -101,1035 +130,1017 @@ msgid ""
 "\">JEO Beta</a> theme"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:63
+#: ../themes/jeo-odm/functions.php:63
 msgid "Topic sidebar"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:69
+#: ../themes/jeo-odm/functions.php:69
 msgid "Mekong Storms and Floods sidebar"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:75
+#: ../themes/jeo-odm/functions.php:75
 msgid "Frontpage footer left"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:81
+#: ../themes/jeo-odm/functions.php:81
 msgid "Frontpage footer right"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:87
+#: ../themes/jeo-odm/functions.php:87
 msgid "Upcoming footer left"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:93
+#: ../themes/jeo-odm/functions.php:93
 msgid "Upcoming footer middle"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:99
+#: ../themes/jeo-odm/functions.php:99
 msgid "Upcoming footer right"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:155
+#: ../themes/jeo-odm/functions.php:157
 msgid "stories"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:157
+#: ../themes/jeo-odm/functions.php:159
 msgid "Copy the embed code"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:158 ..\themes\jeo-odm/loop-latest.php:21
-#: ..\themes\jeo/content-share.php:9 ..\themes\jeo/content-share.php:237
-#: ..\themes\jeo/inc/share-widget.php:34
+#: ../themes/jeo-odm/functions.php:160 ../themes/jeo-odm/loop-latest.php:21
+#: ../themes/jeo/content-share.php:9 ../themes/jeo/content-share.php:237
+#: ../themes/jeo/inc/share-widget.php:34
 msgid "Share"
 msgstr "ចែករំលែក"
 
-#: ..\themes\jeo-odm/functions.php:159
+#: ../themes/jeo-odm/functions.php:161
 msgid "Print"
 msgstr "បោះពុម្ព"
 
-#: ..\themes\jeo-odm/functions.php:170 ..\themes\jeo-odm/loop-latest.php:19
-#: ..\themes\jeo-odm/loop.php:62 ..\themes\jeo/content-featured.php:32
-#: ..\themes\jeo/loop.php:22
+#: ../themes/jeo-odm/functions.php:172 ../themes/jeo-odm/loop-latest.php:19
+#: ../themes/jeo-odm/loop.php:62 ../themes/jeo/content-featured.php:32
+#: ../themes/jeo/loop.php:22
 msgid "Read more"
 msgstr "អានបន្ថែម"
 
-#: ..\themes\jeo-odm/functions.php:172
+#: ../themes/jeo-odm/functions.php:174
 msgid "Open slideshow"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:173
+#: ../themes/jeo-odm/functions.php:175
 msgid "Watch video gallery"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:174
+#: ../themes/jeo-odm/functions.php:176
 msgid "Watch video"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:175
+#: ../themes/jeo-odm/functions.php:177
 msgid "View image gallery"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:176
+#: ../themes/jeo-odm/functions.php:178
 msgid "View fullscreen image"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:177
+#: ../themes/jeo-odm/functions.php:179
 msgid "View infographic"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:178
+#: ../themes/jeo-odm/functions.php:180
 msgid "View infographics"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:215
+#: ../themes/jeo-odm/functions.php:217
 msgctxt "taxonomy general name"
 msgid "News Sources"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:216
+#: ../themes/jeo-odm/functions.php:218
 msgctxt "taxonomy singular name"
 msgid "News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:217
+#: ../themes/jeo-odm/functions.php:219
 msgid "Search News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:218
+#: ../themes/jeo-odm/functions.php:220
 msgid "All News Sources"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:219
+#: ../themes/jeo-odm/functions.php:221
 msgid "Parent News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:220
+#: ../themes/jeo-odm/functions.php:222
 msgid "Parent News Source:"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:221
+#: ../themes/jeo-odm/functions.php:223
 msgid "Edit News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:222
+#: ../themes/jeo-odm/functions.php:224
 msgid "Update News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:223
+#: ../themes/jeo-odm/functions.php:225
 msgid "Add New News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:224
+#: ../themes/jeo-odm/functions.php:226
 msgid "New News Source Name"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:225
+#: ../themes/jeo-odm/functions.php:227
 msgid "News Source"
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:458
-#: ..\themes\jeo-odm/inc/theme-options.php:288
+#: ../themes/jeo-odm/functions.php:460
+#: ../themes/jeo-odm/inc/theme-options.php:288
 msgid "Site coming soon."
 msgstr ""
 
-#: ..\themes\jeo-odm/functions.php:484
+#: ../themes/jeo-odm/functions.php:486
 msgid "Topics"
 msgstr "ប្រធានបទ"
 
-#: ..\themes\jeo-odm/functions.php:489 ..\themes\jeo-odm/header.php:173
-#: ..\themes\jeo/inc/admin/settings.php:23 ..\themes\jeo/inc/core.php:177
-#: ..\themes\jeo/inc/core.php:187 .\odm-localization-templete.php:17
-#: odm-localization-templete.php:17
+#: ../themes/jeo-odm/functions.php:491 ../themes/jeo-odm/header.php:170
+#: ../themes/jeo/inc/admin/settings.php:23 ../themes/jeo/inc/core.php:177
+#: ../themes/jeo/inc/core.php:187 odm-localization-templete.php:17
 msgid "Maps"
 msgstr "ផែនទី"
 
-#: ..\themes\jeo-odm/functions.php:498 ..\themes\jeo-odm/header.php:142
-#: .\odm-localization-templete.php:18 odm-localization-templete.php:18
+#: ../themes/jeo-odm/functions.php:500 ../themes/jeo-odm/header.php:139
+#: odm-localization-templete.php:18
 msgid "Data"
 msgstr "ទិន្នន័យ"
 
-#: ..\themes\jeo-odm/functions.php:511 .\odm-localization-templete.php:10
-#: odm-localization-templete.php:10
+#: ../themes/jeo-odm/functions.php:513 odm-localization-templete.php:10
 msgid "Latest news"
 msgstr "ព័ត៌មានថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:536
+#: ../themes/jeo-odm/functions.php:538
 msgid "Latest topics"
 msgstr "ប្រធានបទថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:561 .\odm-localization-templete.php:11
-#: odm-localization-templete.php:11
+#: ../themes/jeo-odm/functions.php:563 odm-localization-templete.php:11
 msgid "Latest maps"
 msgstr "ផែនទីថ្មីបំផុត"
 
-#: ..\themes\jeo-odm/functions.php:910
+#: ../themes/jeo-odm/functions.php:912
 msgid "Home"
 msgstr "ទំព័រដើម"
 
-#: ..\themes\jeo-odm/functions.php:1020 ..\themes\jeo-odm/header.php:54
-#: ..\themes\jeo/content-embed.php:16 ..\themes\jeo/header.php:17
+#: ../themes/jeo-odm/functions.php:1022 ../themes/jeo-odm/header.php:54
+#: ../themes/jeo/content-embed.php:16 ../themes/jeo/header.php:17
 msgid "Page"
 msgstr "ទំព័រ"
 
-#: php_template.php:5
-msgid "Search"
-msgstr "ស្វែងរក"
+#: ../themes/jeo-odm/header.php:83
+msgid "Search site... &#128269;"
+msgstr ""
 
-#: ..\themes\jeo-odm/header.php:113
-msgid "Search &#128270;"
-msgstr "ស្វែងរក &#128270;"
-
-#: ..\themes\jeo-odm/header.php:131
-msgid "Laws and agreements"
-msgstr "ច្បាប់និងកិច្ចព្រមព្រៀង"
-
-#: ..\themes\jeo-odm/header.php:136
+#: ../themes/jeo-odm/header.php:133
 msgid "Publications Library"
 msgstr "បណ្ណាល័យឯកសារ"
 
-#: ..\themes\jeo-odm/header.php:144
+#: ../themes/jeo-odm/header.php:141
 msgid "All records"
 msgstr "បណ្តុំទិន្នន័យទាំងអស់"
 
-#: ..\themes\jeo-odm/header.php:146
+#: ../themes/jeo-odm/header.php:143
 msgid "Records by country"
 msgstr "កំណត់ត្រាបែងចែកតាមប្រទេស"
 
-#: ..\themes\jeo-odm/header.php:148 ..\themes\jeo-odm/header.php:246
-#: ..\themes\jeo-odm/header.php:253 .\odm-localization-templete.php:3
-#: odm-localization-templete.php:3
+#: ../themes/jeo-odm/header.php:145 ../themes/jeo-odm/header.php:243
+#: ../themes/jeo-odm/header.php:250 odm-localization-templete.php:3
 msgid "Cambodia"
 msgstr "កម្ពុជា"
 
-#: ..\themes\jeo-odm/header.php:149 ..\themes\jeo-odm/header.php:247
-#: ..\themes\jeo-odm/header.php:254 .\odm-localization-templete.php:4
-#: odm-localization-templete.php:4
+#: ../themes/jeo-odm/header.php:146 ../themes/jeo-odm/header.php:244
+#: ../themes/jeo-odm/header.php:251 odm-localization-templete.php:4
 msgid "Laos"
 msgstr "ឡាវ"
 
-#: ..\themes\jeo-odm/header.php:150 ..\themes\jeo-odm/header.php:248
-#: ..\themes\jeo-odm/header.php:255 .\odm-localization-templete.php:5
-#: odm-localization-templete.php:5
+#: ../themes/jeo-odm/header.php:147 ../themes/jeo-odm/header.php:245
+#: ../themes/jeo-odm/header.php:252 odm-localization-templete.php:5
 msgid "Myanmar"
 msgstr "មីយ៉ាន់ម៉ា"
 
-#: ..\themes\jeo-odm/header.php:151 ..\themes\jeo-odm/header.php:249
-#: ..\themes\jeo-odm/header.php:256 .\odm-localization-templete.php:6
-#: odm-localization-templete.php:6
+#: ../themes/jeo-odm/header.php:148 ../themes/jeo-odm/header.php:246
+#: ../themes/jeo-odm/header.php:253 odm-localization-templete.php:6
 msgid "Thailand"
 msgstr "ថៃ"
 
-#: ..\themes\jeo-odm/header.php:152 ..\themes\jeo-odm/header.php:250
-#: ..\themes\jeo-odm/header.php:257 .\odm-localization-templete.php:7
-#: odm-localization-templete.php:7
+#: ../themes/jeo-odm/header.php:149 ../themes/jeo-odm/header.php:247
+#: ../themes/jeo-odm/header.php:254 odm-localization-templete.php:7
 msgid "Vietnam"
 msgstr "វៀតណាម"
 
-#: ..\themes\jeo-odm/header.php:157
+#: ../themes/jeo-odm/header.php:154
 msgid "Records by language"
 msgstr "កំណត់ត្រាបែងចែកតាមភាសា"
 
-#: ..\themes\jeo-odm/header.php:159 .\odm-localization-templete.php:9
-#: odm-localization-templete.php:9
+#: ../themes/jeo-odm/header.php:156 odm-localization-templete.php:9
 msgid "English"
 msgstr "អង់គ្លេស"
 
-#: ..\themes\jeo-odm/header.php:160 .\odm-localization-templete.php:8
-#: odm-localization-templete.php:8
+#: ../themes/jeo-odm/header.php:157 odm-localization-templete.php:8
 msgid "Khmer"
 msgstr "ខ្មែរ"
 
-#: ..\themes\jeo-odm/header.php:161
+#: ../themes/jeo-odm/header.php:158
 msgid "Vietnamese"
 msgstr ""
 
-#: ..\themes\jeo-odm/header.php:245 ..\themes\jeo-odm/header.php:252
-#: .\odm-localization-templete.php:2 odm-localization-templete.php:2
+#: ../themes/jeo-odm/header.php:242 ../themes/jeo-odm/header.php:249
+#: odm-localization-templete.php:2
 msgid "Mekong"
 msgstr "មេគង្គ"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:126
+#: ../themes/jeo-odm/inc/advanced-navigation.php:126
 msgid "Text search"
 msgstr "ពាក្យស្វែងរក"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:127
+#: ../themes/jeo-odm/inc/advanced-navigation.php:127
 msgid "Type your search here"
 msgstr "បញ្ចូលពាក្យស្វែងរកទីនេះ"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:137
+#: ../themes/jeo-odm/inc/advanced-navigation.php:137
 msgid "Categories"
 msgstr "ប្រធានបទ"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:138
+#: ../themes/jeo-odm/inc/advanced-navigation.php:138
 msgid "Select categories"
 msgstr "ជ្រើសរើសប្រធានបទ"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:164
+#: ../themes/jeo-odm/inc/advanced-navigation.php:164
 msgid "Content type"
 msgstr "ប្រភេទអត្ថបទ"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:165
+#: ../themes/jeo-odm/inc/advanced-navigation.php:165
 msgid "Select content types"
 msgstr "ជ្រើសរើសប្រភេទអត្ថបទ"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:175
+#: ../themes/jeo-odm/inc/advanced-navigation.php:175
 msgid "Date range"
 msgstr "អំឡុងពេល"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:178
+#: ../themes/jeo-odm/inc/advanced-navigation.php:178
 msgid "From"
 msgstr "ពី"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:182
+#: ../themes/jeo-odm/inc/advanced-navigation.php:182
 msgid "To"
 msgstr "ដល់"
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:189
+#: ../themes/jeo-odm/inc/advanced-navigation.php:189
 msgid "Filter"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:200
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:211
+#: ../themes/jeo-odm/inc/advanced-navigation.php:200
+#: ../themes/jeo-odm/inc/advanced-navigation.php:211
 msgid "Cancel filters"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/advanced-navigation.php:208
+#: ../themes/jeo-odm/inc/advanced-navigation.php:208
 msgid "More filters"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:19
+#: ../themes/jeo-odm/inc/announcements.php:19
 msgctxt "post type general name"
 msgid "Announcements"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:20
+#: ../themes/jeo-odm/inc/announcements.php:20
 msgctxt "post type singular name"
 msgid "Announcement"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:21
+#: ../themes/jeo-odm/inc/announcements.php:21
 msgctxt "admin menu"
 msgid "Announcements"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:22
+#: ../themes/jeo-odm/inc/announcements.php:22
 msgctxt "add new on admin bar"
 msgid "Announcement"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:23
+#: ../themes/jeo-odm/inc/announcements.php:23
 msgctxt "announcement"
 msgid "Add new"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:24
+#: ../themes/jeo-odm/inc/announcements.php:24
 msgid "Add new announcement"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:25
+#: ../themes/jeo-odm/inc/announcements.php:25
 msgid "New announcement"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:26
+#: ../themes/jeo-odm/inc/announcements.php:26
 msgid "Edit announcement"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:27
+#: ../themes/jeo-odm/inc/announcements.php:27
 msgid "View announcement"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:28
+#: ../themes/jeo-odm/inc/announcements.php:28
 msgid "All announcements"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:29
+#: ../themes/jeo-odm/inc/announcements.php:29
 msgid "Search announcements"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:30
+#: ../themes/jeo-odm/inc/announcements.php:30
 msgid "Parent announcements:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:31
+#: ../themes/jeo-odm/inc/announcements.php:31
 msgid "No announcements found."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/announcements.php:32
+#: ../themes/jeo-odm/inc/announcements.php:32
 msgid "No announcements found in trash."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/category-widget.php:12
+#: ../themes/jeo-odm/inc/category-widget.php:12
 msgid "OD Post Taxonomy"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/category-widget.php:13
+#: ../themes/jeo-odm/inc/category-widget.php:13
 msgid "Display post taxonomies hierarchically."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/category-widget.php:62
+#: ../themes/jeo-odm/inc/category-widget.php:62
 msgid "Taxonomies to display:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/interactive-map.php:59
+#: ../themes/jeo-odm/inc/interactive-map.php:59
 msgid "Interactive Map"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:18
-#: ..\themes\jeo-odm/inc/layer-category.php:33
+#: ../themes/jeo-odm/inc/layer-category.php:18
+#: ../themes/jeo-odm/inc/layer-category.php:33
 msgid "Layer categories"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:23
+#: ../themes/jeo-odm/inc/layer-category.php:23
 msgctxt "taxonomy general name"
 msgid "Layer categories"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:24
+#: ../themes/jeo-odm/inc/layer-category.php:24
 msgctxt "taxonomy singular name"
 msgid "Layer category"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:25
+#: ../themes/jeo-odm/inc/layer-category.php:25
 msgid "Search Layer categories"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:26
+#: ../themes/jeo-odm/inc/layer-category.php:26
 msgid "All Layer categories"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:27
+#: ../themes/jeo-odm/inc/layer-category.php:27
 msgid "Parent Layer category"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:28
+#: ../themes/jeo-odm/inc/layer-category.php:28
 msgid "Parent Layer category:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:29
+#: ../themes/jeo-odm/inc/layer-category.php:29
 msgid "Edit Layer category"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:30
+#: ../themes/jeo-odm/inc/layer-category.php:30
 msgid "Update Layer category"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:31
+#: ../themes/jeo-odm/inc/layer-category.php:31
 msgid "Add New Layer category"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layer-category.php:32
+#: ../themes/jeo-odm/inc/layer-category.php:32
 msgid "New Layer category Name"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:29 ..\themes\jeo/inc/layers.php:92
+#: ../themes/jeo-odm/inc/layers.php:29 ../themes/jeo/inc/layers.php:92
 msgid "Layer settings"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:38 ..\themes\jeo/inc/layers.php:101
+#: ../themes/jeo-odm/inc/layers.php:38 ../themes/jeo/inc/layers.php:101
 msgid "Layer legend"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:47 ..\themes\jeo/inc/layers.php:27
-#: ..\themes\jeo/inc/layers.php:37 ..\themes\jeo/inc/layers.php:84
-#: ..\themes\jeo/inc/layers.php:110
+#: ../themes/jeo-odm/inc/layers.php:47 ../themes/jeo/inc/layers.php:27
+#: ../themes/jeo/inc/layers.php:37 ../themes/jeo/inc/layers.php:84
+#: ../themes/jeo/inc/layers.php:110
 msgid "Layers"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:61
+#: ../themes/jeo-odm/inc/layers.php:61
 msgid "Enter your HTML code to use as legend on the layer (English)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:64
+#: ../themes/jeo-odm/inc/layers.php:64
 msgid "Enter your HTML code to use as legend on the layer ("
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:78
+#: ../themes/jeo-odm/inc/layers.php:78
 msgid "Download URL (English)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:81 ..\themes\jeo-odm/inc/layers.php:88
-#: ..\themes\jeo/inc/layers.php:138
+#: ../themes/jeo-odm/inc/layers.php:81 ../themes/jeo-odm/inc/layers.php:88
+#: ../themes/jeo/inc/layers.php:138
 msgid "A link to a dataset's page on CKAN"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:85
+#: ../themes/jeo-odm/inc/layers.php:85
 msgid "Download URL ("
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:95 ..\themes\jeo/inc/layers.php:145
+#: ../themes/jeo-odm/inc/layers.php:95 ../themes/jeo/inc/layers.php:145
 msgid "Layer type"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:98
+#: ../themes/jeo-odm/inc/layers.php:98
 msgid "Tile layer"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:100
+#: ../themes/jeo-odm/inc/layers.php:100
 msgid "WMS layer"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:103 ..\themes\jeo/inc/layers.php:151
+#: ../themes/jeo-odm/inc/layers.php:103 ../themes/jeo/inc/layers.php:151
 msgid "MapBox"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:106 ..\themes\jeo/inc/layers.php:154
+#: ../themes/jeo-odm/inc/layers.php:106 ../themes/jeo/inc/layers.php:154
 msgid "CartoDB"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:119 ..\themes\jeo/content-share.php:219
-#: ..\themes\jeo/inc/layers.php:168
+#: ../themes/jeo-odm/inc/layers.php:119 ../themes/jeo/content-share.php:219
+#: ../themes/jeo/inc/layers.php:168
 msgid "URL"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:121 ..\themes\jeo/inc/layers.php:170
+#: ../themes/jeo-odm/inc/layers.php:121 ../themes/jeo/inc/layers.php:170
 msgid "http://{s}.example.com/{z}/{x}/{y}.png"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:122 ..\themes\jeo/inc/layers.php:171
+#: ../themes/jeo-odm/inc/layers.php:122 ../themes/jeo/inc/layers.php:171
 msgid "Tilelayer URL. E.g.: http://{s}.example.com/{z}/{x}/{y}.png"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:126 ..\themes\jeo/inc/layers.php:175
+#: ../themes/jeo-odm/inc/layers.php:126 ../themes/jeo/inc/layers.php:175
 msgid "UTFGrid URL (optional)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:128 ..\themes\jeo/inc/layers.php:177
+#: ../themes/jeo-odm/inc/layers.php:128 ../themes/jeo/inc/layers.php:177
 msgid "http://{s}.example.com/{z}/{x}/{y}.grid.json"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:129 ..\themes\jeo/inc/layers.php:178
+#: ../themes/jeo-odm/inc/layers.php:129 ../themes/jeo/inc/layers.php:178
 msgid ""
 "Optional UTFGrid URL. E.g.: http://{s}.example.com/{z}/{x}/{y}.grid.json"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:133 ..\themes\jeo/inc/layers.php:182
+#: ../themes/jeo-odm/inc/layers.php:133 ../themes/jeo/inc/layers.php:182
 msgid "UTFGrid Template (optional)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:136 ..\themes\jeo-odm/inc/layers.php:280
-#: ..\themes\jeo/inc/layers.php:185 ..\themes\jeo/inc/layers.php:279
+#: ../themes/jeo-odm/inc/layers.php:136 ../themes/jeo-odm/inc/layers.php:280
+#: ../themes/jeo/inc/layers.php:185 ../themes/jeo/inc/layers.php:279
 msgid "UTFGrid template using mustache.<br/>E.g.: City: {{city}}"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:140 ..\themes\jeo/inc/layers.php:189
+#: ../themes/jeo-odm/inc/layers.php:140 ../themes/jeo/inc/layers.php:189
 msgid "TMS"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:142 ..\themes\jeo/inc/layers.php:191
+#: ../themes/jeo-odm/inc/layers.php:142 ../themes/jeo/inc/layers.php:191
 msgid "Enable TMS"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:143 ..\themes\jeo/inc/layers.php:192
+#: ../themes/jeo-odm/inc/layers.php:143 ../themes/jeo/inc/layers.php:192
 msgid "Inverses Y axis numbering for tiles (turn this on for TMS services)."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:159
+#: ../themes/jeo-odm/inc/layers.php:159
 msgid "WMS Service URL"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:161
+#: ../themes/jeo-odm/inc/layers.php:161
 msgid "http://{geoserver adress & port}/geoserver/wms"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:162
+#: ../themes/jeo-odm/inc/layers.php:162
 msgid "Eg. WMS URL: http://geoserver.example.com:8080/geoserver/wms"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:166
+#: ../themes/jeo-odm/inc/layers.php:166
 msgid "Workspaces:Layer Name (English)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:168 ..\themes\jeo-odm/inc/layers.php:176
+#: ../themes/jeo-odm/inc/layers.php:168 ../themes/jeo-odm/inc/layers.php:176
 msgid "Workspaces and Layer name\""
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:169
+#: ../themes/jeo-odm/inc/layers.php:169
 msgid ""
 "Eg. in Geoserver, Energy:Transmission_lines, <strong>Engergy</strong> is "
 "workspace name and <strong>Transmission_lines</strong> is layer name."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:174
+#: ../themes/jeo-odm/inc/layers.php:174
 msgid "Workspaces:Layer Name ("
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:177
+#: ../themes/jeo-odm/inc/layers.php:177
 msgid ""
 "Eg. in Geoserver, Energy:Transmission_lines_kh, <strong>Engergy</strong> is "
 "workspace name and <strong>Transmission_lines</strong> is layer name."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:182
+#: ../themes/jeo-odm/inc/layers.php:182
 msgid "WMS format (optional)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:184
+#: ../themes/jeo-odm/inc/layers.php:184
 msgid "image/png"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:185
+#: ../themes/jeo-odm/inc/layers.php:185
 msgid "E.g.: image/png or image/jpeg"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:189 ..\themes\jeo-odm/inc/layers.php:192
+#: ../themes/jeo-odm/inc/layers.php:189 ../themes/jeo-odm/inc/layers.php:192
 msgid "Transparent"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:193
+#: ../themes/jeo-odm/inc/layers.php:193
 msgid "Enable it to make transparent the layer of WMS."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:206 ..\themes\jeo/inc/layers.php:205
+#: ../themes/jeo-odm/inc/layers.php:206 ../themes/jeo/inc/layers.php:205
 msgid "MapBox ID"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:209 ..\themes\jeo/inc/layers.php:208
+#: ../themes/jeo-odm/inc/layers.php:209 ../themes/jeo/inc/layers.php:208
 msgid "MapBox map ID. E.g.: examples.map-20v6611k"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:233 ..\themes\jeo/inc/layers.php:232
+#: ../themes/jeo-odm/inc/layers.php:233 ../themes/jeo/inc/layers.php:232
 msgid "Visualization type"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:236 ..\themes\jeo/inc/layers.php:235
+#: ../themes/jeo-odm/inc/layers.php:236 ../themes/jeo/inc/layers.php:235
 msgid "Visualization"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:238 ..\themes\jeo/inc/layers.php:237
+#: ../themes/jeo-odm/inc/layers.php:238 ../themes/jeo/inc/layers.php:237
 msgid "Advanced (build from your tables)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:238 ..\themes\jeo/inc/layers.php:237
+#: ../themes/jeo-odm/inc/layers.php:238 ../themes/jeo/inc/layers.php:237
 msgid "coming soon"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:242 ..\themes\jeo/inc/layers.php:241
+#: ../themes/jeo-odm/inc/layers.php:242 ../themes/jeo/inc/layers.php:241
 msgid "CartoDB URL"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:245 ..\themes\jeo/inc/layers.php:244
+#: ../themes/jeo-odm/inc/layers.php:245 ../themes/jeo/inc/layers.php:244
 msgid ""
 "CartoDB visualization URL.<br/>E.g.: http://infoamazonia.cartodb.com/api/v2/"
 "viz/621d23a0-5eaa-11e4-ab03-0e853d047bba/viz.json"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:249 ..\themes\jeo/inc/layers.php:248
+#: ../themes/jeo-odm/inc/layers.php:249 ../themes/jeo/inc/layers.php:248
 msgid "Username"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:252 ..\themes\jeo/inc/layers.php:251
+#: ../themes/jeo-odm/inc/layers.php:252 ../themes/jeo/inc/layers.php:251
 msgid "Your CartoDB username."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:256 ..\themes\jeo/inc/layers.php:255
+#: ../themes/jeo-odm/inc/layers.php:256 ../themes/jeo/inc/layers.php:255
 msgid "Table"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:259 ..\themes\jeo/inc/layers.php:258
+#: ../themes/jeo-odm/inc/layers.php:259 ../themes/jeo/inc/layers.php:258
 msgid "The CartoDB table you'd like to visualize."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:263 ..\themes\jeo/inc/layers.php:262
+#: ../themes/jeo-odm/inc/layers.php:263 ../themes/jeo/inc/layers.php:262
 msgid "Where (optional)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:266 ..\themes\jeo/inc/layers.php:265
+#: ../themes/jeo-odm/inc/layers.php:266 ../themes/jeo/inc/layers.php:265
 msgid "Query data from your table.<br/>E.g.: region = \"north\""
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:270 ..\themes\jeo/inc/layers.php:269
+#: ../themes/jeo-odm/inc/layers.php:270 ../themes/jeo/inc/layers.php:269
 msgid "CartoCSS"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:273 ..\themes\jeo/inc/layers.php:272
+#: ../themes/jeo-odm/inc/layers.php:273 ../themes/jeo/inc/layers.php:272
 #, php-format
 msgid "Styles for your table. <a href=\"%s\" target=\"_blank\">Learn more</a>."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/layers.php:277 ..\themes\jeo/inc/layers.php:276
+#: ../themes/jeo-odm/inc/layers.php:277 ../themes/jeo/inc/layers.php:276
 msgid "Template"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/live-search/live-search.php:20
+#: ../themes/jeo-odm/inc/live-search/live-search.php:20
 msgid "Go to the advanced search"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/live-search/live-search.php:21
+#: ../themes/jeo-odm/inc/live-search/live-search.php:21
 msgid "Showing all results"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/live-search/live-search.php:23
+#: ../themes/jeo-odm/inc/live-search/live-search.php:23
 msgid "Topic"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/live-search/live-search.php:24
-#: ..\themes\jeo/inc/core.php:178
+#: ../themes/jeo-odm/inc/live-search/live-search.php:24
+#: ../themes/jeo/inc/core.php:178
 msgid "Map"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:19
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:19
 msgctxt "post type general name"
 msgid "Mekong region storms and floods"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:20
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:20
 msgctxt "post type singular name"
 msgid "Mekong region storm and flood"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:21
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:21
 msgctxt "admin menu"
 msgid "Mekong region storms and floods"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:22
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:22
 msgctxt "add new on admin bar"
 msgid "Mekong region storms and floods"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:23
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:23
 msgctxt "mekong region storm and flood"
 msgid "Add new"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:24
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:24
 msgid "Add new mekong region storm and flood"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:25
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:25
 msgid "New mekong region storms and floods"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:26
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:26
 msgid "Edit mekong region storms and floods"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:27
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:27
 msgid "View mekong region storms and floods"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:28
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:28
 msgid "All mekong region storms and floods"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:29
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:29
 msgid "Search mekong region storms and floods"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:30
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:30
 msgid "Parent mekong region storms and floods:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:31
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:31
 msgid "No mekong region storms and floods found."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/mekong-region-storms-and-floods.php:32
+#: ../themes/jeo-odm/inc/mekong-region-storms-and-floods.php:32
 msgid "No mekong region storms and floods found in trash."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/od-related-recent-news-widget.php:10
+#: ../themes/jeo-odm/inc/od-related-recent-news-widget.php:10
 msgid "OD Related Recent News Widget"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/od-related-recent-news-widget.php:11
+#: ../themes/jeo-odm/inc/od-related-recent-news-widget.php:11
 msgid "Display OD the related recent news for the topics"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/od-related-recent-news-widget.php:107
+#: ../themes/jeo-odm/inc/od-related-recent-news-widget.php:117
 msgid "Related News"
 msgstr "ព័ត៌មានពាក់ព័ន្ធ"
 
-#: ..\themes\jeo-odm/inc/od-related-recent-news-widget.php:128
-#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:200
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:89
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:97
+#: ../themes/jeo-odm/inc/od-related-recent-news-widget.php:138
+#: ../themes/jeo-odm/inc/odm-taxonomy-widget.php:283
+#: ../themes/jeo-odm/inc/query-resources-widget.php:89
+#: ../themes/jeo-odm/inc/related-resources-widget.php:97
 msgid "Title:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/od-related-recent-news-widget.php:132
+#: ../themes/jeo-odm/inc/od-related-recent-news-widget.php:142
 msgid "Option:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/od-related-recent-news-widget.php:149
+#: ../themes/jeo-odm/inc/od-related-recent-news-widget.php:159
 msgid "Category slugs:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:10
+#: ../themes/jeo-odm/inc/odm-taxonomy-widget.php:10
 msgid "OD Content Taxonomy Widget"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:11
+#: ../themes/jeo-odm/inc/odm-taxonomy-widget.php:11
 msgid "Display OD taxonomy for content"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:195
+#: ../themes/jeo-odm/inc/odm-taxonomy-widget.php:278
 msgid "Topic areas"
 msgstr "ប្រធានបទ"
 
-#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:204
+#: ../themes/jeo-odm/inc/odm-taxonomy-widget.php:287
 msgid "Include Category by IDs (separated by commas):"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/odm-taxonomy-widget.php:208
+#: ../themes/jeo-odm/inc/odm-taxonomy-widget.php:291
 msgid "Exclude Category by IDs (separated by commas):"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:12
+#: ../themes/jeo-odm/inc/query-resources-widget.php:12
 msgid "OD Query Resources"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:13
+#: ../themes/jeo-odm/inc/query-resources-widget.php:13
 msgid "Query resources and displays them in a post or page."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:63
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:74
+#: ../themes/jeo-odm/inc/query-resources-widget.php:63
+#: ../themes/jeo-odm/inc/related-resources-widget.php:74
 msgid "Related Resources"
 msgstr "ទិន្នន័យពាក់ព័ន្ធ"
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:91
+#: ../themes/jeo-odm/inc/query-resources-widget.php:91
 msgid "Query:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:93
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:99
+#: ../themes/jeo-odm/inc/query-resources-widget.php:93
+#: ../themes/jeo-odm/inc/related-resources-widget.php:99
 msgid "CKAN Organization:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:95
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:102
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:101
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:108
+#: ../themes/jeo-odm/inc/query-resources-widget.php:95
+#: ../themes/jeo-odm/inc/query-resources-widget.php:102
+#: ../themes/jeo-odm/inc/related-resources-widget.php:101
+#: ../themes/jeo-odm/inc/related-resources-widget.php:108
 msgid "All"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:100
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:106
+#: ../themes/jeo-odm/inc/query-resources-widget.php:100
+#: ../themes/jeo-odm/inc/related-resources-widget.php:106
 msgid "CKAN Group:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:107
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:113
+#: ../themes/jeo-odm/inc/query-resources-widget.php:107
+#: ../themes/jeo-odm/inc/related-resources-widget.php:113
 msgid "Limit:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:109
+#: ../themes/jeo-odm/inc/query-resources-widget.php:109
 msgid "More dataset: Link label"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/query-resources-widget.php:112
+#: ../themes/jeo-odm/inc/query-resources-widget.php:112
 msgid "More dataset: Link (URL)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:12
+#: ../themes/jeo-odm/inc/related-resources-widget.php:12
 msgid "OD Related Resources"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/related-resources-widget.php:13
+#: ../themes/jeo-odm/inc/related-resources-widget.php:13
 msgid "Display post related resources."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:19
+#: ../themes/jeo-odm/inc/site-updates.php:19
 msgctxt "post type general name"
 msgid "Site updates"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:20
+#: ../themes/jeo-odm/inc/site-updates.php:20
 msgctxt "post type singular name"
 msgid "Site update"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:21
+#: ../themes/jeo-odm/inc/site-updates.php:21
 msgctxt "admin menu"
 msgid "Site updates"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:22
+#: ../themes/jeo-odm/inc/site-updates.php:22
 msgctxt "add new on admin bar"
 msgid "Site update"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:23
+#: ../themes/jeo-odm/inc/site-updates.php:23
 msgctxt "site update"
 msgid "Add new"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:24
+#: ../themes/jeo-odm/inc/site-updates.php:24
 msgid "Add new site update"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:25
+#: ../themes/jeo-odm/inc/site-updates.php:25
 msgid "New site update"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:26
+#: ../themes/jeo-odm/inc/site-updates.php:26
 msgid "Edit site update"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:27
+#: ../themes/jeo-odm/inc/site-updates.php:27
 msgid "View site update"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:28
+#: ../themes/jeo-odm/inc/site-updates.php:28
 msgid "All site updates"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:29
+#: ../themes/jeo-odm/inc/site-updates.php:29
 msgid "Search site updates"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:30
+#: ../themes/jeo-odm/inc/site-updates.php:30
 msgid "Parent site updates:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:31
+#: ../themes/jeo-odm/inc/site-updates.php:31
 msgid "No site updates found."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/site-updates.php:32
+#: ../themes/jeo-odm/inc/site-updates.php:32
 msgid "No site updates found in trash."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/summary.php:76
+#: ../themes/jeo-odm/inc/summary.php:76
 msgid "On this page"
 msgstr "នៅលើទំព័រនេះ"
 
-#: ..\themes\jeo-odm/inc/theme-options.php:38
+#: ../themes/jeo-odm/inc/theme-options.php:38
 msgid "Open Development Style"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:38
+#: ../themes/jeo-odm/inc/theme-options.php:38
 msgid "Open Development"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:49
+#: ../themes/jeo-odm/inc/theme-options.php:49
 msgid "Open Development Theme Options"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:67
+#: ../themes/jeo-odm/inc/theme-options.php:67
 msgid "Style"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:73
+#: ../themes/jeo-odm/inc/theme-options.php:73
 msgid "News: Filtered By Tags"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:79
+#: ../themes/jeo-odm/inc/theme-options.php:79
 msgid "Links"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:86
+#: ../themes/jeo-odm/inc/theme-options.php:86
 msgid "Introduction texts"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:93
+#: ../themes/jeo-odm/inc/theme-options.php:93
 msgid "Interactive map"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:100
+#: ../themes/jeo-odm/inc/theme-options.php:100
 msgid "Site in development"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:108
+#: ../themes/jeo-odm/inc/theme-options.php:108
 msgid "Message for site constructing"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:116
+#: ../themes/jeo-odm/inc/theme-options.php:116
 msgid "Tooltip Message 1"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:123
+#: ../themes/jeo-odm/inc/theme-options.php:123
 msgid "Tooltip Message 2"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:130
+#: ../themes/jeo-odm/inc/theme-options.php:130
 msgid "Tooltip Message 3"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:138
+#: ../themes/jeo-odm/inc/theme-options.php:138
 msgid "Notice Message appear above the slider"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:146
+#: ../themes/jeo-odm/inc/theme-options.php:146
 msgid "Message for pages constructing"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:154
+#: ../themes/jeo-odm/inc/theme-options.php:154
 msgid "Choose a style"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:162
+#: ../themes/jeo-odm/inc/theme-options.php:162
 msgid "Enable dropdown box of the country menu"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:170
+#: ../themes/jeo-odm/inc/theme-options.php:170
 msgid "Show site intro texts"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:178
+#: ../themes/jeo-odm/inc/theme-options.php:178
 msgid "Frontpage slider id"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:186
+#: ../themes/jeo-odm/inc/theme-options.php:186
 msgid "Upload a custom logo"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:194
+#: ../themes/jeo-odm/inc/theme-options.php:194
 msgid "Filter News By Tags"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:202
+#: ../themes/jeo-odm/inc/theme-options.php:202
 msgid "Facebook url"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:210
+#: ../themes/jeo-odm/inc/theme-options.php:210
 msgid "Twitter url"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:218
+#: ../themes/jeo-odm/inc/theme-options.php:218
 msgid "Legal disclaimer"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:226
+#: ../themes/jeo-odm/inc/theme-options.php:226
 msgid "Contact page"
 msgstr "ទំព័រទំនាក់ទំនង"
 
-#: ..\themes\jeo-odm/inc/theme-options.php:234
+#: ../themes/jeo-odm/inc/theme-options.php:234
 msgid "Data page"
 msgstr "ទំព័រទិន្នន័យ"
 
-#: ..\themes\jeo-odm/inc/theme-options.php:242
+#: ../themes/jeo-odm/inc/theme-options.php:242
 msgid "Introduction text #1"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:250
+#: ../themes/jeo-odm/inc/theme-options.php:250
 msgid "Introduction text #2"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:258
+#: ../themes/jeo-odm/inc/theme-options.php:258
 msgid "Introduction text #3"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:266
+#: ../themes/jeo-odm/inc/theme-options.php:266
 msgid "Base map settings"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:280
+#: ../themes/jeo-odm/inc/theme-options.php:280
 msgid "Active"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:281
+#: ../themes/jeo-odm/inc/theme-options.php:281
 msgid ""
 "(Activate to disable the link of the web site on the country menu, and "
 "present a message below.)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:294
+#: ../themes/jeo-odm/inc/theme-options.php:294
 msgid "Page coming soon."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:295
+#: ../themes/jeo-odm/inc/theme-options.php:295
 msgid ""
 "(Enter the massage to inform about the page under construction. </br>To be "
 "active: please add the class 'tooltip' into the topical menu items' "
@@ -1138,1592 +1149,1544 @@ msgid ""
 "not be clickable and message above will appear on hover. )"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:302
+#: ../themes/jeo-odm/inc/theme-options.php:302
 msgid "Notification messages"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:303
+#: ../themes/jeo-odm/inc/theme-options.php:303
 msgid ""
 "(The notification will be appeared at the top above the featue images "
 "slider. )"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:320
+#: ../themes/jeo-odm/inc/theme-options.php:320
 msgid "Menu Name"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:322
+#: ../themes/jeo-odm/inc/theme-options.php:322
 msgid "Informed message"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:343
-#: ..\themes\jeo-odm/inc/theme-options.php:353
-#: ..\themes\jeo/inc/admin/settings.php:137
-#: ..\themes\jeo/inc/admin/settings.php:145
-#: ..\themes\jeo/inc/admin/settings.php:153 ..\themes\jeo/inc/api.php:55
-#: ..\themes\jeo/inc/share-widget.php:76
+#: ../themes/jeo-odm/inc/theme-options.php:343
+#: ../themes/jeo-odm/inc/theme-options.php:353
+#: ../themes/jeo/inc/admin/settings.php:137
+#: ../themes/jeo/inc/admin/settings.php:145
+#: ../themes/jeo/inc/admin/settings.php:153 ../themes/jeo/inc/api.php:55
+#: ../themes/jeo/inc/share-widget.php:76
 msgid "Enable"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:344
+#: ../themes/jeo-odm/inc/theme-options.php:344
 msgid ""
 "(Select if you'd like to enable drop box menu once hover on country names.)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:361
+#: ../themes/jeo-odm/inc/theme-options.php:361
 msgid "281321"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:362
+#: ../themes/jeo-odm/inc/theme-options.php:362
 msgid "(This id can be found on the Featured Area plugin slider's settings.)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:370
+#: ../themes/jeo-odm/inc/theme-options.php:370
 msgid "Logo url"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:371
+#: ../themes/jeo-odm/inc/theme-options.php:371
 msgid "Upload"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:383
+#: ../themes/jeo-odm/inc/theme-options.php:383
 msgid "Add tags"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:383
+#: ../themes/jeo-odm/inc/theme-options.php:383
 msgid "Add tags."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:384
+#: ../themes/jeo-odm/inc/theme-options.php:384
 msgid "Separate tags with commas. Only 5 tags are allowed. "
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:407
-#: ..\themes\jeo-odm/inc/theme-options.php:416
-#: ..\themes\jeo-odm/inc/theme-options.php:483
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:59
+#: ../themes/jeo-odm/inc/theme-options.php:407
+#: ../themes/jeo-odm/inc/theme-options.php:416
+#: ../themes/jeo-odm/inc/theme-options.php:483
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:59
 msgid "None"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:445
+#: ../themes/jeo-odm/inc/theme-options.php:445
 msgid "Icon"
 msgstr ""
 
-#: php_template.php:9
+#: ../themes/jeo-odm/inc/theme-options.php:446
+#: ../themes/jeo-odm/page-laws.php:62
 msgid "Title"
 msgstr "ចំណងជើង"
 
-#: ..\themes\jeo-odm/inc/theme-options.php:447
+#: ../themes/jeo-odm/inc/theme-options.php:447
 msgid "Content"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:474
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:50
+#: ../themes/jeo-odm/inc/theme-options.php:474
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:50
 msgid "Select base layer"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:481
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:57
+#: ../themes/jeo-odm/inc/theme-options.php:481
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:57
 msgid "(USA Only)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:482
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:58
+#: ../themes/jeo-odm/inc/theme-options.php:482
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:58
 msgid "Custom"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:485
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:61
+#: ../themes/jeo-odm/inc/theme-options.php:485
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:61
 msgid "Enter layer URL"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:488
-#: ..\themes\jeo-odm/inc/theme-options.php:599
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:64
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:175
+#: ../themes/jeo-odm/inc/theme-options.php:488
+#: ../themes/jeo-odm/inc/theme-options.php:599
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:64
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:175
 msgid "Update preview"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:490
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:66
+#: ../themes/jeo-odm/inc/theme-options.php:490
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:66
 msgid "Preview map"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:495
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:71
+#: ../themes/jeo-odm/inc/theme-options.php:495
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:71
 msgid "Map settings"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:497
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:73
+#: ../themes/jeo-odm/inc/theme-options.php:497
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:73
 msgid "Currently viewing"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:500
-#: ..\themes\jeo-odm/inc/theme-options.php:530
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:76
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:106
+#: ../themes/jeo-odm/inc/theme-options.php:500
+#: ../themes/jeo-odm/inc/theme-options.php:530
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:76
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:106
 msgid "Center"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:504
-#: ..\themes\jeo-odm/inc/theme-options.php:534
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:80
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:110
+#: ../themes/jeo-odm/inc/theme-options.php:504
+#: ../themes/jeo-odm/inc/theme-options.php:534
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:80
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:110
 msgid "Zoom"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:508
-#: ..\themes\jeo-odm/inc/theme-options.php:561
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:84
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:137
+#: ../themes/jeo-odm/inc/theme-options.php:508
+#: ../themes/jeo-odm/inc/theme-options.php:561
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:84
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:137
 msgid "East"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:512
-#: ..\themes\jeo-odm/inc/theme-options.php:565
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:88
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:141
+#: ../themes/jeo-odm/inc/theme-options.php:512
+#: ../themes/jeo-odm/inc/theme-options.php:565
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:88
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:141
 msgid "North"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:516
-#: ..\themes\jeo-odm/inc/theme-options.php:569
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:92
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:145
+#: ../themes/jeo-odm/inc/theme-options.php:516
+#: ../themes/jeo-odm/inc/theme-options.php:569
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:92
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:145
 msgid "South"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:520
-#: ..\themes\jeo-odm/inc/theme-options.php:573
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:96
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:149
+#: ../themes/jeo-odm/inc/theme-options.php:520
+#: ../themes/jeo-odm/inc/theme-options.php:573
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:96
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:149
 msgid "West"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:526
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:102
+#: ../themes/jeo-odm/inc/theme-options.php:526
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:102
 msgid "Map center & zoom"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:527
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:103
+#: ../themes/jeo-odm/inc/theme-options.php:527
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:103
 msgid "Set current as map center & zoom"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:538
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:114
+#: ../themes/jeo-odm/inc/theme-options.php:538
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:114
 msgid "Min zoom"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:541
-#: ..\themes\jeo-odm/inc/theme-options.php:548
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:117
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:124
+#: ../themes/jeo-odm/inc/theme-options.php:541
+#: ../themes/jeo-odm/inc/theme-options.php:548
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:117
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:124
 msgid "Current"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:545
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:121
+#: ../themes/jeo-odm/inc/theme-options.php:545
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:121
 msgid "Max zoom"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:557
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:133
+#: ../themes/jeo-odm/inc/theme-options.php:557
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:133
 msgid "Pan limits"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:558
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:134
+#: ../themes/jeo-odm/inc/theme-options.php:558
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:134
 msgid "Set current as map panning limits"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:583
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:159
+#: ../themes/jeo-odm/inc/theme-options.php:583
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:159
 msgid "Enable geocoding service"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:586
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:162
+#: ../themes/jeo-odm/inc/theme-options.php:586
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:162
 msgid "Enable geocode search service"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:590
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:166
+#: ../themes/jeo-odm/inc/theme-options.php:590
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:166
 msgid "Map handlers"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:593
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:169
+#: ../themes/jeo-odm/inc/theme-options.php:593
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:169
 msgid "Disable mousewheel zooming"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:600
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:176
+#: ../themes/jeo-odm/inc/theme-options.php:600
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:176
 msgid "Preview mode"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/theme-options.php:601
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:177
+#: ../themes/jeo-odm/inc/theme-options.php:601
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:177
 msgid "(preview mode doesn't apply zoom range nor pan limits setup)"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:19
+#: ../themes/jeo-odm/inc/topics.php:19
 msgctxt "post type general name"
 msgid "Topics"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:20
+#: ../themes/jeo-odm/inc/topics.php:20
 msgctxt "post type singular name"
 msgid "Topic"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:21
+#: ../themes/jeo-odm/inc/topics.php:21
 msgctxt "admin menu"
 msgid "Topics"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:22
+#: ../themes/jeo-odm/inc/topics.php:22
 msgctxt "add new on admin bar"
 msgid "Topic"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:23
+#: ../themes/jeo-odm/inc/topics.php:23
 msgctxt "topic"
 msgid "Add new"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:24
+#: ../themes/jeo-odm/inc/topics.php:24
 msgid "Add new topic"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:25
+#: ../themes/jeo-odm/inc/topics.php:25
 msgid "New topic"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:26
+#: ../themes/jeo-odm/inc/topics.php:26
 msgid "Edit topic"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:27
+#: ../themes/jeo-odm/inc/topics.php:27
 msgid "View topic"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:28
+#: ../themes/jeo-odm/inc/topics.php:28
 msgid "All topics"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:29
+#: ../themes/jeo-odm/inc/topics.php:29
 msgid "Search topics"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:30
+#: ../themes/jeo-odm/inc/topics.php:30
 msgid "Parent topics:"
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:31
+#: ../themes/jeo-odm/inc/topics.php:31
 msgid "No topics found."
 msgstr ""
 
-#: ..\themes\jeo-odm/inc/topics.php:32
+#: ../themes/jeo-odm/inc/topics.php:32
 msgid "No topics found in trash."
 msgstr ""
 
-#: ..\themes\jeo-odm/index.php:30
+#: ../themes/jeo-odm/index.php:30
 msgid "News <em> from "
 msgstr "ព័ត៌មាន​អំពី"
 
-#: ..\themes\jeo-odm/loop-latest.php:10 ..\themes\jeo/inc/markers.php:539
+#: ../themes/jeo-odm/loop-latest.php:10 ../themes/jeo/inc/markers.php:539
 msgctxt "reduced date format"
 msgid "m/d/Y"
 msgstr ""
 
-#: ..\themes\jeo-odm/loop.php:71
+#: ../themes/jeo-odm/loop.php:71
 msgid "Data results"
 msgstr ""
 
-#: ..\themes\jeo-odm/loop.php:77
+#: ../themes/jeo-odm/loop.php:77
 msgid "View all data results"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:14
+#: ../themes/jeo-odm/page-data.php:14
 msgid "Access the complete database"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:25
+#: ../themes/jeo-odm/page-data.php:25
 msgid "Type your search and hit enter"
 msgstr ""
 
-#: ..\themes\jeo-odm/page-data.php:37
+#: ../themes/jeo-odm/page-data.php:37
 msgid "Previous page"
 msgstr "ទំព័រមុខ"
 
-#: ..\themes\jeo-odm/page-data.php:39
+#: ../themes/jeo-odm/page-data.php:39
 msgid "Next page"
 msgstr "ទំព័របន្ទាប់"
 
-#: php_template.php:4
-msgid "Law compendium"
-msgstr "កម្រងឯកសារច្បាប់"
+#: ../themes/jeo-odm/page-laws.php:63
+msgid "Document type"
+msgstr ""
 
-#: php_template.php:6 php_template.php:13
-msgid "Show"
-msgstr "បង្ហាញ"
-
-#: php_template.php:7
-msgid "entries"
-msgstr "កំណត់ត្រា"
-
-#: php_template.php:8
-msgid "Type of laws"
-msgstr "ប្រភេទច្បាប់"
-
-#: php_template.php:10
+#: ../themes/jeo-odm/page-laws.php:64
 msgid "Document number"
 msgstr "លេខសម្គាល់ឯកសារ"
 
-#: php_template.php:11
+#: ../themes/jeo-odm/page-laws.php:65
 msgid "Promulgation date"
 msgstr "កាលបរិច្ឆេទប្រកាសឱ្យប្រើ"
 
-#: php_template.php:12
+#: ../themes/jeo-odm/page-laws.php:66 ../themes/jeo-odm/page-pdf-view.php:23
+#: ../themes/jeo-odm/page-pdf-view.php:26
+#: ../themes/jeo-odm/section-query-actions.php:24
 msgid "Download"
 msgstr "ទាញយក"
 
-#: php_template.php:14
-msgid "Search all laws"
-msgstr "ស្វែងរកច្បាប់ទាំងអស់"
+#: ../themes/jeo-odm/page-laws.php:122 ../themes/jeo-odm/page-profiles.php:162
+msgid "SEARCH"
+msgstr ""
 
-#: php_template.php:17
+#: ../themes/jeo-odm/page-laws.php:122 ../themes/jeo-odm/page-profiles.php:162
+msgid "in"
+msgstr ""
+
+#: ../themes/jeo-odm/page-laws.php:122
+msgid "Laws"
+msgstr ""
+
+#: ../themes/jeo-odm/page-laws.php:127
+msgid "Clear filter"
+msgstr ""
+
+#: ../themes/jeo-odm/page-laws.php:134
+msgid "LAW COMPENDIUM"
+msgstr ""
+
+#: ../themes/jeo-odm/page-laws.php:143
+msgid "TYPE OF LAWS"
+msgstr ""
+
+#: ../themes/jeo-odm/page-laws.php:147
 msgid "Anukret/Sub-Decree"
 msgstr "អនុក្រឹត្យ"
 
-#: php_template.php:18
+#: ../themes/jeo-odm/page-laws.php:148
 msgid "Chbab/Law/Kram"
 msgstr "ច្បាប់/ក្រម"
 
-#: php_template.php:19
+#: ../themes/jeo-odm/page-laws.php:149
 msgid "Constitution of Cambodia"
 msgstr "រដ្ឋធម្មនុញ្ញ នៃព្រះរាជាណាចក្រកម្ពុជា"
 
-#: php_template.php:20
-msgid "International Treaties/Agreement"
-msgstr "សន្ធិសញ្ញា/កិច្ចព្រមព្រៀងអន្តរជាតិ"
+#: ../themes/jeo-odm/page-laws.php:150
+msgid "International Treaties/Agreements"
+msgstr ""
 
-#: php_template.php:21
+#: ../themes/jeo-odm/page-laws.php:151
 msgid "Kech Sonya/Contract/Agreement"
 msgstr "កិច្ចសន្យា/កិច្ចព្រមព្រៀង"
 
-#: php_template.php:22 php_template.php:23
+#: ../themes/jeo-odm/page-laws.php:152
 msgid "Kolkar Nenom/Guidelines"
 msgstr "គោលការណ៍ណែនាំ"
 
-#: php_template.php:24
+#: ../themes/jeo-odm/page-laws.php:153
 msgid "Kolnyobay/Policy"
 msgstr "គោលនយោបាយ"
 
-#: php_template.php:25
+#: ../themes/jeo-odm/page-laws.php:154
 msgid "Likhet/Letter"
 msgstr "លិខិត"
 
-#: php_template.php:26
+#: ../themes/jeo-odm/page-laws.php:155
 msgid "Prakas/Joint-Prakas/Proclamation"
 msgstr "ប្រកាស/ប្រកាសរួួម/សេចក្តីប្រកាស"
 
-#: php_template.php:27
+#: ../themes/jeo-odm/page-laws.php:156
 msgid "Preah Reach Kram/Royal Kram"
 msgstr "ព្រះរាជក្រម"
 
-#: php_template.php:28
+#: ../themes/jeo-odm/page-laws.php:157
 msgid "Sarachor/Circular"
 msgstr "សារាចរ"
 
-#: php_template.php:29
-msgid "Sechkdei Chhun Damneoung/Notice/Announcement"
-msgstr "សេចក្តីជូនដំណឹង"
+#: ../themes/jeo-odm/page-laws.php:158
+msgid "Sechkdei Chhun  Damneoung/Notice/Announcement"
+msgstr ""
 
-#: php_template.php:30
+#: ../themes/jeo-odm/page-laws.php:159
 msgid "Sechkdei Nenum/Instruction"
 msgstr "សេចក្តីណែនាំ"
 
-#: php_template.php:31
+#: ../themes/jeo-odm/page-laws.php:160
 msgid "Sechkdei Preang Chbab/Draft Laws & Regulations"
 msgstr "សេចក្តីព្រាងច្បាប់/បទប្បញ្ញត្តិ"
 
-#: php_template.php:32
+#: ../themes/jeo-odm/page-laws.php:161
 msgid "Sechkdei Samrech/Decision"
 msgstr "សេចក្តីសម្រេច"
 
-#: php_template.php:33
+#: ../themes/jeo-odm/page-laws.php:162
 msgid "Others"
 msgstr "ផ្សេងទៀត"
 
-#: added manually
-msgid "Laws, policies and agreements"
-msgstr "ច្បាប់ គោលនយោបាយ និងកិច្ចព្រមព្រៀង"
-
-#: php_template.php:4
+#: ../themes/jeo-odm/page-profiles.php:162
 msgid "Profiles"
 msgstr "ព័ត៌មានសង្ខេប"
 
-#: php_template.php:5
-msgid "Data classification"
-msgstr "ចំណាត់ថ្នាក់ទិន្នន័យ"
+#: ../themes/jeo-odm/page-profiles.php:172
+msgid "DOWNLOAD"
+msgstr ""
 
-#: php_template.php:6
+#: ../themes/jeo-odm/page-profiles.php:195
 msgid "Developer"
 msgstr "ក្រុមហ៊ុន"
 
-#: php_template.php:7 php_template.php:24
-msgid "District/Khan"
-msgstr "ស្រុក/ខណ្ឌ"
-
-#: php_template.php:8 php_template.php:21
-msgid "Contract date"
-msgstr "កាលបរិច្ឆេទចុះកិច្ចសន្យា"
-
-#: php_template.php:9
-msgid "Size"
-msgstr "ទំហំ"
-
-#: php_template.php:10
-msgid "Adjustment classification"
-msgstr "ចំណាត់ថ្នាក់លៃសម្រួល"
-
-#: php_template.php:11
+#: ../themes/jeo-odm/page-profiles.php:196
 msgid "Developer country"
 msgstr "ប្រទេសក្រុមហ៊ុន"
 
-#: php_template.php:12
-msgid "Developer address"
-msgstr "អាសយដ្ឋានក្រុមហ៊ុន"
+#: ../themes/jeo-odm/page-profiles.php:197
+msgid "Contract date"
+msgstr "កាលបរិច្ឆេទចុះកិច្ចសន្យា"
 
-#: php_template.php:13
-msgid "Intended investment"
-msgstr "គោលបំណងវិនិយោគ"
-
-#: php_template.php:14
-msgid "Intended crop or project"
-msgstr "ដំណាំ ឬគម្រោងគ្រោងទុក"
-
-#: php_template.php:15
+#: ../themes/jeo-odm/page-profiles.php:198
 msgid "Contract term (year)"
 msgstr "ថិរវេលាកិច្ចសន្យា (ឆ្នាំ)"
 
-#: php_template.php:16
+#: ../themes/jeo-odm/page-profiles.php:199
 msgid "Granted land area (hectare)"
 msgstr " ផ្ទៃដី (ហិកតា)"
 
-#: php_template.php:17
+#: ../themes/jeo-odm/page-profiles.php:200
 msgid "Source of land size"
 msgstr "ប្រភពព័ត៌មានទំហំដី"
 
-#: php_template.php:18
-msgid "Contract authority"
-msgstr "អាជ្ញាធរចុះកិច្ចសន្យា"
+#: ../themes/jeo-odm/page-profiles.php:201
+msgid "Intended investment "
+msgstr ""
 
-#: php_template.php:19
-msgid "Director"
-msgstr "នាយក"
+#: ../themes/jeo-odm/page-profiles.php:202
+msgid "Intended crop or project"
+msgstr "ដំណាំ ឬគម្រោងគ្រោងទុក"
 
-#: php_template.php:20
-msgid "Director nationality"
-msgstr "សញ្ជាតិនាយក"
-
-#: php_template.php:22
-msgid "Sub-decree reclassifying land use"
-msgstr "អនុក្រឹត្យធ្វើ​​​អនុបយោគ​​​ប្ដូរការប្រើប្រាស់ដី"
-
-#: php_template.php:23
+#: ../themes/jeo-odm/page-profiles.php:203
 msgid "Province/Capital city"
 msgstr "ខេត្ត/រាជធានី"
 
-#: php_template.php:25
-msgid "Commune/Sangkat"
-msgstr "ឃុំ/សង្កាត់"
+#: ../themes/jeo-odm/page-profiles.php:204
+msgid "Contract authority"
+msgstr "អាជ្ញាធរចុះកិច្ចសន្យា"
 
-#: php_template.php:26
-msgid "Town/Municipality"
-msgstr "ក្រុង"
-
-#: php_template.php:27
-msgid "Amendments"
-msgstr "វិសោធនកម្ម"
-
-#: php_template.php:28
+#: ../themes/jeo-odm/page-profiles.php:205
 msgid "Previous land use"
 msgstr "ការប្រើប្រាស់ដីពី​មុន"
 
-#: php_template.php:29
+#: ../themes/jeo-odm/page-profiles.php:206
+msgid "Sub-decree reclassifying land use"
+msgstr "អនុក្រឹត្យធ្វើ​​​អនុបយោគ​​​ប្ដូរការប្រើប្រាស់ដី"
+
+#: ../themes/jeo-odm/page-profiles.php:207
+msgid "Legal documents"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:208
 msgid "Developer land use plan"
 msgstr "ផែនការប្រើប្រាស់ដីរបស់ក្រុមហ៊ុន"
 
-#: php_template.php:30
-msgid "Amendment text"
-msgstr "អត្ថបទវិសោធនកម្ម"
+#: ../themes/jeo-odm/page-profiles.php:209
+msgid "EIA status"
+msgstr ""
 
-#: php_template.php:31
-msgid "Change type"
-msgstr "ប្រភេទនៃការផ្លាស់ប្តូរ"
+#: ../themes/jeo-odm/page-profiles.php:210
+msgid "Adjustment classification "
+msgstr ""
 
-#: php_template.php:32
-msgid "Amendment object"
-msgstr "កម្មវត្ថុវិសោធនកម្ម"
+#: ../themes/jeo-odm/page-profiles.php:211
+msgid "Data classification"
+msgstr "ចំណាត់ថ្នាក់ទិន្នន័យ"
 
-#: php_template.php:33
-msgid "Amendment date"
-msgstr "កាលបរិច្ឆេទវិសោធនកម្ម"
+#: ../themes/jeo-odm/page-profiles.php:212
+msgid "Map id"
+msgstr ""
 
-#: php_template.php:34
-msgid "Description"
-msgstr "សេចក្តីបរិយាយ"
-
-#: php_template.php:35
-msgid "Reference documents"
-msgstr "ឯកសារយោង"
-
-#: ..\themes\jeo-odm/page.php:24 ..\themes\jeo-odm/single-announcement.php:146
-#: ..\themes\jeo-odm/single-topic.php:37 ..\themes\jeo-odm/single.php:107
-#: ..\themes\jeo/page.php:17 ..\themes\jeo/single.php:29
-msgid "Pages:"
-msgstr "ទំព័រ"
-
-#: ..\themes\jeo-odm/search.php:6 ..\themes\jeo/inc/layers.php:464
+#: ../themes/jeo-odm/search.php:6 ../themes/jeo/inc/layers.php:464
 msgid "Search results"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-content-summary.php:9
+#: ../themes/jeo-odm/section-content-summary.php:9
 msgid "Issue briefs"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-content-summary.php:35
+#: ../themes/jeo-odm/section-content-summary.php:35
 msgid "Access the topics archive"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-content-summary.php:46
+#: ../themes/jeo-odm/section-content-summary.php:46
 msgid "Site updates"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-content-summary.php:67
+#: ../themes/jeo-odm/section-content-summary.php:67
 msgid "Events and opportunities"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-query-actions.php:12
+#: ../themes/jeo-odm/section-query-actions.php:12
 msgid "Content API"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-query-actions.php:15
+#: ../themes/jeo-odm/section-query-actions.php:15
 msgid "RSS Feed"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-query-actions.php:20
+#: ../themes/jeo-odm/section-query-actions.php:20
 msgid "Get GeoJSON"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-related-datasets.php:18
+#: ../themes/jeo-odm/section-related-datasets.php:18
 msgid "Other"
 msgstr "ផ្សេងៗទៀត"
 
-#: ..\themes\jeo-odm/section-related-datasets.php:31
+#: ../themes/jeo-odm/section-related-datasets.php:31
 msgid "Related resources"
 msgstr "ទិន្នន័យពាក់ព័ន្ធ"
 
-#: ..\themes\jeo-odm/section-related-datasets.php:71
+#: ../themes/jeo-odm/section-related-datasets.php:71
 msgid "Read more..."
 msgstr "អានបន្ថែម..."
 
-#: ..\themes\jeo-odm/section-related-datasets.php:81
-#: ..\themes\jeo-odm/section-related-datasets.php:95
+#: ../themes/jeo-odm/section-related-datasets.php:81
+#: ../themes/jeo-odm/section-related-datasets.php:95
 msgid "Show resources details"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-related-datasets.php:93
+#: ../themes/jeo-odm/section-related-datasets.php:93
 msgid "Hide resources details"
 msgstr ""
 
-#: ..\themes\jeo-odm/section-sticky-posts.php:163
+#: ../themes/jeo-odm/section-sticky-posts.php:163
 msgid "Keep reading"
 msgstr "អានបន្ត"
 
-#: ..\themes\jeo-odm/single-announcement.php:23
-#: ..\themes\jeo-odm/single-topic.php:13 ..\themes\jeo-odm/single.php:47
-msgid "Filed under:"
-msgstr "ចំណាត់ថ្នាក់:"
-
-#: ..\themes\jeo-odm/single-announcement.php:70
-#: ..\themes\jeo-odm/single-announcement.php:73
-#: ..\themes\jeo-odm/single.php:67 ..\themes\jeo-odm/single.php:70
+#: ../themes/jeo-odm/single-announcement.php:70
+#: ../themes/jeo-odm/single-announcement.php:73
+#: ../themes/jeo-odm/single.php:67 ../themes/jeo-odm/single.php:70
 msgid "Summary translated by ODC Team"
 msgstr "ប្រែសម្រួលដោយក្រុមការងារអូឌីស៊ី"
 
-#: ..\themes\jeo-odm/single-announcement.php:84
+#: ../themes/jeo-odm/single-announcement.php:84
 msgid "Download: "
 msgstr "ទាញយកៈ "
 
-#: ..\themes\jeo-odm/single-announcement.php:90
+#: ../themes/jeo-odm/single-announcement.php:90
 msgid "English PDF"
 msgstr " ភាសា​អង់​គ្លេស​ PDF"
 
-#: ..\themes\jeo-odm/single-announcement.php:94
+#: ../themes/jeo-odm/single-announcement.php:94
 msgid "English PDF not available"
 msgstr "ភាសា​អង់​គ្លេស​ពុំ​អាច​រក​បាន"
 
-#: ..\themes\jeo-odm/single-announcement.php:102
+#: ../themes/jeo-odm/single-announcement.php:102
 msgid "Khmer PDF"
 msgstr "ភាសា​ខ្មែរ​ PDF"
 
-#: ..\themes\jeo-odm/single-announcement.php:106
+#: ../themes/jeo-odm/single-announcement.php:106
 msgid "Khmer PDF not available"
 msgstr "ភាសា​ខ្មែរ​ពុំ​អាច​រក​បាន"
 
-#: ..\themes\jeo-odm/single-announcement.php:118
+#: ../themes/jeo-odm/single-announcement.php:118
 msgid "Source: "
 msgstr "ប្រភព: "
 
-#: ..\themes\jeo-odm/single-announcement.php:141
-#: ..\themes\jeo-odm/single.php:103
+#: ../themes/jeo-odm/single-announcement.php:141
+#: ../themes/jeo-odm/single.php:103
 msgid "Tags:"
 msgstr "ស្លាក:"
 
-#: ..\themes\jeo-odm/single-map.php:32 ..\themes\jeo/single-map.php:17
+#: ../themes/jeo-odm/single-map.php:32 ../themes/jeo/single-map.php:17
 msgid "Latest articles on"
 msgstr ""
 
-#: ..\themes\jeo/404.php:7
+#: ../themes/jeo/404.php:7
 msgid "404 - Page not found"
 msgstr ""
 
-#: ..\themes\jeo/404.php:13
+#: ../themes/jeo/404.php:13
 msgid "Trying searching:"
 msgstr ""
 
-#: ..\themes\jeo/comments.php:32
+#: ../themes/jeo/comments.php:32
 msgid "Comment navigation"
 msgstr ""
 
-#: ..\themes\jeo/comments.php:33
+#: ../themes/jeo/comments.php:33
 msgid "&larr; Older Comments"
 msgstr ""
 
-#: ..\themes\jeo/comments.php:34
+#: ../themes/jeo/comments.php:34
 msgid "Newer Comments &rarr;"
 msgstr ""
 
-#: ..\themes\jeo/comments.php:39
+#: ../themes/jeo/comments.php:39
 msgid "Comments are closed."
 msgstr ""
 
-#: ..\themes\jeo/content-featured.php:7 ..\themes\jeo/inc/featured.php:82
+#: ../themes/jeo/content-featured.php:7 ../themes/jeo/inc/featured.php:82
 msgid "Featured"
 msgstr ""
 
-#: ..\themes\jeo/content-featured.php:43
+#: ../themes/jeo/content-featured.php:43
 msgid "Go to"
 msgstr ""
 
-#: ..\themes\jeo/content-marker-bubble.php:6
+#: ../themes/jeo/content-marker-bubble.php:6
 msgctxt "map bubble date format"
 msgid "m/d/Y"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:4 ..\themes\jeo/inc/share-widget.php:159
-#: .\odm-localization-templete.php:19 odm-localization-templete.php:19
+#: ../themes/jeo/content-share.php:4 ../themes/jeo/inc/share-widget.php:159
+#: odm-localization-templete.php:19
 msgid "Share a map"
 msgstr "ចែករំលែកផែនទី"
 
-#: ..\themes\jeo/content-share.php:20
+#: ../themes/jeo/content-share.php:20
 msgid "Share the map"
 msgstr "ចែករំលែកផែនទី"
 
-#: ..\themes\jeo/content-share.php:71
+#: ../themes/jeo/content-share.php:71
 msgid "Choose a map"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:75
+#: ../themes/jeo/content-share.php:75
 msgid "Choose any map from the list"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:80
+#: ../themes/jeo/content-share.php:80
 msgid "Select a map"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:86
+#: ../themes/jeo/content-share.php:86
 msgid "Select layers from this map"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:93 ..\themes\jeo/content-share.php:95
-#: ..\themes\jeo/content-share.php:106
+#: ../themes/jeo/content-share.php:93 ../themes/jeo/content-share.php:95
+#: ../themes/jeo/content-share.php:106
 msgid "Select layers"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:100
+#: ../themes/jeo/content-share.php:100
 msgid "Choose any layers from the list"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:118
+#: ../themes/jeo/content-share.php:118
 msgid "Back to default layer configuration"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:139
+#: ../themes/jeo/content-share.php:139
 msgid "Filter content"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:143
+#: ../themes/jeo/content-share.php:143
 msgid "Filter the content displayed on the map through our options"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:148
+#: ../themes/jeo/content-share.php:148
 msgid "Select content"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:153
+#: ../themes/jeo/content-share.php:153
 msgid "Selected content"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:158
+#: ../themes/jeo/content-share.php:158
 msgid "General content"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:159
+#: ../themes/jeo/content-share.php:159
 msgid "Content from the map"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:159
+#: ../themes/jeo/content-share.php:159
 msgid "Latest content"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:160
+#: ../themes/jeo/content-share.php:160
 msgid "No content (map only)"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:168
+#: ../themes/jeo/content-share.php:168
 msgid "By"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:185
+#: ../themes/jeo/content-share.php:185
 msgid "Width & Height"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:189
+#: ../themes/jeo/content-share.php:189
 msgid "Select the width and height proportions you would like to embed to be."
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:194
+#: ../themes/jeo/content-share.php:194
 msgid "Small"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:195
+#: ../themes/jeo/content-share.php:195
 msgid "Medium"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:196
+#: ../themes/jeo/content-share.php:196
 msgid "Large"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:206
+#: ../themes/jeo/content-share.php:206
 msgid "HTML Output"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:210
+#: ../themes/jeo/content-share.php:210
 msgid ""
 "Copy and paste this code into an HTML page to embed with it's current "
 "settings and location"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:223
+#: ../themes/jeo/content-share.php:223
 msgid "Get the original to use as a link or a custom embed."
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:241
+#: ../themes/jeo/content-share.php:241
 msgid ""
 "Share this map, with it's current settings and location, on your social "
 "network"
 msgstr ""
 
-#: ..\themes\jeo/content-share.php:257
+#: ../themes/jeo/content-share.php:257
 msgid "Map preview"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:22
+#: ../themes/jeo/functions.php:22
 msgid "Header menu"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:23
+#: ../themes/jeo/functions.php:23
 msgid "Footer menu"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:28
+#: ../themes/jeo/functions.php:28
 msgid "Post sidebar"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:34
+#: ../themes/jeo/functions.php:34
 msgid "General sidebar"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:40 ..\themes\jeo/inc/admin/settings.php:22
+#: ../themes/jeo/functions.php:40 ../themes/jeo/inc/admin/settings.php:22
 msgid "Front page"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:94
+#: ../themes/jeo/functions.php:94
 msgid "Pingback:"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:94
+#: ../themes/jeo/functions.php:94
 msgid "(Edit)"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:121
+#: ../themes/jeo/functions.php:121
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:125
+#: ../themes/jeo/functions.php:125
 msgid "Edit"
 msgstr ""
 
-#: ..\themes\jeo/functions.php:129
+#: ../themes/jeo/functions.php:129
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: ..\themes\jeo/functions.php:137
+#: ../themes/jeo/functions.php:137
 msgid "Reply"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:554
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2549
+#: ../themes/jeo/inc/admin/admin-page-framework.php:554
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2549
 msgid "Upload Image"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:555
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1180
+#: ../themes/jeo/inc/admin/admin-page-framework.php:555
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1180
 msgid "Use This Image"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1013
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1013
 msgid "Options have been updated."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1197
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1197
 msgid "The file is bigger than this PHP installation allows."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1198
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1198
 msgid "The file is bigger than this form allows."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1199
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1199
 msgid "Only part of the file was uploaded."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1200
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1200
 msgid "No file was uploaded."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1205
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1205
 msgid "Import Error: Wrong file type."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1211
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1211
 msgid "Import Error: Wrong text format."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1233
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1233
 msgid "The importing process has been failed."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1244
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1244
 msgid "Options were imported."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1542
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1542
 msgid "Settings"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:1569
+#: ../themes/jeo/inc/admin/admin-page-framework.php:1569
 msgid "Powered by"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2225
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2252
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2225
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2252
 msgid "Export Options"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2272
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2272
 msgid "Import Options"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2481
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2501
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2481
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2501
 msgid "Submit"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2550
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2550
 msgid "Delete Image"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2551
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2551
 msgid "Unset Image"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/admin-page-framework.php:2588
+#: ../themes/jeo/inc/admin/admin-page-framework.php:2588
 msgid "No url has been set."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:13
+#: ../themes/jeo/inc/admin/settings.php:13
 msgid "JEO Settings"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:24
+#: ../themes/jeo/inc/admin/settings.php:24
 msgid "Geocode"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:41
+#: ../themes/jeo/inc/admin/settings.php:41
 msgid "No maps were found"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:70
+#: ../themes/jeo/inc/admin/settings.php:70
 msgid "Front page settings"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:71
+#: ../themes/jeo/inc/admin/settings.php:71
 msgid "Set your front page contents."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:76
+#: ../themes/jeo/inc/admin/settings.php:76
 msgid "Front page map"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:77
+#: ../themes/jeo/inc/admin/settings.php:77
 msgid ""
 "Select if the front page map should be the featured map with latest content "
 "or a selection of featured posts."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:80
+#: ../themes/jeo/inc/admin/settings.php:80
 msgid "Featured map with latest posts"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:80
+#: ../themes/jeo/inc/admin/settings.php:80
 msgid "Selection of featured posts"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:80
+#: ../themes/jeo/inc/admin/settings.php:80
 msgid "featured map cannot be a map-group"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:84
+#: ../themes/jeo/inc/admin/settings.php:84
 msgid "Featured map"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:85
+#: ../themes/jeo/inc/admin/settings.php:85
 msgid "Select the map to be featured on the homepage and posts."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:96
+#: ../themes/jeo/inc/admin/settings.php:96
 msgid "Geocode settings"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:102
+#: ../themes/jeo/inc/admin/settings.php:102
 msgid "Geocode type"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:103
+#: ../themes/jeo/inc/admin/settings.php:103
 msgid ""
 "Choose simple latitude/longitude inputs or complete address lookup geocoding "
 "system"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:106
+#: ../themes/jeo/inc/admin/settings.php:106
 msgid "Address geocoding with interactive map (default)"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:106
+#: ../themes/jeo/inc/admin/settings.php:106
 msgid "Latitude/longitude inputs"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:110
+#: ../themes/jeo/inc/admin/settings.php:110
 msgid "Geocode service"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:111
+#: ../themes/jeo/inc/admin/settings.php:111
 msgid "Choose the geocoding service to be used"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:114
+#: ../themes/jeo/inc/admin/settings.php:114
 msgid "OpenStreetMaps with Nominatim"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:118
+#: ../themes/jeo/inc/admin/settings.php:118
 msgid "Google Maps API Key"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:119
+#: ../themes/jeo/inc/admin/settings.php:119
 #, php-format
 msgid ""
 "Key to use the Google Maps geocoding services. <a href=\"%s\" target=\"_blank"
 "\">Click here to get one.</a>"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:129
+#: ../themes/jeo/inc/admin/settings.php:129
 msgid "Map behaviours"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:133
+#: ../themes/jeo/inc/admin/settings.php:133
 msgid "Fragment hash"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:134
+#: ../themes/jeo/inc/admin/settings.php:134
 msgid ""
 "Enable use of fragment hash url to share map location, selected maps on "
 "mapgroup and fullscreen state. <br/>E.g.: yoursite.com/#!/"
 "loc=-23,-42,7&map=12&full=true"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:141
+#: ../themes/jeo/inc/admin/settings.php:141
 msgid "Enable marker clustering"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:142
+#: ../themes/jeo/inc/admin/settings.php:142
 msgid "Enable marker clustering system."
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:149
+#: ../themes/jeo/inc/admin/settings.php:149
 msgid "Map query"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:150
+#: ../themes/jeo/inc/admin/settings.php:150
 msgid "Display posts only associated to the viewing map"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:157
+#: ../themes/jeo/inc/admin/settings.php:157
 msgid "Mapped post types"
 msgstr ""
 
-#: ..\themes\jeo/inc/admin/settings.php:158
+#: ../themes/jeo/inc/admin/settings.php:158
 msgid "Post types to enable map functionalities"
 msgstr ""
 
-#: ..\themes\jeo/inc/api.php:36
+#: ../themes/jeo/inc/api.php:36
 msgid "GeoJSON API"
 msgstr ""
 
-#: ..\themes\jeo/inc/api.php:46
+#: ../themes/jeo/inc/api.php:46
 msgid "GeoJSON API Settings"
 msgstr ""
 
-#: ..\themes\jeo/inc/api.php:51
+#: ../themes/jeo/inc/api.php:51
 msgid "Enable API"
 msgstr ""
 
-#: ..\themes\jeo/inc/api.php:52
+#: ../themes/jeo/inc/api.php:52
 msgid "Select if you'd like to enable the GeoJSON API"
 msgstr ""
 
-#: ..\themes\jeo/inc/api.php:61
+#: ../themes/jeo/inc/api.php:61
 #, php-format
 msgid ""
 "Your API is <strong>enabled</strong>! <a href=\"%s\" target=\"_blank\">Click "
 "here to learn more</a>."
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:146 ..\themes\jeo/inc/core.php:158
+#: ../themes/jeo/inc/core.php:146 ../themes/jeo/inc/core.php:158
 msgid "More"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:150
+#: ../themes/jeo/inc/core.php:150
 msgid "Find a location"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:151
+#: ../themes/jeo/inc/core.php:151
 msgid "Results"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:152
+#: ../themes/jeo/inc/core.php:152
 msgid "Close search"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:153
+#: ../themes/jeo/inc/core.php:153
 msgid "Nothing found, try something else."
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:179 ..\themes\jeo/inc/core.php:180
+#: ../themes/jeo/inc/core.php:179 ../themes/jeo/inc/core.php:180
 msgid "Add new map"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:181
+#: ../themes/jeo/inc/core.php:181
 msgid "Edit map"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:182
+#: ../themes/jeo/inc/core.php:182
 msgid "New map"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:183
+#: ../themes/jeo/inc/core.php:183
 msgid "View map"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:184
+#: ../themes/jeo/inc/core.php:184
 msgid "Search maps"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:185
+#: ../themes/jeo/inc/core.php:185
 msgid "No map found"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:186
+#: ../themes/jeo/inc/core.php:186
 msgid "No map found in the trash"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:193
+#: ../themes/jeo/inc/core.php:193
 msgid "JEO Maps"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:210 ..\themes\jeo/inc/core.php:220
+#: ../themes/jeo/inc/core.php:210 ../themes/jeo/inc/core.php:220
 msgid "Map groups"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:211
-#: ..\themes\jeo/metaboxes/mapgroup/mapgroup.php:30
+#: ../themes/jeo/inc/core.php:211
+#: ../themes/jeo/metaboxes/mapgroup/mapgroup.php:30
 msgid "Map group"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:212 ..\themes\jeo/inc/core.php:213
+#: ../themes/jeo/inc/core.php:212 ../themes/jeo/inc/core.php:213
 msgid "Add new map group"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:214
+#: ../themes/jeo/inc/core.php:214
 msgid "Edit map group"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:215
+#: ../themes/jeo/inc/core.php:215
 msgid "New map group"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:216
+#: ../themes/jeo/inc/core.php:216
 msgid "View map group"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:217
+#: ../themes/jeo/inc/core.php:217
 msgid "Search map group"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:218
+#: ../themes/jeo/inc/core.php:218
 msgid "No map group found"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:219
+#: ../themes/jeo/inc/core.php:219
 msgid "No map group found in the trash"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:226
+#: ../themes/jeo/inc/core.php:226
 msgid "JEO Map Groups"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:522
+#: ../themes/jeo/inc/core.php:522
 msgid "You haven't created any maps!"
 msgstr ""
 
-#: ..\themes\jeo/inc/core.php:523
+#: ../themes/jeo/inc/core.php:523
 msgid "Click here to create your first"
 msgstr ""
 
-#: ..\themes\jeo/inc/featured.php:96
+#: ../themes/jeo/inc/featured.php:96
 msgid "Featured content"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:28
+#: ../themes/jeo/inc/layers.php:28
 msgid "Layer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:29 ..\themes\jeo/inc/layers.php:30
-#: ..\themes\jeo/inc/layers.php:85
+#: ../themes/jeo/inc/layers.php:29 ../themes/jeo/inc/layers.php:30
+#: ../themes/jeo/inc/layers.php:85
 msgid "Add new layer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:31
+#: ../themes/jeo/inc/layers.php:31
 msgid "Edit layer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:32
+#: ../themes/jeo/inc/layers.php:32
 msgid "New layer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:33
+#: ../themes/jeo/inc/layers.php:33
 msgid "View layer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:34
+#: ../themes/jeo/inc/layers.php:34
 msgid "Search layers"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:35
+#: ../themes/jeo/inc/layers.php:35
 msgid "No layer found"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:36
+#: ../themes/jeo/inc/layers.php:36
 msgid "No layer found in the trash"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:43
+#: ../themes/jeo/inc/layers.php:43
 msgid "JEO Layers"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:59
+#: ../themes/jeo/inc/layers.php:59
 msgctxt "taxonomy general name"
 msgid "Layer type"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:60
+#: ../themes/jeo/inc/layers.php:60
 msgctxt "taxonomy singular name"
 msgid "Layer type"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:61
+#: ../themes/jeo/inc/layers.php:61
 msgid "Search layer types"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:62
+#: ../themes/jeo/inc/layers.php:62
 msgid "All layer types"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:63 ..\themes\jeo/inc/layers.php:64
+#: ../themes/jeo/inc/layers.php:63 ../themes/jeo/inc/layers.php:64
 msgid "Parent layer type:"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:65
+#: ../themes/jeo/inc/layers.php:65
 msgid "Edit layer type"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:66
+#: ../themes/jeo/inc/layers.php:66
 msgid "Update layer type"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:67
+#: ../themes/jeo/inc/layers.php:67
 msgid "Add new layer type"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:68
+#: ../themes/jeo/inc/layers.php:68
 msgid "New layer type category Name"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:69
+#: ../themes/jeo/inc/layers.php:69
 msgid "Layer types"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:135
+#: ../themes/jeo/inc/layers.php:135
 msgid "Download URL"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:148
+#: ../themes/jeo/inc/layers.php:148
 msgid "Tilelayer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:344
+#: ../themes/jeo/inc/layers.php:344
 msgid "Enter your HTML code to use as legend on the layer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:443
+#: ../themes/jeo/inc/layers.php:443
 #, php-format
 msgid "Add and manage <a href=\"%s\" target=\"_blank\">layers</a> on your map."
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:445
+#: ../themes/jeo/inc/layers.php:445
 #, php-format
 msgid ""
 " You haven't created any layers yet, <a href=\"%s\" target=\"_blank\">click "
 "here</a> to create your first!"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:457
+#: ../themes/jeo/inc/layers.php:457
 msgid "Search for layers"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:460
+#: ../themes/jeo/inc/layers.php:460
 msgid "Latest layers"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:468
+#: ../themes/jeo/inc/layers.php:468
 msgid "You are using all of your layers."
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:472
+#: ../themes/jeo/inc/layers.php:472
 msgid "No layers were found."
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:480
+#: ../themes/jeo/inc/layers.php:480
 msgid "Add layer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:480
+#: ../themes/jeo/inc/layers.php:480
 msgid "Add"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:485
+#: ../themes/jeo/inc/layers.php:485
 msgid "Selected layers"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:496
+#: ../themes/jeo/inc/layers.php:496
 msgid "Layer options"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:499
+#: ../themes/jeo/inc/layers.php:499
 msgid "Fixed"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:501
+#: ../themes/jeo/inc/layers.php:501
 msgid "Switchable"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:503
+#: ../themes/jeo/inc/layers.php:503
 msgid "Swapable"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:508
+#: ../themes/jeo/inc/layers.php:508
 msgid "Hidden"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:512
+#: ../themes/jeo/inc/layers.php:512
 msgid "Default swap option"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:517
+#: ../themes/jeo/inc/layers.php:517
 msgid "Remove layer"
 msgstr ""
 
-#: ..\themes\jeo/inc/layers.php:517
-#: ..\themes\jeo/metaboxes/mapgroup/mapgroup.php:18
-#: ..\themes\jeo/metaboxes/mapgroup/mapgroup.php:67
+#: ../themes/jeo/inc/layers.php:517
+#: ../themes/jeo/metaboxes/mapgroup/mapgroup.php:18
+#: ../themes/jeo/metaboxes/mapgroup/mapgroup.php:67
 msgid "Remove"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:179
-#: ..\themes\jeo/inc/marker-icons.php:189
+#: ../themes/jeo/inc/marker-icons.php:179
+#: ../themes/jeo/inc/marker-icons.php:189
 msgid "Marker icons"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:180
+#: ../themes/jeo/inc/marker-icons.php:180
 msgid "Marker icon"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:181
+#: ../themes/jeo/inc/marker-icons.php:181
 msgid "Add marker icon"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:182
+#: ../themes/jeo/inc/marker-icons.php:182
 msgid "Add new marker icon"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:183
+#: ../themes/jeo/inc/marker-icons.php:183
 msgid "Edit marker icon"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:184
+#: ../themes/jeo/inc/marker-icons.php:184
 msgid "New marker icon"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:185
+#: ../themes/jeo/inc/marker-icons.php:185
 msgid "View marker icon"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:186
+#: ../themes/jeo/inc/marker-icons.php:186
 msgid "Search marker icons"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:187
+#: ../themes/jeo/inc/marker-icons.php:187
 msgid "No marker icon found"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:188
+#: ../themes/jeo/inc/marker-icons.php:188
 msgid "No marker icon found in the trash"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:195
+#: ../themes/jeo/inc/marker-icons.php:195
 msgid "JEO marker icons"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:225
-#: ..\themes\jeo/inc/marker-icons.php:484
+#: ../themes/jeo/inc/marker-icons.php:225
+#: ../themes/jeo/inc/marker-icons.php:484
 msgid "Marker"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:240
-#: ..\themes\jeo/inc/marker-icons.php:533
-#: ..\themes\jeo/inc/share-widget.php:150
+#: ../themes/jeo/inc/marker-icons.php:240
+#: ../themes/jeo/inc/marker-icons.php:533
+#: ../themes/jeo/inc/share-widget.php:150
 msgid "default"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:268
+#: ../themes/jeo/inc/marker-icons.php:268
 msgid "Set as default marker "
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:301
+#: ../themes/jeo/inc/marker-icons.php:301
 msgid "Default marker updated"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:335
+#: ../themes/jeo/inc/marker-icons.php:335
 msgid "Setup marker icon"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:354
+#: ../themes/jeo/inc/marker-icons.php:354
 msgid "Choose image to use as marker icon"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:355
+#: ../themes/jeo/inc/marker-icons.php:355
 msgid "PNG image format is recomended"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:359
+#: ../themes/jeo/inc/marker-icons.php:359
 msgid "Upload image"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:367
+#: ../themes/jeo/inc/marker-icons.php:367
 msgid "Use default"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:368
-msgid "Cancel"
-msgstr ""
-
-#: ..\themes\jeo/inc/marker-icons.php:369
+#: ../themes/jeo/inc/marker-icons.php:369
 msgid "Save"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:371
+#: ../themes/jeo/inc/marker-icons.php:371
 msgid "Mouse"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:376
+#: ../themes/jeo/inc/marker-icons.php:376
 msgid "Point"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:381
+#: ../themes/jeo/inc/marker-icons.php:381
 msgid "Tip:"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:381
+#: ../themes/jeo/inc/marker-icons.php:381
 msgid "Use ARROWS to move the pointer, press ENTER to save or ESC to cancel."
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:385
+#: ../themes/jeo/inc/marker-icons.php:385
 msgid "Icon anchor"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:386
+#: ../themes/jeo/inc/marker-icons.php:386
 msgid "Coordinates to correctly position the marker on the map"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:388
-#: ..\themes\jeo/inc/marker-icons.php:399
+#: ../themes/jeo/inc/marker-icons.php:388
+#: ../themes/jeo/inc/marker-icons.php:399
 msgid "Find coordinates"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:391
+#: ../themes/jeo/inc/marker-icons.php:391
 msgctxt "Cartesian coordination system axis"
 msgid "X"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:392
+#: ../themes/jeo/inc/marker-icons.php:392
 msgctxt "Cartesian coordination system axis"
 msgid "Y"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:396
+#: ../themes/jeo/inc/marker-icons.php:396
 msgid "Popup anchor"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:397
+#: ../themes/jeo/inc/marker-icons.php:397
 msgid "Coordinates to correctly position the marker's popup"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:449
+#: ../themes/jeo/inc/marker-icons.php:449
 msgid "Could not save image file"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:491
+#: ../themes/jeo/inc/marker-icons.php:491
 msgid "Default"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:495
+#: ../themes/jeo/inc/marker-icons.php:495
 msgid "Create a new marker"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:496
+#: ../themes/jeo/inc/marker-icons.php:496
 msgid "Select a marker"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:498
+#: ../themes/jeo/inc/marker-icons.php:498
 msgid "You don't have custom markers yet."
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:498
+#: ../themes/jeo/inc/marker-icons.php:498
 msgid "Create your first here!"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:566
+#: ../themes/jeo/inc/marker-icons.php:566
 msgid "Custom marker"
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:580
+#: ../themes/jeo/inc/marker-icons.php:580
 msgid ""
 "Choose a custom marker for your content. If it's set to <em>auto</em> we'll "
 "try to find the marker based on categories or map markers."
 msgstr ""
 
-#: ..\themes\jeo/inc/marker-icons.php:584
+#: ../themes/jeo/inc/marker-icons.php:584
 msgid "Auto"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:366
+#: ../themes/jeo/inc/markers.php:366
 msgid "We couldn't find what you are looking for, please try again."
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:367
+#: ../themes/jeo/inc/markers.php:367
 msgid "results found"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:384
+#: ../themes/jeo/inc/markers.php:384
 msgid "Address and geolocation"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:415
+#: ../themes/jeo/inc/markers.php:415
 msgid "Find the location"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:417
+#: ../themes/jeo/inc/markers.php:417
 msgid "Full address"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:418
+#: ../themes/jeo/inc/markers.php:418
 msgid "Find"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:423
+#: ../themes/jeo/inc/markers.php:423
 msgid "Drag the marker for a more precise result"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:427
+#: ../themes/jeo/inc/markers.php:427
 msgid "Result"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:429
+#: ../themes/jeo/inc/markers.php:429
 msgid "Latitude"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:432
+#: ../themes/jeo/inc/markers.php:432
 msgid "Longitude"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:711
+#: ../themes/jeo/inc/markers.php:711
 msgid "Clear GeoJSON Cache"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:724
+#: ../themes/jeo/inc/markers.php:724
 msgid ""
 "<strong>Markers GeoJSON cache has been cleared. Don't worry! They will be "
 "dynamically regenerated.</strong>"
 msgstr ""
 
-#: ..\themes\jeo/inc/markers.php:724
+#: ../themes/jeo/inc/markers.php:724
 msgid ""
 "The next map markers load might take a little while, depending on the amount "
 "of markers. If you want to speed this up for your users, we recommend you "
@@ -2731,164 +2694,245 @@ msgid ""
 "markers cache be replaced."
 msgstr ""
 
-#: ..\themes\jeo/inc/range-slider.php:41
+#: ../themes/jeo/inc/range-slider.php:41
 msgctxt "Range slider date format"
 msgid "MM/DD/YYYY"
 msgstr ""
 
-#: ..\themes\jeo/inc/range-slider.php:58
+#: ../themes/jeo/inc/range-slider.php:58
 msgid "Date range slider filter"
 msgstr ""
 
-#: ..\themes\jeo/inc/range-slider.php:61
+#: ../themes/jeo/inc/range-slider.php:61
 msgid "Enable date range slider filter for markers"
 msgstr ""
 
-#: ..\themes\jeo/inc/share-widget.php:49
+#: ../themes/jeo/inc/share-widget.php:49
 msgid "Map embed tool"
 msgstr ""
 
-#: ..\themes\jeo/inc/share-widget.php:67
+#: ../themes/jeo/inc/share-widget.php:67
 msgid "Embed tool settings"
 msgstr ""
 
-#: ..\themes\jeo/inc/share-widget.php:68
+#: ../themes/jeo/inc/share-widget.php:68
 msgid ""
 "Setup your embed tool. Here you can enable or disable it and set which "
 "taxonomies and maps are allowed to share."
 msgstr ""
 
-#: ..\themes\jeo/inc/share-widget.php:72
+#: ../themes/jeo/inc/share-widget.php:72
 msgid "Enable embed tool"
 msgstr ""
 
-#: ..\themes\jeo/inc/share-widget.php:73
+#: ../themes/jeo/inc/share-widget.php:73
 msgid "Select if you'd like to enable your embed tool"
 msgstr ""
 
-#: ..\themes\jeo/inc/share-widget.php:80
+#: ../themes/jeo/inc/share-widget.php:80
 msgid "Filter taxonomies"
 msgstr ""
 
-#: ..\themes\jeo/inc/share-widget.php:81
+#: ../themes/jeo/inc/share-widget.php:81
 msgid "Choose the taxonomies that can be filtered as an embed result"
 msgstr ""
 
-#: ..\themes\jeo/inc/share-widget.php:90
+#: ../themes/jeo/inc/share-widget.php:90
 #, php-format
 msgid ""
 "Your embed tool is <strong>enabled</strong>! <a href=\"%s\" target=\"_blank"
 "\">Check it out</a>."
 msgstr ""
 
-#: ..\themes\jeo/inc/streetview.php:37
+#: ../themes/jeo/inc/streetview.php:37
 msgid "Use Google Street View"
 msgstr ""
 
-#: ..\themes\jeo/inc/ui.php:16
+#: ../themes/jeo/inc/ui.php:16
 msgid "Locate on map"
 msgstr ""
 
-#: ..\themes\jeo/index.php:18
+#: ../themes/jeo/index.php:18
 msgid "Latest articles"
 msgstr ""
 
-#: ..\themes\jeo/metaboxes/map-relation/map-relation.php:10
+#: ../themes/jeo/metaboxes/map-relation/map-relation.php:10
 msgid "Set maps for this post"
 msgstr ""
 
-#: ..\themes\jeo/metaboxes/map-relation/map-relation.php:24
+#: ../themes/jeo/metaboxes/map-relation/map-relation.php:24
 msgid ""
 "Select which maps this post belongs to. If you don't mark any they will "
 "appear in all maps."
 msgstr ""
 
-#: ..\themes\jeo/metaboxes/map-relation/map-relation.php:33
+#: ../themes/jeo/metaboxes/map-relation/map-relation.php:33
 msgid "You haven't created any map, yet!"
 msgstr ""
 
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:17
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:17
 msgid "Map setup"
 msgstr ""
 
-#: ..\themes\jeo/metaboxes/mapbox/mapbox.php:36
+#: ../themes/jeo/metaboxes/mapbox/mapbox.php:36
 msgid ""
 "Edit the default layer and fill the IDs of the maps to overlay layers of "
 "your map, in order of appearance"
 msgstr ""
 
-#: ..\themes\jeo/metaboxes/mapgroup/mapgroup.php:15
-#: ..\themes\jeo/metaboxes/mapgroup/mapgroup.php:64
+#: ../themes/jeo/metaboxes/mapgroup/mapgroup.php:15
+#: ../themes/jeo/metaboxes/mapgroup/mapgroup.php:64
 msgid "Add to \"more\" tab"
 msgstr ""
 
-#: ..\themes\jeo/metaboxes/mapgroup/mapgroup.php:45
+#: ../themes/jeo/metaboxes/mapgroup/mapgroup.php:45
 msgid "Select a map to add to your map group"
 msgstr ""
 
-#: ..\themes\jeo/metaboxes/mapgroup/mapgroup.php:54
+#: ../themes/jeo/metaboxes/mapgroup/mapgroup.php:54
 msgid "Add map"
 msgstr ""
 
-#: ..\themes\jeo/search.php:8
+#: ../themes/jeo/search.php:8
 msgid "Search results for:"
 msgstr ""
 
-#: ..\themes\jeo/searchform.php:3
+#: ../themes/jeo/searchform.php:3
 msgid "Search here..."
 msgstr ""
 
-#: .\odm-localization-templete.php:12 odm-localization-templete.php:12
+#: odm-localization-templete.php:12
 msgid "Latest issues"
 msgstr "ប្រធានបទថ្មីបំផុត"
 
-#: .\odm-localization-templete.php:13 odm-localization-templete.php:13
+#: odm-localization-templete.php:13
 msgid "Latest data"
 msgstr "ទិន្នន័យថ្មីបំផុត"
 
-#: .\odm-localization-templete.php:14 odm-localization-templete.php:14
+#: odm-localization-templete.php:14
 msgid "Briefings"
 msgstr "ប្រធានបទ"
 
-#: .\odm-localization-templete.php:16 odm-localization-templete.php:16
+#: odm-localization-templete.php:16
 msgid "Issues"
 msgstr "ប្រធានបទ"
 
-#: .\odm-localization-templete.php:20 odm-localization-templete.php:20
+#: odm-localization-templete.php:20
 msgid "Search for posts, maps and briefings..."
 msgstr "ស្វែងរកអត្ថបទ ផែនទី និងអត្ថបទសង្ខេប..."
 
-#: .\odm-localization-templete.php:21 odm-localization-templete.php:21
+#: odm-localization-templete.php:21
 msgid "Search Datasets for Mekong"
 msgstr "ស្វែងរកទិន្នន័យតំបន់មេគង្គ"
 
-#: .\odm-localization-templete.php:22 odm-localization-templete.php:22
+#: odm-localization-templete.php:22
 msgid "Search Datasets for Cambodia"
 msgstr "ស្វែងរកទិន្នន័យប្រទេសកម្ពុជា"
 
-#: .\odm-localization-templete.php:23 odm-localization-templete.php:23
+#: odm-localization-templete.php:23
 msgid "Search Datasets for Laos"
 msgstr "ស្វែងរកទិន្នន័យប្រទេសឡាវ"
 
-#: .\odm-localization-templete.php:24 odm-localization-templete.php:24
+#: odm-localization-templete.php:24
 msgid "Search Datasets for Myanmar"
 msgstr "ស្វែងរកទិន្នន័យប្រទេសមីយ៉ាន់ម៉ា"
 
-#: .\odm-localization-templete.php:25 odm-localization-templete.php:25
+#: odm-localization-templete.php:25
 msgid "Search Datasets for Thailand"
 msgstr "ស្វែងរកទិន្នន័យប្រទេសថៃ"
 
-#: .\odm-localization-templete.php:26 odm-localization-templete.php:26
+#: odm-localization-templete.php:26
 msgid "Search Datasets for Vietnam"
 msgstr "ស្វែងរកទិន្នន័យប្រទេសវៀតណាម"
 
-#: .\odm-localization-templete.php:27 odm-localization-templete.php:27
+#: odm-localization-templete.php:27
 msgid "More information"
 msgstr "ព័ត៌មាន​បន្ថែម"
 
-#: .\odm-localization-templete.php:28 odm-localization-templete.php:28
+#: odm-localization-templete.php:28
 msgid "Announcements and Press releases"
 msgstr "សេចក្តីប្រកាសនិងសេចក្តីថ្លែងការណ៍"
+
+#~ msgid "Search"
+#~ msgstr "ស្វែងរក"
+
+#~ msgid "Search &#128270;"
+#~ msgstr "ស្វែងរក &#128270;"
+
+#~ msgid "Laws and agreements"
+#~ msgstr "ច្បាប់និងកិច្ចព្រមព្រៀង"
+
+#~ msgid "Law compendium"
+#~ msgstr "កម្រងឯកសារច្បាប់"
+
+#~ msgid "Show"
+#~ msgstr "បង្ហាញ"
+
+#~ msgid "entries"
+#~ msgstr "កំណត់ត្រា"
+
+#~ msgid "Type of laws"
+#~ msgstr "ប្រភេទច្បាប់"
+
+#~ msgid "Search all laws"
+#~ msgstr "ស្វែងរកច្បាប់ទាំងអស់"
+
+#~ msgid "International Treaties/Agreement"
+#~ msgstr "សន្ធិសញ្ញា/កិច្ចព្រមព្រៀងអន្តរជាតិ"
+
+#~ msgid "Sechkdei Chhun Damneoung/Notice/Announcement"
+#~ msgstr "សេចក្តីជូនដំណឹង"
+
+#~ msgid "Laws, policies and agreements"
+#~ msgstr "ច្បាប់ គោលនយោបាយ និងកិច្ចព្រមព្រៀង"
+
+#~ msgid "District/Khan"
+#~ msgstr "ស្រុក/ខណ្ឌ"
+
+#~ msgid "Size"
+#~ msgstr "ទំហំ"
+
+#~ msgid "Adjustment classification"
+#~ msgstr "ចំណាត់ថ្នាក់លៃសម្រួល"
+
+#~ msgid "Developer address"
+#~ msgstr "អាសយដ្ឋានក្រុមហ៊ុន"
+
+#~ msgid "Intended investment"
+#~ msgstr "គោលបំណងវិនិយោគ"
+
+#~ msgid "Director"
+#~ msgstr "នាយក"
+
+#~ msgid "Director nationality"
+#~ msgstr "សញ្ជាតិនាយក"
+
+#~ msgid "Commune/Sangkat"
+#~ msgstr "ឃុំ/សង្កាត់"
+
+#~ msgid "Town/Municipality"
+#~ msgstr "ក្រុង"
+
+#~ msgid "Amendments"
+#~ msgstr "វិសោធនកម្ម"
+
+#~ msgid "Amendment text"
+#~ msgstr "អត្ថបទវិសោធនកម្ម"
+
+#~ msgid "Change type"
+#~ msgstr "ប្រភេទនៃការផ្លាស់ប្តូរ"
+
+#~ msgid "Amendment object"
+#~ msgstr "កម្មវត្ថុវិសោធនកម្ម"
+
+#~ msgid "Amendment date"
+#~ msgstr "កាលបរិច្ឆេទវិសោធនកម្ម"
+
+#~ msgid "Description"
+#~ msgstr "សេចក្តីបរិយាយ"
+
+#~ msgid "Reference documents"
+#~ msgstr "ឯកសារយោង"
 
 #~ msgid "July"
 #~ msgstr "ខែកក្កដា"
