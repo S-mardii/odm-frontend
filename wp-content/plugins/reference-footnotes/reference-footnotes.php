@@ -86,7 +86,10 @@ if(!class_exists('reference_footnotes_TinyMCE')) {
 
                 if ( empty( $this->reference_footnotes[$id] ) )
                         return $content; 
-                $content .= '<div class="reference-footnote"><h4 id="reference-notes">'. __( 'References', 'reference-footnotes' ).'</h4><ul id="reference-list">';
+                $content .= '<div class="reference-footnote">';
+				//$content .= '<h4 id="reference-notes">'. __( 'References', 'reference-footnotes' ).'</h4>';
+				$content .= '<h4 id="reference-notes">'. __( 'References', 'opendev' ).'</h4>';
+				$content .= '<ul id="reference-list">';
                 foreach ( array_filter( $this->reference_footnotes[$id] ) as $num => $note ) {
                     $content .= '<li id="ref-' . $id . '-' . $num . '">
                                 <a href="#return-note-' . $id . '-' . $num . '">' .sprintf( _n( '%s', '%s', $num, 'tereference-footnotesst' ), $num ).'</a>. '. do_shortcode( $note ) . '</li>';  
