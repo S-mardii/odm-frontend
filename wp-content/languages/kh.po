@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
 "POT-Creation-Date: 2016-01-29 17:41+0700\n"
-"PO-Revision-Date: 2016-01-29 17:48+0700\n"
+"PO-Revision-Date: 2016-02-01 12:13+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: km_KH\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../plugins/reference-footnotes/reference-footnotes.php:89
 msgid "References"
-msgstr "ឯកសារយោង​"
+msgstr "ឯកសារយោង"
 
 #: ../plugins/reference-footnotes/reference-footnotes.php:92
 #: ../themes/jeo-odm/archive.php:14 ../themes/jeo/archive.php:10
