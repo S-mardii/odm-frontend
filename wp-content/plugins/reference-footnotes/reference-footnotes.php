@@ -33,8 +33,8 @@ if(!class_exists('reference_footnotes_TinyMCE')) {
 		function init() {  
 			add_filter('mce_external_plugins', array($this, 'add_buttons_reference_footnotes'));
 			add_filter('mce_buttons', array($this, 'register_buttons_reference_footnotes'));
-			if((current_user_can('edit_posts') || current_user_can('edit_pages')) && 'true' == get_user_option('rich_editing')) {
-			    load_plugin_textdomain( 'reference-footnotes', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+			 load_plugin_textdomain( 'reference-footnotes', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+			if((current_user_can('edit_posts') || current_user_can('edit_pages')) && 'true' == get_user_option('rich_editing')) {			   
 				wp_enqueue_script( array ( 'wpdialogs' ) );
 			 	wp_enqueue_style('wp-jquery-ui-dialog');
 			    add_action('admin_footer', array($this, 'builder_reference_footnotes'));
