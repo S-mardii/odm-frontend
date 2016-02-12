@@ -26,5 +26,23 @@ echo _('Search Datasets for Thailand');
 echo _('Search Datasets for Vietnam');
 echo _('More information');
 echo _('Announcements and Press releases');
+//Main Taxonomy
+echo _('Agriculture and fishing');
+echo _('Disasters and emergency response');
+echo _('Environment and natural resources');
+echo _('Extractive industries');
+echo _('Land');
+echo _('Economy and commerce');
+echo _('Energy');
+echo _('Infrastructure');
+echo _('Industry');
+echo _('Labor');
+echo _('Science and technology');
+echo _('Aid and development');
+echo _('Government');
+echo _('Law and judiciary');
+echo _('Population and censuses');
+echo _('Social development');
+echo _('Urban administration and development');
 ?> 
 
