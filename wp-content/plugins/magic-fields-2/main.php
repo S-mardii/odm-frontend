@@ -330,9 +330,10 @@ function mf_change_template() {
   if (!$template || $template == 'default') {
     return;
   }
-
-  $template = TEMPLATEPATH.'/'.$template;
-
+  if ( file_exists( STYLESHEETPATH.'/'.$template))
+    $template = STYLESHEETPATH.'/'.$template;
+  else
+    $template = TEMPLATEPATH.'/'.$template;
   if ( $template = apply_filters( 'template_include', $template ) ) {
     include($template);
     die();
