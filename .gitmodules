@@ -27,4 +27,4 @@
 	url = https://github.com/OpenDevelopmentMekong/tinymce-advanced
 [submodule "wp-content/plugins/any-mobile-theme-switcher"]
 	path = wp-content/plugins/any-mobile-theme-switcher
-	url = git@github.com:wp-plugins/any-mobile-theme-switcher.git
+	url = git@github.com:OpenDevelopmentMekong/any-mobile-theme-switcher.git
