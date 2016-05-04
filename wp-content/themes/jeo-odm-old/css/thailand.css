@@ -1,0 +1,94 @@
+.thailand-color{
+    color: #F7904D;
+}
+a, a:visited, #sidebar .widget li a{
+ color: #F7904D; /*6393D2, 2774da;*/
+ text-decoration:none
+}
+a:hover, #sidebar .widget li a:hover{	
+	color: #64161d;
+	text-decoration:underline
+}
+a strong:hover{	
+	color: #64161d;
+	text-decoration:underline
+}
+
+button,
+a.button,
+.button {
+	background: #f7904d;
+}
+tr:nth-child(2n+1) {
+    background-color: #fdebdf;
+}
+#od-head {
+	background: #64161d;
+	color: #f0f0f0;
+}
+
+#od-head #ms-nav {
+	background: #772028;
+}
+#od-head #main-nav .menu ul > li:hover a,
+#od-head #main-nav ul.menu > li:hover,  
+#od-head #main-nav ul.menu  > li  > ul.sub-menu > li:hover , 
+#od-head #main-nav ul.menu  > li  > ul.sub-menu > li > ul.sub-menu > li a:hover {
+	background-color: #F7904D;  
+}
+#od-head h1 a,
+#od-head h1 span {
+	text-decoration: none;
+	color: #f7904d;
+}
+
+#od-head h2,
+#od-head a,
+#od-head span {
+	color: #fff;
+}
+#od-head a:hover{
+	color: #f7904d;
+}
+#od-head .ms-dropdown-title ul {
+	background: #64161d;
+}
+
+#od-head .ms-dropdown-title ul li {
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+ 
+#od-head .notification-message-box a{
+    color: #333;
+}
+.notification-message-box{
+    border: 2px solid #f7904d;
+    color: #64161d;
+}
+.mapgroup-container .mapgroup .map-nav-container .map-nav li a.active {
+	background: #f7904d;
+	border-color: #f7904d;
+}
+
+.mapgroup-container .mapgroup .map-nav-container .map-nav li a.active:after {
+	border-bottom: 10px solid #f7904d;
+}
+
+#news.page-section .section-map .mapgroup-container .mapgroup .map-nav-container .map-nav li a.active:after {
+	border-top: 10px solid #f7904d;
+}
+
+#site-intro {
+	background: #f7904d;
+}
+.current-site-thailand{
+	background: #f7904d;
+}
+#od-head #main-nav ul li.current_page_item a{
+	color: #f7904d;
+	font-weight: bold; 
+}
+.widget .opendev-summary ol li a:hover {
+	color: #f7904d; 
+	text-decoration:underline
+}

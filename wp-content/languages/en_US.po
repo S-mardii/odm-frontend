@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2016-04-29 17:38+0700\n"
-"PO-Revision-Date: 2016-04-29 17:38+0700\n"
+"POT-Creation-Date: 2016-05-04 18:07+0700\n"
+"PO-Revision-Date: 2016-05-04 18:07+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -14,14 +14,35 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _;_e;__;_n:1,2;_x:1,2c;_ex:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: ./odm-localization-templete.php\n"
-"X-Poedit-SearchPath-2: ../themes/jeo-odm\n"
-"X-Poedit-SearchPath-3: ../themes/jeo\n"
+"X-Poedit-SearchPath-0: odm-localization-templete.php\n"
+"X-Poedit-SearchPath-1: ../themes/jeo-odm\n"
+"X-Poedit-SearchPath-2: ../themes/jeo\n"
+"X-Poedit-SearchPath-3: ../plugins/reference-footnotes\n"
 
 #: ../themes/jeo/lib/cartodb.mod.torque.js:2
 msgid "<%=filename%>:<%=line%>:<%=column%> <%=message%>"
 msgstr ""
+
+#: ../plugins/reference-footnotes/reference-footnotes.php:67
+msgid "Enter the content of the reference footnote"
+msgstr ""
+
+#: ../plugins/reference-footnotes/reference-footnotes.php:74
+#: ../themes/jeo/inc/marker-icons.php:368
+msgid "Cancel"
+msgstr ""
+
+#: ../plugins/reference-footnotes/reference-footnotes.php:91
+msgid "References"
+msgstr ""
+
+#: ../plugins/reference-footnotes/reference-footnotes.php:95
+#: ../themes/jeo-odm/archive.php:14 ../themes/jeo/archive.php:10
+#, php-format
+msgid "%s"
+msgid_plural "%s"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../themes/jeo-odm/Cambodia/page-forest-cover.php:19
 #: ../themes/jeo-odm/single-announcement.php:23
@@ -34,11 +55,6 @@ msgstr ""
 #: ../themes/jeo-odm/single-topic.php:37 ../themes/jeo-odm/single.php:82
 #: ../themes/jeo/page.php:17 ../themes/jeo/single.php:29
 msgid "Pages:"
-msgstr ""
-
-#: ../themes/jeo-odm/archive.php:14 ../themes/jeo/archive.php:10
-#, php-format
-msgid "%s"
 msgstr ""
 
 #: ../themes/jeo-odm/archive.php:16 ../themes/jeo/archive.php:12
@@ -70,7 +86,7 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
-#: ../themes/jeo-odm/category.php:63 ../themes/jeo-odm/functions.php:542
+#: ../themes/jeo-odm/category.php:63 ../themes/jeo-odm/functions.php:529
 #: ../themes/jeo-odm/inc/live-search/live-search.php:22
 #: odm-localization-templete.php:15
 msgid "News"
@@ -114,292 +130,223 @@ msgid ""
 "\">JEO Beta</a> theme"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:84
+#: ../themes/jeo-odm/functions.php:69
 msgid "Topic sidebar"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:90
+#: ../themes/jeo-odm/functions.php:75
 msgid "Mekong Storms and Floods sidebar"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:96
+#: ../themes/jeo-odm/functions.php:81
 msgid "Frontpage footer left"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:102
+#: ../themes/jeo-odm/functions.php:87
 msgid "Frontpage footer right"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:108
+#: ../themes/jeo-odm/functions.php:93
 msgid "Upcoming footer left"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:114
+#: ../themes/jeo-odm/functions.php:99
 msgid "Upcoming footer middle"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:120
+#: ../themes/jeo-odm/functions.php:105
 msgid "Upcoming footer right"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:142
+#: ../themes/jeo-odm/functions.php:127
 msgid "stories"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:144
+#: ../themes/jeo-odm/functions.php:129
 msgid "Copy the embed code"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:145 ../themes/jeo-odm/loop-latest.php:21
+#: ../themes/jeo-odm/functions.php:130 ../themes/jeo-odm/loop-latest.php:21
 #: ../themes/jeo/content-share.php:9 ../themes/jeo/content-share.php:237
 #: ../themes/jeo/inc/share-widget.php:34
 msgid "Share"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:146
+#: ../themes/jeo-odm/functions.php:131
 msgid "Print"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:157 ../themes/jeo-odm/loop-latest.php:19
+#: ../themes/jeo-odm/functions.php:142 ../themes/jeo-odm/loop-latest.php:19
 #: ../themes/jeo-odm/loop.php:62 ../themes/jeo/content-featured.php:32
 #: ../themes/jeo/loop.php:22
 msgid "Read more"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:159
+#: ../themes/jeo-odm/functions.php:144
 msgid "Open slideshow"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:160
+#: ../themes/jeo-odm/functions.php:145
 msgid "Watch video gallery"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:161
+#: ../themes/jeo-odm/functions.php:146
 msgid "Watch video"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:162
+#: ../themes/jeo-odm/functions.php:147
 msgid "View image gallery"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:163
+#: ../themes/jeo-odm/functions.php:148
 msgid "View fullscreen image"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:164
+#: ../themes/jeo-odm/functions.php:149
 msgid "View infographic"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:165
+#: ../themes/jeo-odm/functions.php:150
 msgid "View infographics"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:278
+#: ../themes/jeo-odm/functions.php:264
 msgctxt "taxonomy general name"
 msgid "News Sources"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:279
+#: ../themes/jeo-odm/functions.php:265
 msgctxt "taxonomy singular name"
 msgid "News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:280
+#: ../themes/jeo-odm/functions.php:266
 msgid "Search News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:281
+#: ../themes/jeo-odm/functions.php:267
 msgid "All News Sources"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:282
+#: ../themes/jeo-odm/functions.php:268
 msgid "Parent News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:283
+#: ../themes/jeo-odm/functions.php:269
 msgid "Parent News Source:"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:284
+#: ../themes/jeo-odm/functions.php:270
 msgid "Edit News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:285
+#: ../themes/jeo-odm/functions.php:271
 msgid "Update News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:286
+#: ../themes/jeo-odm/functions.php:272
 msgid "Add New News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:287
+#: ../themes/jeo-odm/functions.php:273
 msgid "New News Source Name"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:288
+#: ../themes/jeo-odm/functions.php:274
 msgid "News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:521
+#: ../themes/jeo-odm/functions.php:508
 #: ../themes/jeo-odm/inc/theme-options.php:288
 msgid "Site coming soon."
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:547
+#: ../themes/jeo-odm/functions.php:534
 msgid "Topics"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:552 ../themes/jeo/inc/admin/settings.php:23
+#: ../themes/jeo-odm/functions.php:539 ../themes/jeo/inc/admin/settings.php:23
 #: ../themes/jeo/inc/core.php:187 ../themes/jeo/inc/core.php:197
 #: odm-localization-templete.php:17
 msgid "Maps"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:561 ../themes/jeo-odm/header.php:150
+#: ../themes/jeo-odm/functions.php:548 ../themes/jeo-odm/header.php:144
 #: odm-localization-templete.php:18
 msgid "Data"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:574 odm-localization-templete.php:10
+#: ../themes/jeo-odm/functions.php:561 odm-localization-templete.php:10
 msgid "Latest news"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:599
+#: ../themes/jeo-odm/functions.php:586
 msgid "Latest topics"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:624 odm-localization-templete.php:11
+#: ../themes/jeo-odm/functions.php:611 odm-localization-templete.php:11
 msgid "Latest maps"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:1152 ../themes/jeo-odm/header.php:63
+#: ../themes/jeo-odm/functions.php:1129 ../themes/jeo-odm/header.php:63
 #: ../themes/jeo/content-embed.php:16 ../themes/jeo/header.php:17
 msgid "Page"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:1254
+#: ../themes/jeo-odm/functions.php:1231
 #: ../themes/jeo-odm/inc/advanced-navigation.php:137
 msgid "Categories"
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1735
-#: ../themes/jeo-odm/page-profiles-single-page.php:19
-#: ../themes/jeo-odm/page-profiles.php:285
-msgid "Not found"
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1739
-msgid ""
-"ODC is not aware of any adjustments to the concession since it was first "
-"granted."
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1744
-msgid ""
-"The concession has been subjected to additional reductions in size and has "
-"not been cancelled previously. Publicly available information on land area "
-"cut from ELCs does not include maps or spatial data of excisions. Thus, ODC "
-"cannot present land area cut in shapes. As a result, ELC projects that are "
-"visualized on the interactive map represent the original contract size."
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1749
-msgid ""
-"The concession has been cancelled with or without a history of reductions in "
-"size."
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1754
-msgid ""
-"The concession has been subjected to reduction(s) in size although it had "
-"been cancelled previously. Publicly available information on land area cut "
-"from ELCs does not include maps or spatial data of excisions. Thus, ODC "
-"cannot present land area cut in shapes. As a result, ELC projects that are "
-"visualized on the interactive map represent the original contract size."
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1759
-msgid ""
-"Information obtained from official Government sources, with official legal "
-"documentation, in the four identification fields: <br>a. Company name; "
-"<br>b. Location; <br>c. GPS coordinates and/or analog map; and <br>  d. "
-"Purpose (crop, ore, etc.)"
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1763
-msgid ""
-"Information obtained from official Government sources, with legal "
-"documentation, but missing one or more of the following identification "
-"fields: <br>a. Company name; <br>b. Location; <br>c. GPS coordinates and/or "
-"analog map; and <br>d. Purpose (crop, ore, etc.)"
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1767
-msgid ""
-"Information obtained from any other source in public domain (including "
-"documentation from photographs, etc.)"
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1771
-msgid ""
-"Information obtained from the concessionaire (company/entity) or from "
-"government source(s) without legal documentation."
-msgstr ""
-
-#: ../themes/jeo-odm/functions.php:1775
-msgid ""
-"These concessions have been cancelled by the Royal Government of Cambodia."
 msgstr ""
 
 #: ../themes/jeo-odm/header.php:92
 msgid "Search site... &#128269;"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:144
+#: ../themes/jeo-odm/header.php:139
 msgid "Publications Library"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:152
+#: ../themes/jeo-odm/header.php:146
 msgid "All records"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:154
+#: ../themes/jeo-odm/header.php:148
 msgid "Records by country"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:156 odm-localization-templete.php:3
+#: ../themes/jeo-odm/header.php:150 odm-localization-templete.php:3
 msgid "Cambodia"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:157 odm-localization-templete.php:4
+#: ../themes/jeo-odm/header.php:151 odm-localization-templete.php:4
 msgid "Laos"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:158 odm-localization-templete.php:5
+#: ../themes/jeo-odm/header.php:152 odm-localization-templete.php:5
 msgid "Myanmar"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:159 odm-localization-templete.php:6
+#: ../themes/jeo-odm/header.php:153 odm-localization-templete.php:6
 msgid "Thailand"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:160 odm-localization-templete.php:7
+#: ../themes/jeo-odm/header.php:154 odm-localization-templete.php:7
 msgid "Vietnam"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:165
+#: ../themes/jeo-odm/header.php:159
 msgid "Records by language"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:167 odm-localization-templete.php:9
+#: ../themes/jeo-odm/header.php:161 odm-localization-templete.php:9
 msgid "English"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:168 odm-localization-templete.php:8
+#: ../themes/jeo-odm/header.php:162 odm-localization-templete.php:8
 msgid "Khmer"
 msgstr ""
 
-#: ../themes/jeo-odm/header.php:169
+#: ../themes/jeo-odm/header.php:163
 msgid "Vietnamese"
 msgstr ""
 
@@ -967,192 +914,6 @@ msgstr ""
 
 #: ../themes/jeo-odm/inc/odm-taxonomy-widget.php:230
 msgid "Exclude Category by IDs (separated by commas):"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:18
-msgctxt "post type general name"
-msgid "Profiles Page"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:19
-msgctxt "post type singular name"
-msgid "Profile Page"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:20
-msgctxt "admin menu"
-msgid "Profile Pages"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:21
-msgctxt "add new on admin bar"
-msgid "Profile Pages"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:22
-msgctxt "profile page"
-msgid "Add new"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:23
-msgid "Add new profile page"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:24
-msgid "New profile pages"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:25
-msgid "Edit profile pages"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:26
-msgid "View profile pages"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:27
-msgid "All profile pages"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:28
-msgid "Search profile pages"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:29
-msgid "Parent profile pages:"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:30
-msgid "No profile page found."
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:31
-msgid "No profile page found in trash."
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:57
-msgid "CKAN​ Dataset Resource"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:65
-msgid "Setting of Profiles Page"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:87
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:208
-msgid "ENGLISH"
-msgstr "អង់គ្លេស"
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:96
-msgid "CartoDB JSON URL (English)"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:99
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:128
-msgid ""
-"CartoDB visualization URL. E.g.: http://user.cartodb.com/api/v2/"
-"viz/621d23a0-5eaa-11e4-ab03-0e853d047bba/viz.json"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:103
-msgid "CSV Resource URL (English)"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:106
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:135
-msgid ""
-"CSV Resource of dataset on CKAN. Eg. https://data.opendevelopmentmekong.net/"
-"dataset/economic-land-concessions/resource/3b817bce-9823-493b-8429-"
-"e5233ba3bd87?type=dataset"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:110
-msgid "CSV Tracking URL (English)"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:113
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:142
-msgid ""
-"CSV Resource of tracking dataset on CKAN. Eg. https://data."
-"opendevelopmentmekong.net/dataset/economic-land-concessions/"
-"resource/8cc0c651-8131-404e-bbce-7fe6af728f89?type=dataset"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:125
-msgid "CartoDB JSON URL ("
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:132
-msgid "CSV Resource URL ("
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:139
-msgid "CSV Tracking URL ("
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:180
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:188
-msgid ""
-"The attributes of Resource Dataset that would like to display, separated by "
-"breaking to new line ("
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:183
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:191
-msgid ""
-"The attributes of Tracking Resource that would like to display, separated by "
-"breaking to new line ("
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:217
-msgid ""
-"Show Total Numbers of Columns, separated by breaking to new line (English)"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:222
-msgid ""
-"List the attribut names to show their total number on page (separated by "
-"breaking to new line). Eg. For ELC: <br/>map_id<br/>developer<br/"
-">data_class[\"Government data complete\", \"Government data partial\"]"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:226
-msgid "Create Select Filter by Column Index (English)"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:229
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:258
-msgid "Eg. The column index of Data Adjustment of ELC: 2"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:233
-msgid "Group Data in Column (English)"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:236
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:265
-msgid ""
-"Eg. To group data classification of ELC, based on the attributes sample "
-"provided, the index of data classification is: 5"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:247
-msgid "Show Total Numbers of Columns, separated by breaking to new line ("
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:251
-msgid ""
-"List the attribut names to show their total number on page (separated by "
-"breaking in new line). Eg. For ELC: map_id<br/>developer<br/"
-">data_class[\"Government data complete\", \"Government data partial\"]"
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:255
-msgid "Create Select Filter by Column Index ("
-msgstr ""
-
-#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:262
-msgid "Group Data in Column ("
 msgstr ""
 
 #: ../themes/jeo-odm/inc/query-resources-widget.php:12
@@ -1766,7 +1527,7 @@ msgid "Download"
 msgstr ""
 
 #: ../themes/jeo-odm/page-laws.php:127 ../themes/jeo-odm/page-laws.php:129
-#: ../themes/jeo-odm/page-profiles.php:224
+#: ../themes/jeo-odm/page-profiles.php:196
 msgid "SEARCH"
 msgstr ""
 
@@ -1858,67 +1619,152 @@ msgstr ""
 msgid "Others"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles-single-page.php:35
-msgid "Amendments"
+#: ../themes/jeo-odm/page-profiles.php:157
+#: ../themes/jeo-odm/page-profiles.php:170
+msgid "Government data complete"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles-single-page.php:88
-msgid "Reference documents"
+#: ../themes/jeo-odm/page-profiles.php:158
+#: ../themes/jeo-odm/page-profiles.php:174
+msgid "Government data partial"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:159
+#: ../themes/jeo-odm/page-profiles.php:178
+msgid "Secondary source data"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:160
+#: ../themes/jeo-odm/page-profiles.php:182
+msgid "Other data"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:164
+msgid "Total Projects Listed"
 msgstr ""
 
 #: ../themes/jeo-odm/page-profiles.php:164
 #: ../themes/jeo-odm/page-profiles.php:166
-#: ../themes/jeo-odm/page-profiles.php:203
-#: ../themes/jeo-odm/page-profiles.php:205
-msgid "Total"
-msgstr ""
-
-#: ../themes/jeo-odm/page-profiles.php:164
-#: ../themes/jeo-odm/page-profiles.php:166
-#: ../themes/jeo-odm/page-profiles.php:203
-#: ../themes/jeo-odm/page-profiles.php:205
-msgid "Listed"
-msgstr ""
-
-#: ../themes/jeo-odm/page-profiles.php:164
-#: ../themes/jeo-odm/page-profiles.php:166
-#: ../themes/jeo-odm/page-profiles.php:193
-#: ../themes/jeo-odm/page-profiles.php:203
-#: ../themes/jeo-odm/page-profiles.php:205
+#: ../themes/jeo-odm/page-profiles.php:170
+#: ../themes/jeo-odm/page-profiles.php:174
+#: ../themes/jeo-odm/page-profiles.php:178
+#: ../themes/jeo-odm/page-profiles.php:182
 msgid ":"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles.php:224
+#: ../themes/jeo-odm/page-profiles.php:166
+msgid "Total Companies Listed"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:196
 msgid "in"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles.php:224
+#: ../themes/jeo-odm/page-profiles.php:196
 msgid "Profiles"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles.php:227
+#: ../themes/jeo-odm/page-profiles.php:199
 msgid "Search"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles.php:234
+#: ../themes/jeo-odm/page-profiles.php:206
 msgid "DOWNLOAD"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles.php:258
-msgid "Map ID"
-msgstr ""
-
-#: ../themes/jeo-odm/page-profiles.php:444
-#: ../themes/jeo-odm/page-profiles.php:449
+#: ../themes/jeo-odm/page-profiles.php:226
+#: ../themes/jeo-odm/page-profiles.php:229
+#: ../themes/jeo-odm/page-profiles.php:457
+#: ../themes/jeo-odm/page-profiles.php:462
+#: ../themes/jeo-odm/page-profiles.php:489
+#: ../themes/jeo-odm/page-profiles.php:494
 msgid "Filter by"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles.php:446
-msgid "all"
+#: ../themes/jeo-odm/page-profiles.php:234
+msgid "Developer"
 msgstr ""
 
-#: ../themes/jeo-odm/page-profiles.php:451
+#: ../themes/jeo-odm/page-profiles.php:235
+msgid "Developer country"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:236
+msgid "Contract date"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:237
+msgid "Contract term (year)"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:238
+msgid "Granted land area (hectare)"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:239
+msgid "Source of land size"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:240
+msgid "Intended investment "
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:241
+msgid "Intended crop or project"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:242
+msgid "Province/Capital city"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:243
+msgid "Contract authority"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:244
+msgid "Previous land use"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:245
+msgid "Sub-decree reclassifying land use"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:246
+msgid "Legal documents"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:247
+msgid "Developer land use plan"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:248
+msgid "EIA status"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:249
+msgid "Adjustment classification "
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:250
+msgid "Data classification"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:251
+msgid "Map id"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:459
+#: ../themes/jeo-odm/page-profiles.php:491
+msgid "all "
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:464
+#: ../themes/jeo-odm/page-profiles.php:496
 msgid "All "
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:519
+msgid "All data Classifications"
 msgstr ""
 
 #: ../themes/jeo-odm/search.php:6 ../themes/jeo/inc/layers.php:464
@@ -2812,10 +2658,6 @@ msgstr ""
 msgid "Use default"
 msgstr ""
 
-#: ../themes/jeo/inc/marker-icons.php:368
-msgid "Cancel"
-msgstr ""
-
 #: ../themes/jeo/inc/marker-icons.php:369
 msgid "Save"
 msgstr ""
@@ -3194,13 +3036,36 @@ msgstr ""
 msgid "Urban administration and development"
 msgstr ""
 
-#: odm-localization-templete.php:47
-msgid "Amendment to concession"
+#: odm-localization-templete.php:49
+msgid ""
+"This work and any original materials produced and published by Open "
+"Development {country} herein are licensed under a CC BY-SA 3.0. News article "
+"summaries are extracted from their sources, as guided by fair-use principles "
+"and are copyrighted by their respective sources. Materials on the Open "
+"Development {country} {ODM/C/V/Mm/T/L} website and its accompanying database "
+"are compiled from publicly available documentation and provided without fee "
+"for general informational purposes only. This is neither a commercial "
+"research service nor a domain managed by any governmental or inter-"
+"governmental agency; it is managed as a private non-profit open data/open "
+"knowledge media group. Information is publicly posted only after a careful "
+"vetting and verification process. However, {ODM/C/V/Mm/T/L} cannot guarantee "
+"accuracy, completeness or reliability from third party sources in every "
+"instance.  {ODM/C/V/Mm/T/L} makes no representation or warranty, either "
+"expressed or implied, in fact or in law, with respect to the accuracy, "
+"completeness or appropriateness of the data, materials or documents "
+"contained or referenced herein or provided.\n"
+"Site users are encouraged to do additional research in support of their "
+"activities and to share the results of that research with our team, contact "
+"us to further improve the site accuracy.\n"
+"By accessing this {ODM/C/V/Mm/T/L} website or database users agree to take "
+"full responsibility for reliance on any site information provided and to "
+"hold harmless and waive any and all liability against individuals or "
+"entities associated with its development, form and content for any loss, "
+"harm or damage suffered as a result of its use."
 msgstr ""
 
-#: odm-localization-templete.php:48
-msgid "Amendment to developer"
-msgstr ""
+#~ msgid "ENGLISH"
+#~ msgstr "អង់គ្លេស"
 
 #~ msgid "Latest Data"
 #~ msgstr "ទិន្នន័យថ្មីបំផុត"

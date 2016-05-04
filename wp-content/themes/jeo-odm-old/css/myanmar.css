@@ -1,0 +1,93 @@
+.myanmar-color{
+    color: #F8BF42;
+}
+a, a:visited, #sidebar .widget li a{
+ color: #F8BF42; /*6393D2, 2774da;*/
+ text-decoration:none
+}
+a:hover, #sidebar .widget li a:hover{
+	color: #59396C ; /*eec800;*/
+	text-decoration:underline
+}
+a strong:hover {
+	color: #59396C;
+	text-decoration:underline
+}
+
+button,
+a.button,
+.button {
+	background: #F8BF42;
+}
+tr:nth-child(2n+1) {
+    background-color: #f7be40;
+}
+#od-head {
+	background: #59396C; /* 59396C */
+	color: #f0f0f0;
+}
+#od-head #ms-nav {
+	background: #704C98 /*67449b;*/
+}
+#od-head #main-nav .menu ul > li:hover a,
+#od-head #main-nav ul.menu > li:hover,
+#od-head #main-nav ul.menu  > li  > ul.sub-menu > li:hover ,
+#od-head #main-nav ul.menu  > li  > ul.sub-menu > li > ul.sub-menu > li a:hover {
+	background-color: #F8BF42;
+}
+#od-head h1 a,
+#od-head h1 span {
+	text-decoration: none;
+	color: #F8BF42;
+}
+#od-head h2,
+#od-head a,
+#od-head span {
+	color: #fff;
+}
+#od-head a:hover{
+	color: #F8BF42;
+}
+#od-head .ms-dropdown-title ul {
+	background: #59396C;
+}
+
+#od-head .ms-dropdown-title ul li {
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+.mapgroup-container .mapgroup .map-nav-container .map-nav li a.active {
+	background: #F8BF42;
+	border-color: #F8BF42;
+}
+
+.mapgroup-container .mapgroup .map-nav-container .map-nav li a.active:after {
+	border-bottom: 10px solid #F8BF42;
+}
+
+#news.page-section .section-map .mapgroup-container .mapgroup .map-nav-container .map-nav li a.active:after {
+	border-top: 10px solid #F8BF42;
+}
+
+#site-intro {
+	background: #F8BF42;
+}
+.current-site-myanmar{
+	background: #F8BF42;
+}
+#od-head #main-nav ul li.current_page_item a{
+	color: #F8BF42;
+	font-weight: bold;
+}
+#od-head .notification-message-box a{
+    color: #333;
+}
+.notification-message-box{
+    border: 2px solid #F8BF42;
+    color: #59396C;
+}
+
+.widget .opendev-summary ol li a:hover {
+	color: #F8BF42;
+	text-decoration:underline
+}
