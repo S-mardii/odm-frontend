@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Additional String\n"
-"POT-Creation-Date: 2016-05-02 13:19+0200\n"
-"PO-Revision-Date: 2016-05-02 13:19+0200\n"
+"POT-Creation-Date: 2016-05-05 11:44+0700\n"
+"PO-Revision-Date: 2016-05-05 11:44+0700\n"
 "Last-Translator: \n"
 "Language-Team: H.E <huyeng@opendevcam.net>\n"
 "Language: km_KH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _e;__;_;_n:1,2;_x:1,2c;_ex:1,2c\n"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
-#: ../themes/jeo-odm/category.php:63 ../themes/jeo-odm/functions.php:529
+#: ../themes/jeo-odm/category.php:63 ../themes/jeo-odm/functions.php:542
 #: ../themes/jeo-odm/inc/live-search/live-search.php:22 odm-localization-templete.php:15
 msgid "News"
 msgstr "ព័ត៌មាន​"
@@ -119,173 +119,248 @@ msgstr ""
 #: ../themes/jeo-odm/footer.php:18 ../themes/jeo/footer.php:10
 #, php-format
 msgid ""
-"This website is built on <a href=\"%s\" target=\"_blank\" rel=\"external\">WordPress</a> using the <a "
-"href=\"%s\" target=\"_blank\" rel=\"external\">JEO Beta</a> theme"
+"This website is built on <a href=\"%s\" target=\"_blank\" rel=\"external\">WordPress</a> using the "
+"<a href=\"%s\" target=\"_blank\" rel=\"external\">JEO Beta</a> theme"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:69
+#: ../themes/jeo-odm/functions.php:84
 msgid "Topic sidebar"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:75
+#: ../themes/jeo-odm/functions.php:90
 msgid "Mekong Storms and Floods sidebar"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:81
+#: ../themes/jeo-odm/functions.php:96
 msgid "Frontpage footer left"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:87
+#: ../themes/jeo-odm/functions.php:102
 msgid "Frontpage footer right"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:93
+#: ../themes/jeo-odm/functions.php:108
 msgid "Upcoming footer left"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:99
+#: ../themes/jeo-odm/functions.php:114
 msgid "Upcoming footer middle"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:105
+#: ../themes/jeo-odm/functions.php:120
 msgid "Upcoming footer right"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:127
+#: ../themes/jeo-odm/functions.php:142
 msgid "stories"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:129
+#: ../themes/jeo-odm/functions.php:144
 msgid "Copy the embed code"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:130 ../themes/jeo-odm/loop-latest.php:21
+#: ../themes/jeo-odm/functions.php:145 ../themes/jeo-odm/loop-latest.php:21
 #: ../themes/jeo/content-share.php:9 ../themes/jeo/content-share.php:237
 #: ../themes/jeo/inc/share-widget.php:34
 msgid "Share"
 msgstr "ចែករំលែក"
 
-#: ../themes/jeo-odm/functions.php:131
+#: ../themes/jeo-odm/functions.php:146
 msgid "Print"
 msgstr "បោះពុម្ព"
 
-#: ../themes/jeo-odm/functions.php:142 ../themes/jeo-odm/loop-latest.php:19
+#: ../themes/jeo-odm/functions.php:157 ../themes/jeo-odm/loop-latest.php:19
 #: ../themes/jeo-odm/loop.php:62 ../themes/jeo/content-featured.php:32 ../themes/jeo/loop.php:22
 msgid "Read more"
 msgstr "អានបន្ថែម"
 
-#: ../themes/jeo-odm/functions.php:144
+#: ../themes/jeo-odm/functions.php:159
 msgid "Open slideshow"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:145
+#: ../themes/jeo-odm/functions.php:160
 msgid "Watch video gallery"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:146
+#: ../themes/jeo-odm/functions.php:161
 msgid "Watch video"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:147
+#: ../themes/jeo-odm/functions.php:162
 msgid "View image gallery"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:148
+#: ../themes/jeo-odm/functions.php:163
 msgid "View fullscreen image"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:149
+#: ../themes/jeo-odm/functions.php:164
 msgid "View infographic"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:150
+#: ../themes/jeo-odm/functions.php:165
 msgid "View infographics"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:264
+#: ../themes/jeo-odm/functions.php:278
 msgctxt "taxonomy general name"
 msgid "News Sources"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:265
+#: ../themes/jeo-odm/functions.php:279
 msgctxt "taxonomy singular name"
 msgid "News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:266
+#: ../themes/jeo-odm/functions.php:280
 msgid "Search News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:267
+#: ../themes/jeo-odm/functions.php:281
 msgid "All News Sources"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:268
+#: ../themes/jeo-odm/functions.php:282
 msgid "Parent News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:269
+#: ../themes/jeo-odm/functions.php:283
 msgid "Parent News Source:"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:270
+#: ../themes/jeo-odm/functions.php:284
 msgid "Edit News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:271
+#: ../themes/jeo-odm/functions.php:285
 msgid "Update News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:272
+#: ../themes/jeo-odm/functions.php:286
 msgid "Add New News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:273
+#: ../themes/jeo-odm/functions.php:287
 msgid "New News Source Name"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:274
+#: ../themes/jeo-odm/functions.php:288
 msgid "News Source"
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:508 ../themes/jeo-odm/inc/theme-options.php:288
+#: ../themes/jeo-odm/functions.php:521 ../themes/jeo-odm/inc/theme-options.php:288
 msgid "Site coming soon."
 msgstr ""
 
-#: ../themes/jeo-odm/functions.php:534
+#: ../themes/jeo-odm/functions.php:547
 msgid "Topics"
 msgstr "ប្រធានបទ"
 
-#: ../themes/jeo-odm/functions.php:539 ../themes/jeo/inc/admin/settings.php:23
+#: ../themes/jeo-odm/functions.php:552 ../themes/jeo/inc/admin/settings.php:23
 #: ../themes/jeo/inc/core.php:187 ../themes/jeo/inc/core.php:197 odm-localization-templete.php:17
 msgid "Maps"
 msgstr "ផែនទី"
 
-#: ../themes/jeo-odm/functions.php:548 ../themes/jeo-odm/header.php:144
+#: ../themes/jeo-odm/functions.php:561 ../themes/jeo-odm/header.php:144
 #: odm-localization-templete.php:18
 msgid "Data"
 msgstr "ទិន្នន័យ"
 
-#: ../themes/jeo-odm/functions.php:561 odm-localization-templete.php:10
+#: ../themes/jeo-odm/functions.php:574 odm-localization-templete.php:10
 msgid "Latest news"
 msgstr "ព័ត៌មានថ្មីបំផុត"
 
-#: ../themes/jeo-odm/functions.php:586
+#: ../themes/jeo-odm/functions.php:599
 msgid "Latest topics"
 msgstr "ប្រធានបទថ្មីបំផុត"
 
-#: ../themes/jeo-odm/functions.php:611 odm-localization-templete.php:11
+#: ../themes/jeo-odm/functions.php:624 odm-localization-templete.php:11
 msgid "Latest maps"
 msgstr "ផែនទីថ្មីបំផុត"
 
-#: ../themes/jeo-odm/functions.php:1129 ../themes/jeo-odm/header.php:63
+#: ../themes/jeo-odm/functions.php:1152 ../themes/jeo-odm/header.php:63
 #: ../themes/jeo/content-embed.php:16 ../themes/jeo/header.php:17
 msgid "Page"
 msgstr "ទំព័រ"
 
-#: ../themes/jeo-odm/functions.php:1231 ../themes/jeo-odm/inc/advanced-navigation.php:137
+#: ../themes/jeo-odm/functions.php:1254 ../themes/jeo-odm/inc/advanced-navigation.php:137
 msgid "Categories"
 msgstr "ប្រធានបទ"
+
+#: ../themes/jeo-odm/functions.php:1735 ../themes/jeo-odm/page-profiles-single-page.php:19
+#: ../themes/jeo-odm/page-profiles.php:285
+msgid "Not found"
+msgstr "ព័ត៌មានពុំអាចរកបាន"
+
+#: ../themes/jeo-odm/functions.php:1739
+msgid "ODC is not aware of any adjustments to the concession since it was first granted."
+msgstr ""
+
+#: ../themes/jeo-odm/functions.php:1744
+msgid ""
+"The concession has been subjected to additional reductions in size and has not been cancelled "
+"previously. Publicly available information on land area cut from ELCs does not include maps or "
+"spatial data of excisions. Thus, ODC cannot present land area cut in shapes. As a result, ELC "
+"projects that are visualized on the interactive map represent the original contract size."
+msgstr ""
+"ទំហំដីសម្បទាននេះ ត្រូវបានកាត់បន្ថយ ហើយពុំមានការដកហូតអាជ្ញាប័ណ្ណពីមុនមកទេ។ "
+"ឯកសារស្តីពីការកាត់បន្ថយផ្ទៃដីចេញពីសម្បទានដីសេដ្ឋកិច្ចដែលមានជាសាធារណៈ ពុំមានភ្ជាប់ផែនទីមកជាមួយឡើយ។ ដូច្នេះអូឌីស៊ី "
+"មិនអាចបង្ហាញផ្ទៃដីដែលត្រូវបានកាត់ចេញនៅលើផែនទី។ សម្បទានដីសេដ្ឋកិច្ចនៅលើផែនទីអន្តរកម្ម បង្ហាញនូវទំហំផ្ទៃដីដើម។"
+
+#: ../themes/jeo-odm/functions.php:1749
+msgid "The concession has been cancelled with or without a history of reductions in size."
+msgstr "សម្បទានដីសេដ្ឋកិច្ចនេះ ត្រូវបានលុបចោលដោយមាន ឬគ្មានការកាត់បន្ថយទំហំដីពីមុន។"
+
+#: ../themes/jeo-odm/functions.php:1754
+msgid ""
+"The concession has been subjected to reduction(s) in size although it had been cancelled "
+"previously. Publicly available information on land area cut from ELCs does not include maps or "
+"spatial data of excisions. Thus, ODC cannot present land area cut in shapes. As a result, ELC "
+"projects that are visualized on the interactive map represent the original contract size."
+msgstr ""
+"ទំហំដីសម្បទាន ត្រូវបានកាត់បន្ថយ បន្ទាប់ពីមានការដកហូតអាជ្ញាប័ណ្ណពីមុន។ "
+"ឯកសារស្តីពីការកាត់បន្ថយផ្ទៃដីចេញពីសម្បទានដីសេដ្ឋកិច្ចដែលមានជាសាធារណៈ ពំុមានភ្ជាប់ផែនទីមកជាមួយឡើយ។ ដូច្នេះអូឌីស៊ី "
+"មិនអាចបង្ហាញផ្ទៃដីដែលត្រូវបានកាត់ចេញនៅលើផែនទី។ សម្បទានដីសេដ្ឋកិច្ចនៅលើផែនទីអន្តរកម្ម បង្ហាញនូវទំហំផ្ទៃដីដើម។"
+
+#: ../themes/jeo-odm/functions.php:1759
+msgid ""
+"Information obtained from official Government sources, with official legal documentation, in the "
+"four identification fields: <br>a. Company name; <br>b. Location; <br>c. GPS coordinates and/or "
+"analog map; and <br>  d. Purpose (crop, ore, etc.)"
+msgstr ""
+"ព័ត៌មានដែលទទួលបានពីប្រភពរដ្ឋាភិបាល​ដោយមាន​ឯកសារ​ផ្លូវច្បាប់​ជាផ្លូវការ ដែលស្ថិត​​នៅក្នុង​លក្ខណៈ​អត្តសញ្ញាណ​ចំនួន៤គឺ៖ <br />\n"
+"ក. ឈ្មោះក្រុមហ៊ុន <br />\n"
+"ខ. ទីតាំង  <br />\n"
+"គ. ចំនុចកូអរដោនេនៃប្រព័ន្ធកំណត់ទីតាំង​សកល (GPS) និង/ឬ ផែនទីអាណាឡូក  <br />\n"
+"ឃ. គោលបំណង (ដំណាំ, រ៉ែ ជាដើម)"
+
+#: ../themes/jeo-odm/functions.php:1763
+msgid ""
+"Information obtained from official Government sources, with legal documentation, but missing one "
+"or more of the following identification fields: <br>a. Company name; <br>b. Location; <br>c. GPS "
+"coordinates and/or analog map; and <br>d. Purpose (crop, ore, etc.)"
+msgstr ""
+"ព័ត៌មានដែលទទួលបានពីប្រភពរដ្ឋាភិបាល​ដោយមាន​​ឯកសារ​ផ្លូវច្បាប់ ប៉ុន្តែ​បាត់ផ្នែកមួយ ឬច្រើន​នៃលក្ខណៈ​​អត្តសញ្ញាណ​ដូច​ខាង​ក្រោម៖ <br />\n"
+"ក. ឈ្មោះក្រុមហ៊ុន  <br />\n"
+"ខ. ទីតាំង  <br />\n"
+"គ. ចំនុចកូអរដោនេនៃប្រព័ន្ធកំណត់ទី​តាំងសកល (GPS) និង/ឬ ផែនទីអាណាឡូក  <br />\n"
+"ឃ. គោលបំណង (ដំណាំ,រ៉ែ ជាដើម)"
+
+#: ../themes/jeo-odm/functions.php:1767
+msgid ""
+"Information obtained from any other source in public domain (including documentation from "
+"photographs, etc.)"
+msgstr "ព័ត៌មានដែលទទួលបានពី​ប្រភពណាមួយ​ផ្សេងទៀត ដែលស្ថិតនៅក្នុងដែន​សាធារណៈ (រួមទាំងឯកសារពីរូបថតជាដើម)"
+
+#: ../themes/jeo-odm/functions.php:1771
+msgid ""
+"Information obtained from the concessionaire (company/entity) or from government source(s) without "
+"legal documentation."
+msgstr "ព័ត៌មានដែលទទួលបានពី​សម្បទានិក (ក្រុមហ៊ុន/អង្គភាព) ឬពីប្រភពរដ្ឋាភិបាល ដោយមិនមានឯកសារផ្លូវច្បាប់"
+
+#: ../themes/jeo-odm/functions.php:1775
+msgid "These concessions have been cancelled by the Royal Government of Cambodia."
+msgstr "សម្បទានទាំងនេះត្រូវបាន​លុបចោលដោយ​រាជរដ្ឋាភិបាលកម្ពុជា។"
 
 #: ../themes/jeo-odm/header.php:92
 msgid "Search site... &#128269;"
@@ -375,7 +450,8 @@ msgstr "ដល់"
 msgid "Filter"
 msgstr ""
 
-#: ../themes/jeo-odm/inc/advanced-navigation.php:200 ../themes/jeo-odm/inc/advanced-navigation.php:211
+#: ../themes/jeo-odm/inc/advanced-navigation.php:200
+#: ../themes/jeo-odm/inc/advanced-navigation.php:211
 msgid "Cancel filters"
 msgstr ""
 
@@ -530,8 +606,8 @@ msgstr ""
 msgid "Layer legend"
 msgstr ""
 
-#: ../themes/jeo-odm/inc/layers.php:47 ../themes/jeo/inc/layers.php:27 ../themes/jeo/inc/layers.php:37
-#: ../themes/jeo/inc/layers.php:84 ../themes/jeo/inc/layers.php:110
+#: ../themes/jeo-odm/inc/layers.php:47 ../themes/jeo/inc/layers.php:27
+#: ../themes/jeo/inc/layers.php:37 ../themes/jeo/inc/layers.php:84 ../themes/jeo/inc/layers.php:110
 msgid "Layers"
 msgstr ""
 
@@ -898,6 +974,184 @@ msgstr ""
 msgid "Exclude Category by IDs (separated by commas):"
 msgstr ""
 
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:18
+msgctxt "post type general name"
+msgid "Profiles Page"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:19
+msgctxt "post type singular name"
+msgid "Profile Page"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:20
+msgctxt "admin menu"
+msgid "Profile Pages"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:21
+msgctxt "add new on admin bar"
+msgid "Profile Pages"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:22
+msgctxt "profile page"
+msgid "Add new"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:23
+msgid "Add new profile page"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:24
+msgid "New profile pages"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:25
+msgid "Edit profile pages"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:26
+msgid "View profile pages"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:27
+msgid "All profile pages"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:28
+msgid "Search profile pages"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:29
+msgid "Parent profile pages:"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:30
+msgid "No profile page found."
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:31
+msgid "No profile page found in trash."
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:57
+msgid "CKAN​ Dataset Resource"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:65
+msgid "Setting of Profiles Page"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:87
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:208
+msgid "ENGLISH"
+msgstr "អង់គ្លេស"
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:96
+msgid "CartoDB JSON URL (English)"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:99
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:128
+msgid ""
+"CartoDB visualization URL. E.g.: http://user.cartodb.com/api/v2/viz/621d23a0-5eaa-11e4-"
+"ab03-0e853d047bba/viz.json"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:103
+msgid "CSV Resource URL (English)"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:106
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:135
+msgid ""
+"CSV Resource of dataset on CKAN. Eg. https://data.opendevelopmentmekong.net/dataset/economic-land-"
+"concessions/resource/3b817bce-9823-493b-8429-e5233ba3bd87?type=dataset"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:110
+msgid "CSV Tracking URL (English)"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:113
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:142
+msgid ""
+"CSV Resource of tracking dataset on CKAN. Eg. https://data.opendevelopmentmekong.net/dataset/"
+"economic-land-concessions/resource/8cc0c651-8131-404e-bbce-7fe6af728f89?type=dataset"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:125
+msgid "CartoDB JSON URL ("
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:132
+msgid "CSV Resource URL ("
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:139
+msgid "CSV Tracking URL ("
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:180
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:188
+msgid "The attributes of Resource Dataset that would like to display, separated by line breaks ("
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:183
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:191
+msgid "The attributes of Tracking Resource that would like to display, separated by line breaks ("
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:217
+msgid "Show Total Numbers of Columns, separated by line breaks (English)"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:222
+msgid ""
+"List the attribute names to show their total number on page (separated by line breaks). Eg. For "
+"ELC: <br/>map_id<br/>developer<br/>data_class[\"Government data complete\", \"Government data "
+"partial\"]"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:226
+msgid "Create Select Filter by Column Index (English)"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:229
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:258
+msgid "Eg. The column index of Data Adjustment of ELC: 2"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:233
+msgid "Group Data in Column (English)"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:236
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:265
+msgid ""
+"Eg. To group data classification of ELC, based on the attributes sample provided, the index of "
+"data classification is: 5"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:247
+msgid "Show Total Numbers of Columns, separated by line breaks ("
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:251
+msgid ""
+"List the attribut4 names to show their total number on page (separated by line breaks). Eg. For "
+"ELC: map_id<br/>developer<br/>data_class[\"Government data complete\", \"Government data partial\"]"
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:255
+msgid "Create Select Filter by Column Index ("
+msgstr ""
+
+#: ../themes/jeo-odm/inc/profiles_posttype_registration.php:262
+msgid "Group Data in Column ("
+msgstr ""
+
 #: ../themes/jeo-odm/inc/query-resources-widget.php:12
 msgid "OD Query Resources"
 msgstr ""
@@ -1143,7 +1397,8 @@ msgid "Active"
 msgstr ""
 
 #: ../themes/jeo-odm/inc/theme-options.php:281
-msgid "(Activate to disable the link of the web site on the country menu, and present a message below.)"
+msgid ""
+"(Activate to disable the link of the web site on the country menu, and present a message below.)"
 msgstr ""
 
 #: ../themes/jeo-odm/inc/theme-options.php:294
@@ -1154,8 +1409,8 @@ msgstr ""
 msgid ""
 "(Enter the massage to inform about the page under construction. </br>To be active: please add the "
 "class 'tooltip' into the topical menu items' hyperlink. eg &lt;a class='tooltip' href='url'&gt;"
-"Infrastructure&lt;/a&gt;. </br> Note: all the topical menu items which have the class 'tooltip' will "
-"not be clickable and message above will appear on hover. )"
+"Infrastructure&lt;/a&gt;. </br> Note: all the topical menu items which have the class 'tooltip' "
+"will not be clickable and message above will appear on hover. )"
 msgstr ""
 
 #: ../themes/jeo-odm/inc/theme-options.php:302
@@ -1462,7 +1717,7 @@ msgid "Download"
 msgstr "ទាញយក"
 
 #: ../themes/jeo-odm/page-laws.php:127 ../themes/jeo-odm/page-laws.php:129
-#: ../themes/jeo-odm/page-profiles.php:196
+#: ../themes/jeo-odm/page-profiles.php:224
 msgid "SEARCH"
 msgstr "ស្វែងរក"
 
@@ -1554,140 +1809,60 @@ msgstr "សេចក្តីសម្រេច"
 msgid "Others"
 msgstr "ផ្សេងទៀត"
 
-#: ../themes/jeo-odm/page-profiles.php:157 ../themes/jeo-odm/page-profiles.php:170
-msgid "Government data complete"
-msgstr "ទិន្នន័យរដ្ឋាភិបាលពេញលេញ"
+#: ../themes/jeo-odm/page-profiles-single-page.php:35
+msgid "Amendments"
+msgstr "វិសោធនកម្ម"
 
-#: ../themes/jeo-odm/page-profiles.php:158 ../themes/jeo-odm/page-profiles.php:174
-msgid "Government data partial"
-msgstr "ទិន្នន័យរដ្ឋាភិបាលមិនពេញលេញ"
-
-#: ../themes/jeo-odm/page-profiles.php:159 ../themes/jeo-odm/page-profiles.php:178
-msgid "Secondary source data"
-msgstr "ទិន្នន័យបន្ទាប់បន្សំ"
-
-#: ../themes/jeo-odm/page-profiles.php:160 ../themes/jeo-odm/page-profiles.php:182
-msgid "Other data"
-msgstr "ទិន្នន័យដទៃទៀត"
-
-#: ../themes/jeo-odm/page-profiles.php:164
-msgid "Total Projects Listed"
-msgstr "សរុបគម្រោងឧស្សាហកម្មមានក្នុងបញ្ជី"
+#: ../themes/jeo-odm/page-profiles-single-page.php:88
+msgid "Reference documents"
+msgstr "ឯកសារយោង"
 
 #: ../themes/jeo-odm/page-profiles.php:164 ../themes/jeo-odm/page-profiles.php:166
-#: ../themes/jeo-odm/page-profiles.php:170 ../themes/jeo-odm/page-profiles.php:174
-#: ../themes/jeo-odm/page-profiles.php:178 ../themes/jeo-odm/page-profiles.php:182
+#: ../themes/jeo-odm/page-profiles.php:203 ../themes/jeo-odm/page-profiles.php:205
+msgid "Total"
+msgstr "សរុប"
+
+#: ../themes/jeo-odm/page-profiles.php:164 ../themes/jeo-odm/page-profiles.php:166
+#: ../themes/jeo-odm/page-profiles.php:203 ../themes/jeo-odm/page-profiles.php:205
+msgid "Listed"
+msgstr "មានក្នុងបញ្ជី"
+
+#: ../themes/jeo-odm/page-profiles.php:164 ../themes/jeo-odm/page-profiles.php:166
+#: ../themes/jeo-odm/page-profiles.php:193 ../themes/jeo-odm/page-profiles.php:203
+#: ../themes/jeo-odm/page-profiles.php:205
 msgid ":"
 msgstr "៖"
 
-#: ../themes/jeo-odm/page-profiles.php:166
-msgid "Total Companies Listed"
-msgstr "សរុបក្រុមហ៊ុនមានក្នុងបញ្ជី"
-
-#: ../themes/jeo-odm/page-profiles.php:196
+#: ../themes/jeo-odm/page-profiles.php:224
 msgid "in"
 msgstr "នៅក្នុង"
 
-#: ../themes/jeo-odm/page-profiles.php:196
+#: ../themes/jeo-odm/page-profiles.php:224
 msgid "Profiles"
 msgstr "ព័ត៌មានសង្ខេប"
 
-#: ../themes/jeo-odm/page-profiles.php:199
+#: ../themes/jeo-odm/page-profiles.php:227
 msgid "Search"
 msgstr "ស្វែងរក"
 
-#: ../themes/jeo-odm/page-profiles.php:206
+#: ../themes/jeo-odm/page-profiles.php:234
 msgid "DOWNLOAD"
 msgstr "ទាញយក"
 
-#: ../themes/jeo-odm/page-profiles.php:226 ../themes/jeo-odm/page-profiles.php:229
-#: ../themes/jeo-odm/page-profiles.php:457 ../themes/jeo-odm/page-profiles.php:462
-#: ../themes/jeo-odm/page-profiles.php:489 ../themes/jeo-odm/page-profiles.php:494
+#: ../themes/jeo-odm/page-profiles.php:258
+msgid "Map ID"
+msgstr ""
+
+#: ../themes/jeo-odm/page-profiles.php:444 ../themes/jeo-odm/page-profiles.php:449
 msgid "Filter by"
 msgstr "ជ្រើសរើសតាម"
 
-#: ../themes/jeo-odm/page-profiles.php:234
-msgid "Developer"
-msgstr "ក្រុមហ៊ុន"
-
-#: ../themes/jeo-odm/page-profiles.php:235
-msgid "Developer country"
-msgstr "ប្រទេសក្រុមហ៊ុន"
-
-#: ../themes/jeo-odm/page-profiles.php:236
-msgid "Contract date"
-msgstr "កាលបរិច្ឆេទចុះកិច្ចសន្យា"
-
-#: ../themes/jeo-odm/page-profiles.php:237
-msgid "Contract term (year)"
-msgstr "ថិរវេលាកិច្ចសន្យា (ឆ្នាំ)"
-
-#: ../themes/jeo-odm/page-profiles.php:238
-msgid "Granted land area (hectare)"
-msgstr " ផ្ទៃដី (ហិកតា)"
-
-#: ../themes/jeo-odm/page-profiles.php:239
-msgid "Source of land size"
-msgstr "ប្រភពព័ត៌មានទំហំដី"
-
-#: ../themes/jeo-odm/page-profiles.php:240
-msgid "Intended investment "
-msgstr "គោលបំណងនៃការវិនិយោគ"
-
-#: ../themes/jeo-odm/page-profiles.php:241
-msgid "Intended crop or project"
-msgstr "ដំណាំ ឬគម្រោងគ្រោងទុក"
-
-#: ../themes/jeo-odm/page-profiles.php:242
-msgid "Province/Capital city"
-msgstr "ខេត្ត/រាជធានី"
-
-#: ../themes/jeo-odm/page-profiles.php:243
-msgid "Contract authority"
-msgstr "អាជ្ញាធរចុះកិច្ចសន្យា"
-
-#: ../themes/jeo-odm/page-profiles.php:244
-msgid "Previous land use"
-msgstr "ការប្រើប្រាស់ដីពី​មុន"
-
-#: ../themes/jeo-odm/page-profiles.php:245
-msgid "Sub-decree reclassifying land use"
-msgstr "អនុក្រឹត្យធ្វើ​​​អនុបយោគ​​​ប្ដូរការប្រើប្រាស់ដី"
-
-#: ../themes/jeo-odm/page-profiles.php:246
-msgid "Legal documents"
-msgstr "ឯកសារច្បាប់"
-
-#: ../themes/jeo-odm/page-profiles.php:247
-msgid "Developer land use plan"
-msgstr "ផែនការប្រើប្រាស់ដីរបស់ក្រុមហ៊ុន"
-
-#: ../themes/jeo-odm/page-profiles.php:248
-msgid "EIA status"
-msgstr "ស្ថានភាពការវាយតម្លៃហេតុប៉ះពាល់បរិស្ថាន​"
-
-#: ../themes/jeo-odm/page-profiles.php:249
-msgid "Adjustment classification "
-msgstr "ចំណាត់ថ្នាក់ការផ្លាស់ប្តូរ"
-
-#: ../themes/jeo-odm/page-profiles.php:250
-msgid "Data classification"
-msgstr "ចំណាត់ថ្នាក់ទិន្នន័យ"
-
-#: ../themes/jeo-odm/page-profiles.php:251
-msgid "Map id"
-msgstr "លេខរៀងផែនទី"
-
-#: ../themes/jeo-odm/page-profiles.php:459 ../themes/jeo-odm/page-profiles.php:491
-msgid "all "
+#: ../themes/jeo-odm/page-profiles.php:446
+msgid "all"
 msgstr "ទាំងអស់"
 
-#: ../themes/jeo-odm/page-profiles.php:464 ../themes/jeo-odm/page-profiles.php:496
+#: ../themes/jeo-odm/page-profiles.php:451
 msgid "All "
-msgstr ""
-
-#: ../themes/jeo-odm/page-profiles.php:519
-msgid "All data Classifications"
 msgstr ""
 
 #: ../themes/jeo-odm/search.php:6 ../themes/jeo/inc/layers.php:464
@@ -1734,7 +1909,8 @@ msgstr "ទិន្នន័យពាក់ព័ន្ធ"
 msgid "Read more..."
 msgstr "អានបន្ថែម..."
 
-#: ../themes/jeo-odm/section-related-datasets.php:81 ../themes/jeo-odm/section-related-datasets.php:95
+#: ../themes/jeo-odm/section-related-datasets.php:81
+#: ../themes/jeo-odm/section-related-datasets.php:95
 msgid "Show resources details"
 msgstr ""
 
@@ -2148,8 +2324,8 @@ msgstr ""
 #: ../themes/jeo/inc/admin/settings.php:119
 #, php-format
 msgid ""
-"Key to use the Google Maps geocoding services. <a href=\"%s\" target=\"_blank\">Click here to get one."
-"</a>"
+"Key to use the Google Maps geocoding services. <a href=\"%s\" target=\"_blank\">Click here to get "
+"one.</a>"
 msgstr ""
 
 #: ../themes/jeo/inc/admin/settings.php:129
@@ -2209,7 +2385,8 @@ msgstr ""
 #: ../themes/jeo/inc/api.php:61
 #, php-format
 msgid ""
-"Your API is <strong>enabled</strong>! <a href=\"%s\" target=\"_blank\">Click here to learn more</a>."
+"Your API is <strong>enabled</strong>! <a href=\"%s\" target=\"_blank\">Click here to learn more</"
+"a>."
 msgstr ""
 
 #: ../themes/jeo/inc/core.php:156 ../themes/jeo/inc/core.php:168
@@ -2418,8 +2595,8 @@ msgstr ""
 #: ../themes/jeo/inc/layers.php:445
 #, php-format
 msgid ""
-" You haven't created any layers yet, <a href=\"%s\" target=\"_blank\">click here</a> to create your "
-"first!"
+" You haven't created any layers yet, <a href=\"%s\" target=\"_blank\">click here</a> to create "
+"your first!"
 msgstr ""
 
 #: ../themes/jeo/inc/layers.php:457
@@ -2698,15 +2875,15 @@ msgstr ""
 
 #: ../themes/jeo/inc/markers.php:724
 msgid ""
-"<strong>Markers GeoJSON cache has been cleared. Don't worry! They will be dynamically regenerated.</"
-"strong>"
+"<strong>Markers GeoJSON cache has been cleared. Don't worry! They will be dynamically regenerated."
+"</strong>"
 msgstr ""
 
 #: ../themes/jeo/inc/markers.php:724
 msgid ""
-"The next map markers load might take a little while, depending on the amount of markers. If you want "
-"to speed this up for your users, we recommend you clear your browser's cache and navigate through "
-"your website to let the markers cache be replaced."
+"The next map markers load might take a little while, depending on the amount of markers. If you "
+"want to speed this up for your users, we recommend you clear your browser's cache and navigate "
+"through your website to let the markers cache be replaced."
 msgstr ""
 
 #: ../themes/jeo/inc/range-slider.php:41
@@ -2754,7 +2931,8 @@ msgstr ""
 
 #: ../themes/jeo/inc/share-widget.php:90
 #, php-format
-msgid "Your embed tool is <strong>enabled</strong>! <a href=\"%s\" target=\"_blank\">Check it out</a>."
+msgid ""
+"Your embed tool is <strong>enabled</strong>! <a href=\"%s\" target=\"_blank\">Check it out</a>."
 msgstr ""
 
 #: ../themes/jeo/inc/streetview.php:37
@@ -2937,110 +3115,106 @@ msgstr "ការអភិវឌ្ឍ និងការគ្រប់គ្�
 
 #: odm-localization-templete.php:49
 msgid ""
-"This work and any original materials produced and published by Open Development {country} herein are "
-"licensed under a CC BY-SA 3.0. News article summaries are extracted from their sources, as guided by "
-"fair-use principles and are copyrighted by their respective sources. Materials on the Open "
-"Development {country} {ODM/C/V/Mm/T/L} website and its accompanying database are compiled from "
-"publicly available documentation and provided without fee for general informational purposes only. "
-"This is neither a commercial research service nor a domain managed by any governmental or inter-"
-"governmental agency; it is managed as a private non-profit open data/open knowledge media group. "
-"Information is publicly posted only after a careful vetting and verification process. However, {ODM/C/"
-"V/Mm/T/L} cannot guarantee accuracy, completeness or reliability from third party sources in every "
-"instance.  {ODM/C/V/Mm/T/L} makes no representation or warranty, either expressed or implied, in fact "
-"or in law, with respect to the accuracy, completeness or appropriateness of the data, materials or "
-"documents contained or referenced herein or provided.\n"
-"Site users are encouraged to do additional research in support of their activities and to share the "
-"results of that research with our team, contact us to further improve the site accuracy.\n"
+"This work and any original materials produced and published by Open Development {country} herein "
+"are licensed under a CC BY-SA 3.0. News article summaries are extracted from their sources, as "
+"guided by fair-use principles and are copyrighted by their respective sources. Materials on the "
+"Open Development {country} {ODM/C/V/Mm/T/L} website and its accompanying database are compiled "
+"from publicly available documentation and provided without fee for general informational purposes "
+"only. This is neither a commercial research service nor a domain managed by any governmental or "
+"inter-governmental agency; it is managed as a private non-profit open data/open knowledge media "
+"group. Information is publicly posted only after a careful vetting and verification process. "
+"However, {ODM/C/V/Mm/T/L} cannot guarantee accuracy, completeness or reliability from third party "
+"sources in every instance.  {ODM/C/V/Mm/T/L} makes no representation or warranty, either expressed "
+"or implied, in fact or in law, with respect to the accuracy, completeness or appropriateness of "
+"the data, materials or documents contained or referenced herein or provided.\n"
+"Site users are encouraged to do additional research in support of their activities and to share "
+"the results of that research with our team, contact us to further improve the site accuracy.\n"
 "By accessing this {ODM/C/V/Mm/T/L} website or database users agree to take full responsibility for "
 "reliance on any site information provided and to hold harmless and waive any and all liability "
-"against individuals or entities associated with its development, form and content for any loss, harm "
-"or damage suffered as a result of its use."
+"against individuals or entities associated with its development, form and content for any loss, "
+"harm or damage suffered as a result of its use."
 msgstr ""
+
+#~ msgid "Government data complete"
+#~ msgstr "ទិន្នន័យរដ្ឋាភិបាលពេញលេញ"
+
+#~ msgid "Government data partial"
+#~ msgstr "ទិន្នន័យរដ្ឋាភិបាលមិនពេញលេញ"
+
+#~ msgid "Secondary source data"
+#~ msgstr "ទិន្នន័យបន្ទាប់បន្សំ"
+
+#~ msgid "Other data"
+#~ msgstr "ទិន្នន័យដទៃទៀត"
+
+#~ msgid "Total Projects Listed"
+#~ msgstr "សរុបគម្រោងឧស្សាហកម្មមានក្នុងបញ្ជី"
+
+#~ msgid "Total Companies Listed"
+#~ msgstr "សរុបក្រុមហ៊ុនមានក្នុងបញ្ជី"
+
+#~ msgid "Developer"
+#~ msgstr "ក្រុមហ៊ុន"
+
+#~ msgid "Developer country"
+#~ msgstr "ប្រទេសក្រុមហ៊ុន"
+
+#~ msgid "Contract date"
+#~ msgstr "កាលបរិច្ឆេទចុះកិច្ចសន្យា"
+
+#~ msgid "Contract term (year)"
+#~ msgstr "ថិរវេលាកិច្ចសន្យា (ឆ្នាំ)"
+
+#~ msgid "Granted land area (hectare)"
+#~ msgstr " ផ្ទៃដី (ហិកតា)"
+
+#~ msgid "Source of land size"
+#~ msgstr "ប្រភពព័ត៌មានទំហំដី"
+
+#~ msgid "Intended investment "
+#~ msgstr "គោលបំណងនៃការវិនិយោគ"
+
+#~ msgid "Intended crop or project"
+#~ msgstr "ដំណាំ ឬគម្រោងគ្រោងទុក"
+
+#~ msgid "Province/Capital city"
+#~ msgstr "ខេត្ត/រាជធានី"
+
+#~ msgid "Contract authority"
+#~ msgstr "អាជ្ញាធរចុះកិច្ចសន្យា"
+
+#~ msgid "Previous land use"
+#~ msgstr "ការប្រើប្រាស់ដីពី​មុន"
+
+#~ msgid "Sub-decree reclassifying land use"
+#~ msgstr "អនុក្រឹត្យធ្វើ​​​អនុបយោគ​​​ប្ដូរការប្រើប្រាស់ដី"
+
+#~ msgid "Legal documents"
+#~ msgstr "ឯកសារច្បាប់"
+
+#~ msgid "Developer land use plan"
+#~ msgstr "ផែនការប្រើប្រាស់ដីរបស់ក្រុមហ៊ុន"
+
+#~ msgid "EIA status"
+#~ msgstr "ស្ថានភាពការវាយតម្លៃហេតុប៉ះពាល់បរិស្ថាន​"
+
+#~ msgid "Adjustment classification "
+#~ msgstr "ចំណាត់ថ្នាក់ការផ្លាស់ប្តូរ"
+
+#~ msgid "Data classification"
+#~ msgstr "ចំណាត់ថ្នាក់ទិន្នន័យ"
+
+#~ msgid "Map id"
+#~ msgstr "លេខរៀងផែនទី"
+
+#~ msgid "all "
+#~ msgstr "ទាំងអស់"
 
 #~ msgid "Home"
 #~ msgstr "ទំព័រដើម"
 
 #~ msgid "Search &#128270;"
 #~ msgstr "ស្វែងរក &#128270;"
-
-#~ msgid "Not found"
-#~ msgstr "ព័ត៌មានពុំអាចរកបាន"
-
-#~ msgid ""
-#~ "The concession has been subjected to additional reductions in size and has not been cancelled "
-#~ "previously. Publicly available information on land area cut from ELCs does not include maps or "
-#~ "spatial data of excisions. Thus, ODC cannot present land area cut in shapes. As a result, ELC "
-#~ "projects that are visualized on the interactive map represent the original contract size."
-#~ msgstr ""
-#~ "ទំហំដីសម្បទាននេះ ត្រូវបានកាត់បន្ថយ ហើយពុំមានការដកហូតអាជ្ញាប័ណ្ណពីមុនមកទេ។ "
-#~ "ឯកសារស្តីពីការកាត់បន្ថយផ្ទៃដីចេញពីសម្បទានដីសេដ្ឋកិច្ចដែលមានជាសាធារណៈ ពុំមានភ្ជាប់ផែនទីមកជាមួយឡើយ។ ដូច្នេះអូឌីស៊ី "
-#~ "មិនអាចបង្ហាញផ្ទៃដីដែលត្រូវបានកាត់ចេញនៅលើផែនទី។ សម្បទានដីសេដ្ឋកិច្ចនៅលើផែនទីអន្តរកម្ម បង្ហាញនូវទំហំផ្ទៃដីដើម។"
-
-#~ msgid "The concession has been cancelled with or without a history of reductions in size."
-#~ msgstr "សម្បទានដីសេដ្ឋកិច្ចនេះ ត្រូវបានលុបចោលដោយមាន ឬគ្មានការកាត់បន្ថយទំហំដីពីមុន។"
-
-#~ msgid ""
-#~ "The concession has been subjected to reduction(s) in size although it had been cancelled "
-#~ "previously. Publicly available information on land area cut from ELCs does not include maps or "
-#~ "spatial data of excisions. Thus, ODC cannot present land area cut in shapes. As a result, ELC "
-#~ "projects that are visualized on the interactive map represent the original contract size."
-#~ msgstr ""
-#~ "ទំហំដីសម្បទាន ត្រូវបានកាត់បន្ថយ បន្ទាប់ពីមានការដកហូតអាជ្ញាប័ណ្ណពីមុន។ "
-#~ "ឯកសារស្តីពីការកាត់បន្ថយផ្ទៃដីចេញពីសម្បទានដីសេដ្ឋកិច្ចដែលមានជាសាធារណៈ ពំុមានភ្ជាប់ផែនទីមកជាមួយឡើយ។ ដូច្នេះអូឌីស៊ី "
-#~ "មិនអាចបង្ហាញផ្ទៃដីដែលត្រូវបានកាត់ចេញនៅលើផែនទី។ សម្បទានដីសេដ្ឋកិច្ចនៅលើផែនទីអន្តរកម្ម បង្ហាញនូវទំហំផ្ទៃដីដើម។"
-
-#~ msgid ""
-#~ "Information obtained from official Government sources, with official legal documentation, in the "
-#~ "four identification fields: <br>a. Company name; <br>b. Location; <br>c. GPS coordinates and/or "
-#~ "analog map; and <br>  d. Purpose (crop, ore, etc.)"
-#~ msgstr ""
-#~ "ព័ត៌មានដែលទទួលបានពីប្រភពរដ្ឋាភិបាល​ដោយមាន​ឯកសារ​ផ្លូវច្បាប់​ជាផ្លូវការ ដែលស្ថិត​​នៅក្នុង​លក្ខណៈ​អត្តសញ្ញាណ​ចំនួន៤គឺ៖ <br />\n"
-#~ "ក. ឈ្មោះក្រុមហ៊ុន <br />\n"
-#~ "ខ. ទីតាំង  <br />\n"
-#~ "គ. ចំនុចកូអរដោនេនៃប្រព័ន្ធកំណត់ទីតាំង​សកល (GPS) និង/ឬ ផែនទីអាណាឡូក  <br />\n"
-#~ "ឃ. គោលបំណង (ដំណាំ, រ៉ែ ជាដើម)"
-
-#~ msgid ""
-#~ "Information obtained from official Government sources, with legal documentation, but missing one "
-#~ "or more of the following identification fields: <br>a. Company name; <br>b. Location; <br>c. GPS "
-#~ "coordinates and/or analog map; and <br>d. Purpose (crop, ore, etc.)"
-#~ msgstr ""
-#~ "ព័ត៌មានដែលទទួលបានពីប្រភពរដ្ឋាភិបាល​ដោយមាន​​ឯកសារ​ផ្លូវច្បាប់ ប៉ុន្តែ​បាត់ផ្នែកមួយ ឬច្រើន​នៃលក្ខណៈ​​អត្តសញ្ញាណ​ដូច​ខាង​ក្រោម៖ <br />\n"
-#~ "ក. ឈ្មោះក្រុមហ៊ុន  <br />\n"
-#~ "ខ. ទីតាំង  <br />\n"
-#~ "គ. ចំនុចកូអរដោនេនៃប្រព័ន្ធកំណត់ទី​តាំងសកល (GPS) និង/ឬ ផែនទីអាណាឡូក  <br />\n"
-#~ "ឃ. គោលបំណង (ដំណាំ,រ៉ែ ជាដើម)"
-
-#~ msgid ""
-#~ "Information obtained from any other source in public domain (including documentation from "
-#~ "photographs, etc.)"
-#~ msgstr "ព័ត៌មានដែលទទួលបានពី​ប្រភពណាមួយ​ផ្សេងទៀត ដែលស្ថិតនៅក្នុងដែន​សាធារណៈ (រួមទាំងឯកសារពីរូបថតជាដើម)"
-
-#~ msgid ""
-#~ "Information obtained from the concessionaire (company/entity) or from government source(s) without "
-#~ "legal documentation."
-#~ msgstr "ព័ត៌មានដែលទទួលបានពី​សម្បទានិក (ក្រុមហ៊ុន/អង្គភាព) ឬពីប្រភពរដ្ឋាភិបាល ដោយមិនមានឯកសារផ្លូវច្បាប់"
-
-#~ msgid "These concessions have been cancelled by the Royal Government of Cambodia."
-#~ msgstr "សម្បទានទាំងនេះត្រូវបាន​លុបចោលដោយ​រាជរដ្ឋាភិបាលកម្ពុជា។"
-
-#~ msgid "ENGLISH"
-#~ msgstr "អង់គ្លេស"
-
-#~ msgid "Amendments"
-#~ msgstr "វិសោធនកម្ម"
-
-#~ msgid "Reference documents"
-#~ msgstr "ឯកសារយោង"
-
-#~ msgid "Total"
-#~ msgstr "សរុប"
-
-#~ msgid "Listed"
-#~ msgstr "មានក្នុងបញ្ជី"
-
-#~ msgid "all"
-#~ msgstr "ទាំងអស់"
 
 #~ msgid "Amendment to concession"
 #~ msgstr "វិសោធនកម្មលើដីសម្បទាន"
@@ -3049,8 +3223,8 @@ msgstr ""
 #~ msgstr "វិសោធនកម្មលើក្រុមហ៊ុនសម្បទាន"
 
 #~ msgid ""
-#~ "Information obtained from official Government sources, with official legal documentation, in the "
-#~ "four identification fields: <br>\n"
+#~ "Information obtained from official Government sources, with official legal documentation, in "
+#~ "the four identification fields: <br>\n"
 #~ "              a.\tCompany name; <br>\n"
 #~ "              b.\tLocation; <br>\n"
 #~ "              c.\tGPS coordinates and/or analog map; and <br>\n"
@@ -3063,14 +3237,15 @@ msgstr ""
 #~ "ឃ.\tគោលបំណង (ដំណាំ, រ៉ែ ជាដើម) ';"
 
 #~ msgid ""
-#~ "Information obtained from official Government sources, with legal documentation, but missing one "
-#~ "or more of the following identification fields: <br>\n"
+#~ "Information obtained from official Government sources, with legal documentation, but missing "
+#~ "one or more of the following identification fields: <br>\n"
 #~ "              a. Company name; <br>\n"
 #~ "              b. Location; <br>\n"
 #~ "              c. GPS coordinates and/or analog map; and <br>\n"
 #~ "              d. Purpose (crop, ore, etc.)"
 #~ msgstr ""
-#~ "ព័ត៌មានដែលទទួលបានពីប្រភពរដ្ឋាភិបាល​ដោយមាន​ឯកសារផ្លូវច្បាប់ ប៉ុន្តែបាត់ផ្នែកមួយ ឬច្រើននៃលក្ខណៈ​អត្តសញ្ញាណ​ដូចខាងក្រោម៖ <br />\n"
+#~ "ព័ត៌មានដែលទទួលបានពីប្រភពរដ្ឋាភិបាល​ដោយមាន​ឯកសារផ្លូវច្បាប់ ប៉ុន្តែបាត់ផ្នែកមួយ ឬច្រើននៃលក្ខណៈ​អត្តសញ្ញាណ​ដូចខាងក្រោម៖ <br /"
+#~ ">\n"
 #~ "ក. ឈ្មោះក្រុមហ៊ុន  <br />\n"
 #~ "ខ. ទីតាំង  <br />\n"
 #~ "គ. ចំនុចកូអរដោនេនៃប្រព័ន្ធកំណត់ទី​តាំងសកល (GPS) និង/ឬ ផែនទីអាណាឡូក  <br />\n"
