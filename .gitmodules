@@ -28,3 +28,6 @@
 [submodule "wp-content/plugins/any-mobile-theme-switcher"]
 	path = wp-content/plugins/any-mobile-theme-switcher
 	url = https://github.com/OpenDevelopmentMekong/any-mobile-theme-switcher.git
+[submodule "wp-content/plugins/magic-fields-2"]
+	path = wp-content/plugins/magic-fields-2
+	url = https://github.com/OpenDevelopmentMekong/Magic-Fields-2.git
