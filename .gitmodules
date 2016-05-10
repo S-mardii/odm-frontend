@@ -43,3 +43,6 @@
 [submodule "wp-content/plugins/tablepress"]
 	path = wp-content/plugins/tablepress
 	url = https://github.com/wp-plugins/tablepress.git
+[submodule "wp-content/plugins/taxonomy-terms-order"]
+	path = wp-content/plugins/taxonomy-terms-order
+	url = https://github.com/wp-plugins/taxonomy-terms-order.git
