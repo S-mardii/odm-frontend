@@ -40,3 +40,6 @@
 [submodule "wp-content/plugins/all-in-one-seo-pack"]
 	path = wp-content/plugins/all-in-one-seo-pack
 	url = https://github.com/wp-plugins/all-in-one-seo-pack.git
+[submodule "wp-content/plugins/tablepress"]
+	path = wp-content/plugins/tablepress
+	url = https://github.com/wp-plugins/tablepress.git
