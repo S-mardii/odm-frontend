@@ -1,9 +1,6 @@
 [submodule "wp-content/plugins/wpckan"]
 	path = wp-content/plugins/wpckan
 	url = https://github.com/OpenDevelopmentMekong/wpckan.git
-[submodule "wp-content/plugins/mqtranslate"]
-	path = wp-content/plugins/mqtranslate
-	url = https://github.com/OpenDevelopmentMekong/mqtranslate.git
 [submodule "wp-content/themes/jeo"]
 	path = wp-content/themes/jeo
 	url = https://github.com/OpenDevelopmentMekong/jeo.git
@@ -49,3 +46,6 @@
 [submodule "wp-content/plugins/wordpress-importer"]
 	path = wp-content/plugins/wordpress-importer
 	url = https://github.com/wp-plugins/wordpress-importer.git
+[submodule "wp-content/plugins/qtranslate-x"]
+	path = wp-content/plugins/qtranslate-x
+	url = https://github.com/qTranslate-Team/qtranslate-x.git
