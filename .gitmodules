@@ -31,3 +31,6 @@
 [submodule "wp-content/plugins/magic-fields-2"]
 	path = wp-content/plugins/magic-fields-2
 	url = https://github.com/OpenDevelopmentMekong/Magic-Fields-2.git
+[submodule "wp-content/plugins/broken-link-checker"]
+	path = wp-content/plugins/broken-link-checker
+	url = https://github.com/ManageWP/broken-link-checker.git
