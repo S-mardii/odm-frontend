@@ -46,3 +46,6 @@
 [submodule "wp-content/plugins/taxonomy-terms-order"]
 	path = wp-content/plugins/taxonomy-terms-order
 	url = https://github.com/wp-plugins/taxonomy-terms-order.git
+[submodule "wp-content/plugins/wordpress-importer"]
+	path = wp-content/plugins/wordpress-importer
+	url = https://github.com/wp-plugins/wordpress-importer.git
