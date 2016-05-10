@@ -34,3 +34,9 @@
 [submodule "wp-content/plugins/broken-link-checker"]
 	path = wp-content/plugins/broken-link-checker
 	url = https://github.com/ManageWP/broken-link-checker.git
+[submodule "wp-content/plugins/json-rest-api"]
+	path = wp-content/plugins/json-rest-api
+	url = https://github.com/wp-plugins/json-rest-api.git
+[submodule "wp-content/plugins/all-in-one-seo-pack"]
+	path = wp-content/plugins/all-in-one-seo-pack
+	url = https://github.com/wp-plugins/all-in-one-seo-pack.git
