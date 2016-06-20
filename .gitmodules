@@ -48,7 +48,7 @@
 	url = https://github.com/wp-plugins/wordpress-importer.git
 [submodule "wp-content/plugins/qtranslate-x"]
 	path = wp-content/plugins/qtranslate-x
-	url = https://github.com/qTranslate-Team/qtranslate-x.git
+	url = https://github.com/OpenDevelopmentMekong/qtranslate-x.git
 [submodule "wp-content/plugins/wpsparql"]
 	path = wp-content/plugins/wpsparql
 	url = https://github.com/OpenDevelopmentMekong/wpsparql.git
