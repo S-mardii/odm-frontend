@@ -52,3 +52,6 @@
 [submodule "wp-content/plugins/wpsparql"]
 	path = wp-content/plugins/wpsparql
 	url = https://github.com/OpenDevelopmentMekong/wpsparql.git
+[submodule "wp-content/plugins/megamenu"]
+	path = wp-content/plugins/megamenu
+	url = https://github.com/wp-plugins/megamenu.git
