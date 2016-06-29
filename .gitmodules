@@ -55,3 +55,9 @@
 [submodule "wp-content/plugins/megamenu"]
 	path = wp-content/plugins/megamenu
 	url = https://github.com/wp-plugins/megamenu.git
+[submodule "wp-content/plugins/ewww-image-optimizer"]
+	path = wp-content/plugins/ewww-image-optimizer
+	url = https://github.com/wp-plugins/ewww-image-optimizer.git
+[submodule "wp-content/plugins/w3-total-cache"]
+	path = wp-content/plugins/w3-total-cache
+	url = https://github.com/wp-plugins/w3-total-cache.git
