@@ -21,7 +21,7 @@
 	url = https://github.com/OpenDevelopmentMekong/flexible-posts-widget.git
 [submodule "wp-content/plugins/tinymce-advanced"]
 	path = wp-content/plugins/tinymce-advanced
-	url = https://github.com/OpenDevelopmentMekong/tinymce-advanced
+	url = https://github.com/OpenDevelopmentMekong/tinymce-advanced.git
 [submodule "wp-content/plugins/any-mobile-theme-switcher"]
 	path = wp-content/plugins/any-mobile-theme-switcher
 	url = https://github.com/OpenDevelopmentMekong/any-mobile-theme-switcher.git
