@@ -61,3 +61,12 @@
 [submodule "wp-content/plugins/w3-total-cache"]
 	path = wp-content/plugins/w3-total-cache
 	url = https://github.com/wp-plugins/w3-total-cache.git
+[submodule "wp-content/plugins/wp-odm_profile_pages"]
+	path = wp-content/plugins/wp-odm_profile_pages
+	url = https://github.com/OpenDevelopmentMekong/wp-odm_profile_pages.git
+[submodule "wp-content/plugins/wp-odm_tabular_pages"]
+	path = wp-content/plugins/wp-odm_tabular_pages
+	url = https://github.com/OpenDevelopmentMekong/wp-odm_tabular_pages.git
+[submodule "wp-content/themes/wp-odm_theme"]
+	path = wp-content/themes/wp-odm_theme
+	url = https://github.com/OpenDevelopmentMekong/wp-odm_theme.git
