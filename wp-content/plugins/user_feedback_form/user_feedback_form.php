@@ -1,4 +1,4 @@
-<?php            
+<?php
 // User Feedback Form
 require_once('layout/form.php');
 /**
@@ -15,65 +15,68 @@ if ( !function_exists( 'add_action' ) ) {
 	exit;
 }
  global $wpdb;
- define("PLUGIN_DIRECTORY" , plugins_url("user_feedback_form"));  
+ define("PLUGIN_DIRECTORY" , plugins_url("user_feedback_form"));
  define("SITE_URL" , plugins_url("user_feedback_form"));
  define("TABLE_NAME" , $wpdb->prefix . 'user_feedback_form');
  register_activation_hook(__FILE__,'CreateFeedbackTable');
- 
- 
+
+
  add_action("wp_enqueue_scripts","add_script");
- //add_action("wp_footer","button_user_feedback_form");   
- add_action("wp_footer","FeedbackForm");      
+ //add_action("wp_footer","button_user_feedback_form");
+ add_action("wp_footer","FeedbackForm");
  //these two lines let everyone see in front page(user page)!
- add_action( 'wp_ajax_nopriv_FeedbackForm', 'FeedbackForm' );  
+ add_action( 'wp_ajax_nopriv_FeedbackForm', 'FeedbackForm' );
  add_action( 'wp_ajax_FeedbackForm', 'FeedbackForm' );
  add_action( 'wp_ajax_nopriv_FeedSubmission', 'FeedSubmission' );
  add_action( 'wp_ajax_FeedSubmission', 'FeedSubmission' );
- add_action( 'wp_ajax_nopriv_UploadFeedbackFile', 'UploadFeedbackFile' );  
+ add_action( 'wp_ajax_nopriv_UploadFeedbackFile', 'UploadFeedbackFile' );
  add_action( 'wp_ajax_UploadFeedbackFile', 'UploadFeedbackFile' );
- add_action( 'wp_ajax_nopriv_delete_upload', 'delete_upload' );  
+ add_action( 'wp_ajax_nopriv_delete_upload', 'delete_upload' );
  add_action( 'wp_ajax_delete_upload', 'delete_upload' );
  add_action('admin_menu', 'user_feedback_form_menu');
- add_action('admin_menu', 'user_feedback_form_sub_menu');  
- add_action('plugins_loaded', 'user_feedback_form_init');   
- add_shortcode('user_feedback_form','user_feedback_form_shortcode_function');  
+ add_action('admin_menu', 'user_feedback_form_sub_menu');
+ add_action('plugins_loaded', 'user_feedback_form_init');
+ add_shortcode('user_feedback_form','user_feedback_form_shortcode_function');
 
- 
-function user_feedback_form_shortcode_function(){ 
-    $arg = array('no_popup'=>1, 'no_tab'=>1); 
-    return user_feedback_form_creation($arg);              
+
+function user_feedback_form_shortcode_function(){
+    $arg = array('no_popup'=>1, 'no_tab'=>1);
+    return user_feedback_form_creation($arg);
 }
-                                                          
+
 function user_feedback_form_init() {
   load_plugin_textdomain( 'user_feedback_form', false,  dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-}                                               
+}
 
-function button_user_feedback_form(){ 
+function button_user_feedback_form(){
 ?>
     <div id="wrap-feedback"><a id="user_feedback_form"><?php _e('Contact Form', 'user_feedback_form'); ?></a></div>
 <?php
 	 }
 function add_script(){
-	wp_enqueue_style("user_feedback_form_buttoncss", PLUGIN_DIRECTORY."/style/button.css");       
-	wp_enqueue_script("user_feedback_form_buttonjs", PLUGIN_DIRECTORY."/js/button.js", array(), '1.0.0', true ); 	                                                                                          
+	wp_enqueue_style("user_feedback_form_buttoncss", PLUGIN_DIRECTORY."/style/button.css");
+	wp_enqueue_script("user_feedback_form_buttonjs", PLUGIN_DIRECTORY."/js/button.js", array(), '1.0.0', true );
 //	wp_enqueue_style("user_feedback_form_formcss", PLUGIN_DIRECTORY."/style/form.css");
 //	wp_enqueue_style("user_feedback_form_stylecss", PLUGIN_DIRECTORY."/style/upload/style.css");
 //	wp_enqueue_style("user_feedback_form_jquery-uicss", PLUGIN_DIRECTORY."/style/jquery-ui.css");
-//  wp_enqueue_script("user_feedback_form_jquerymin", PLUGIN_DIRECTORY."/js/jquery.min.js");     
+//  wp_enqueue_script("user_feedback_form_jquerymin", PLUGIN_DIRECTORY."/js/jquery.min.js");
 	}
 
 function FeedbackForm(){?>
-    <div id="user_feedback_form_fix_left">                     
+    <div id="user_feedback_form_fix_left">
         <?php user_feedback_form_creation(array('no_popup'=>0)); ?>
 	</div>
-<?php  
-}  
-function FeedSubmission(){ 
+<?php
+}
+function FeedSubmission(){
 	global $wpdb;
 	$request = $_REQUEST;
 	$table_name = TABLE_NAME;
 	$insert = null;
 	$email = $request["email"];
+	if($email == ""){ 
+		$email = get_settings('admin_email');
+	}
 	$desc = $request["question_text"];
 	$type = $request["question_type"];
 	$file_name = $request["file_name"];
@@ -92,20 +95,20 @@ function FeedSubmission(){
         	'%s'
     	)
 	);
-	
-	//move file uploaded--------------------------------------------------------------------     	
+
+	//move file uploaded--------------------------------------------------------------------
 	if($file_name != ''){
-		rename("../wp-content/uploads/user_feedback_form/temp/".$file_name,"../wp-content/uploads/user_feedback_form/".$file_name);      		
+		rename("../wp-content/uploads/user_feedback_form/temp/".$file_name,"../wp-content/uploads/user_feedback_form/".$file_name);
 	}
-	                                          
+
 	$headers = 'Content-type: text/html; charset=utf-8' . "\r\n";
 	$headers .= 'From: '. $email . "\r\n";
 	$subject = 'Open Development Contact Form';
 	$message = "There is a feedback from user:".$email.": "."<br/>".
-	 "<strong>Message:</strong> "."<br/>".$desc; 
+	 "<strong>Message:</strong> "."<br/>".$desc;
 	$mail = false;
-	if($email !=""){                	       
-            $admin_email = get_settings('admin_email');  
+	if($email !=""){
+      $admin_email = get_settings('admin_email');
 			$mail = mail( $admin_email , $subject, $message,  $headers);
 		}
 	else{
@@ -119,25 +122,25 @@ function FeedSubmission(){
 			}
 	die();
 }  //end FeedSubmission
-	
+
 function UploadFeedbackFile(){
 	//var_dump($_FILES);
 	$ext = pathinfo($_FILES['fileupload']['name'],PATHINFO_EXTENSION);
 	$upload_dir = wp_upload_dir();
-	
+
 	if(!in_array($ext,UploadSupport())){
 		echo 'Invalid file type!';
 		die();
-	} 
-	
+	}
+
 	$original_name =$_FILES['fileupload']['tmp_name'];
 	$destination_name = "../wp-content/uploads/user_feedback_form/temp/".$_FILES['fileupload']['name'];
 	$permanent_file = "../wp-content/uploads/user_feedback_form/".$_FILES['fileupload']['name'];
-	
+
 	$destination_name = generateNewFileName($destination_name,$permanent_file,$original_name);
 	move_uploaded_file($original_name, $destination_name);
 	$filename = basename($destination_name);
-	
+
 	echo('imgup:'.$filename);
 	die();
 }
@@ -146,7 +149,7 @@ function UploadFeedbackFile(){
 function user_feedback_form_menu(){
 
 	add_menu_page( 'User Feedback Options', 'User Feedback', "edit_others_posts",  "user_feedback_form", 'user_feedback_form_option_content', PLUGIN_DIRECTORY.'/images/feedback-logo.png' );
-	
+
 }
 
 function user_feedback_form_sub_menu(){
@@ -164,7 +167,7 @@ function user_feedback_form_option_content_detail(){
 function CreateFeedbackTable(){
 	global $wpdb;
 	$table_name = TABLE_NAME;
-	
+
 	$sql = "CREATE TABLE $table_name(
         	id INT( 10 ) NOT NULL AUTO_INCREMENT ,
         	email VARCHAR( 100 ) NOT NULL ,
@@ -176,13 +179,13 @@ function CreateFeedbackTable(){
         	trash BOOLEAN NOT NULL DEFAULT  '0' ,
         	PRIMARY KEY( id )
             )DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;";
-	
+
 	require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-	dbDelta( $sql );       
-	//Create upload folder : 
+	dbDelta( $sql );
+	//Create upload folder :
 		wp_mkdir_p('../wp-content/uploads/user_feedback_form');
 		wp_mkdir_p('../wp-content/uploads/user_feedback_form/temp');
-	
+
 }
 function generateNewFileName($destination_name,$permanent_file,$original_name){
 	$destination_new_name =$destination_name;
@@ -222,5 +225,5 @@ function delete_upload(){
 function UploadSupport(){
 	$support = array('gif','png','jpg','jpeg','pdf','doc','docx','xls','xlsx','zip','rar');
 	return $support;
-} 
+}
  ?>
